@@ -1,10 +1,16 @@
 # skos-codelists
-You can find the different crontolled vocabularies detected in the development of POSTDATA network of ontologies. 
+You can find the different controlled vocabularies detected in the development of POSTDATA network of ontologies. 
 
-Ontology: postdata-core ontology (pdcore)	
-  Class: PoeticWork	-	genre
-            -	poeticType
-            -	authorEducationLevel
+Ontology: postdata-core ontology (pdcore)
+
+ Class: PoeticWork	
+ 
+  		-	genre
+						
+ 		-	poeticType
+						
+ 		-	authorEducationLevel
+						
 	Class: Redaction	
             -	typeOfTextualElement
 	Class Person	
@@ -21,7 +27,9 @@ Ontology: postdata-core ontology (pdcore)
             -	typeOfDesignation
             
 Ontology: Postdata-structuralElements ontology (pdstruct)	
+
   Class: Stanza 	
+	
           -	typeOfStanza
           -	typeOfStanzaEdition
 	Class Word	
@@ -29,7 +37,9 @@ Ontology: Postdata-structuralElements ontology (pdstruct)
 	Class Syllable	
           -	nucleusType
 Ontology: postdata-prosodicElements ontology (pdprosodic)	
+
   Class Patterns	
+	
         -	clausulaSchemeType
         -	metricalCategory
         -	metricalComplexity
