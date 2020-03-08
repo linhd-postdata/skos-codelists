@@ -1,0 +1,17 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/social-status> a skos:ConceptScheme, prov:Entity ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre el statuus social de una persona"@es ;
+    dc:title "Thesaurus about the socialstatus of a person"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+

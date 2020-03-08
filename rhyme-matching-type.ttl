@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre tipo de rima"@es ;
+    dc:title "Thesaurus about rhyme type"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>.
+
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant> a skos:Concept ;
+    skos:prefLabel "assonant"@en ;
+    skos:prefLabel "asonante"@es ;
+    skos:notation "assonant" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant> a skos:Concept ;
+    skos:prefLabel "consonant"@en ;
+    skos:prefLabel "consonante"@es ;
+    skos:notation "consonant" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .

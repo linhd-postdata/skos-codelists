@@ -1,0 +1,80 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/part-of-speech> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/noun> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/verb> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/adjective> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/adverb> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/pronoun> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/preposition> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/conjunction> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/interjection> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/part-of-speech/article> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre las categorías de palabras que tienen características gramaticales similares"@es ;
+    dc:title "Thesaurus about the categories of words that have similar grammatical properties."@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/part-of-speech/noun> a skos:Concept ;
+    skos:prefLabel "Noun"@en ;
+    skos:prefLabel "Nombre"@es ;
+    skos:notation "noun" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+ <http://postdata.linhd.uned.es/kos/part-of-speech/verb> a skos:Concept ;
+    skos:prefLabel "Verb"@en ;
+    skos:prefLabel "Verbo"@es ;
+    skos:notation "verb" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+  <http://postdata.linhd.uned.es/kos/part-of-speech/adjective> a skos:Concept ;
+    skos:prefLabel "Adjectve"@en ;
+    skos:prefLabel "Adjetivo"@es ;
+    skos:notation "adjective" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+  <http://postdata.linhd.uned.es/kos/part-of-speech/adverb> a skos:Concept ;
+    skos:prefLabel "Adverb"@en ;
+    skos:prefLabel "Adverbio"@es ;
+    skos:notation "adverb" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+  <http://postdata.linhd.uned.es/kos/part-of-speech/pronoun> a skos:Concept ;
+    skos:prefLabel "Pronoun"@en ;
+    skos:prefLabel "Pronombre"@es ;
+    skos:notation "pronoun" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+  <http://postdata.linhd.uned.es/kos/part-of-speech/preposition> a skos:Concept ;
+    skos:prefLabel "Preposition"@en ;
+    skos:prefLabel "Preposición"@es ;
+    skos:notation "preposition" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+<http://postdata.linhd.uned.es/kos/part-of-speech/conjunction> a skos:Concept ;
+    skos:prefLabel "Conjunction"@en ;
+    skos:prefLabel "Conjunción"@es ;
+    skos:notation "conjunction" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+<http://postdata.linhd.uned.es/kos/part-of-speech/interjection> a skos:Concept ;
+    skos:prefLabel "Interjection"@en ;
+    skos:prefLabel "Interjección"@es ;
+    skos:notation "interjection" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+
+<http://postdata.linhd.uned.es/kos/part-of-speech/article> a skos:Concept ;
+    skos:prefLabel "Article"@en ;
+    skos:prefLabel "Artículo"@es ;
+    skos:notation "article" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/part-of-speech> .
+

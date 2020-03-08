@@ -1,0 +1,115 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/ephentesis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/prothesis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/paragoge> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/synalepha> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/elision> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/apheresis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/apocope> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/syncope> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/crasis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/synaeresis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/diaeresis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/synizesis> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/hiatus> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metaplasm-type/metathesis> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro de metaplasmas o figuras de transformación"@es ;
+    dc:title "Thesaurus of metaplasms"@en ;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/ephentesis> a skos:Concept ;
+    skos:prefLabel "ephentesis"@en ;
+    skos:prefLabel "epéntesis"@es ;
+    skos:notation "ephentesis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/prothesis> a skos:Concept ;
+    skos:prefLabel "prothesis"@en ;
+    skos:prefLabel "prótesis"@es ;
+    skos:notation "prothesis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/paragoge> a skos:Concept ;
+    skos:prefLabel "paragoge"@en ;
+    skos:prefLabel "paragoge"@es ;
+    skos:notation "paragoge" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/synalepha> a skos:Concept ;
+    skos:prefLabel "synalepha"@en ;
+    skos:prefLabel "sinalefa"@es ;
+    skos:notation "synalepha" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/elision> a skos:Concept ;
+    skos:prefLabel "elision"@en ;
+    skos:prefLabel "elision"@es ;
+    skos:notation "elision" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/apheresis> a skos:Concept ;
+    skos:prefLabel "apheresis"@en ;
+    skos:prefLabel "aféresis"@es ;
+    skos:notation "apheresis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/apocope> a skos:Concept ;
+    skos:prefLabel "apocope"@en ;
+    skos:prefLabel "apocope"@es ;
+    skos:notation "apocope" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/syncope> a skos:Concept ;
+    skos:prefLabel "syncope"@en ;
+    skos:prefLabel "síncopa"@es ;
+    skos:notation "syncope" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/crasis> a skos:Concept ;
+    skos:prefLabel "crasis"@en ;
+    skos:prefLabel "contracción"@es ;
+    skos:notation "crasis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/synaeresis> a skos:Concept ;
+    skos:prefLabel "synaeresis"@en ;
+    skos:prefLabel "sinéresis"@es ;
+    skos:notation "synaeresis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/diaeresis> a skos:Concept ;
+    skos:prefLabel "diaeresis"@en ;
+    skos:altLabel "dieresis"@en ;
+    skos:prefLabel "dialefa"@es ;
+    skos:altLabel "diéresis"@es ;
+    skos:notation "diaeresis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/synizesis> a skos:Concept ;
+    skos:prefLabel "synizesis"@en ;
+    skos:notation "synizesis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/hiatus> a skos:Concept ;
+    skos:prefLabel "hiatus"@en ;
+    skos:prefLabel "hiato"@es ;
+    skos:notation "hiatus" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+
+<http://postdata.linhd.uned.es/kos/metaplasm-type/metathesis> a skos:Concept ;
+    skos:prefLabel "metathesis"@en ;
+    skos:prefLabel "aféresis"@es ;
+    skos:notation "metátesis" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metaplasm-type> .
+

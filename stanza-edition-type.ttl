@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/stanza-edition-type> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-edition-type/translation> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre el tipo de textos proporcionados en las estrofas"@es ;
+    dc:title "Thesaurus about the type of the texts provided in the Stanzas "@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition> a skos:Concept ;
+    skos:prefLabel "Critical edition"@en ;
+    skos:prefLabel "Edición crítica"@es ;
+    skos:notation "critical-edition" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-edition-type> .
+
+  <http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition> a skos:Concept ;
+    skos:prefLabel "Diplomatic edition"@en ;
+    skos:prefLabel "Edición diplomática"@es ;
+    skos:notation "diplomatic-edition" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-edition-type> .
+
+  <http://postdata.linhd.uned.es/kos/stanza-edition-type/translation> a skos:Concept ;
+    skos:prefLabel "Translation"@en ;
+    skos:prefLabel "Traducción"@es ;
+    skos:notation "translation" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-edition-type> .
+
+  

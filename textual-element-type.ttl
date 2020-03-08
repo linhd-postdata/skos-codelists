@@ -1,0 +1,39 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/textual-element-type> a skos:ConceptScheme, prov:Entity ;
+	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/chapter>;
+	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/epilogue>;  
+	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/prologue>; 
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre tipos de elementos textuales"@es ;
+    dc:title "Thesaurus about type of textual element"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/textual-element-type/chapter> a skos:Concept ;
+    skos:prefLabel "Chapter"@en ;
+    skos:prefLabel "Capítulo"@es ;
+    skos:notation "chapter" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+
+  <http://postdata.linhd.uned.es/kos/textual-element-type/epilogue> a skos:Concept ;
+    skos:prefLabel "Epilogue"@en ;
+    skos:prefLabel "Epílogo"@es ;
+    skos:notation "epilogue" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+
+  <http://postdata.linhd.uned.es/kos/textual-element-type/prologue> a skos:Concept ;
+    skos:prefLabel "Prologue"@en ;
+    skos:prefLabel "Prólogo"@es ;
+    skos:notation "prologue" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+
+  

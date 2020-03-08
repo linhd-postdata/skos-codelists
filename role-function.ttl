@@ -1,0 +1,59 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/role-function> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/actor> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/arranger> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/collector> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/singer> ;  
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/sponsor> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/role-function/transcriptor> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre el papel específico representado por un agente en una obra"@es ;
+    dc:title "Thesaurus about specific function performed by some agent on a work"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/role-function/actor> a skos:Concept ;
+    skos:prefLabel "Actor"@en ;
+    skos:prefLabel "Agente"@es ;
+    skos:notation "actor" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+
+  <http://postdata.linhd.uned.es/kos/role-function/arranger> a skos:Concept ;
+    skos:prefLabel "Arranger"@en ;
+    skos:prefLabel "Organizador"@es ;
+    skos:notation "arranger" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+
+  <http://postdata.linhd.uned.es/kos/role-function/collector> a skos:Concept ;
+    skos:prefLabel "Collector"@en ;
+    skos:prefLabel "Coleccionista"@es ;
+    skos:notation "collector" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+
+  <http://postdata.linhd.uned.es/kos/role-function/singer> a skos:Concept ;
+    skos:prefLabel "Singer"@en ;
+    skos:prefLabel "Cantante"@es ;
+    skos:notation "singer" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+
+  <http://postdata.linhd.uned.es/kos/role-function/sponsor> a skos:Concept ;
+    skos:prefLabel "Sponsor"@en ;
+    skos:prefLabel "Patrocinador"@es ;
+    skos:notation "sponsor" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+
+<http://postdata.linhd.uned.es/kos/role-function/transcriptor> a skos:Concept ;
+    skos:prefLabel "Transcriptor"@en ;
+    skos:prefLabel "Transcriptor"@es ;
+    skos:notation "Ttranscriptor" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> .
+

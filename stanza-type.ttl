@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://postdata.linhd.uned.es/kos/stanza-type> a skos:ConceptScheme, prov:Entity ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-type/refrain> ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-type/tornada> ;
+    dc:creator "María Luisa Díez Platas (UNED)" ;
+    dc:date "2019-10-27"^^xsd:date ;
+    dc:title "Tesauro sobre tipo de estrofas pero no por su métrica"@es ;
+    dc:title "Thesaurus about type of stanzas, but not by their metric"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:hadPrimarySource "".
+
+
+<http://postdata.linhd.uned.es/kos/stanza-type/refrain> a skos:Concept ;
+    skos:prefLabel "Refrain"@en ;
+    skos:prefLabel "Estribillo"@es ;
+    skos:notation "refrain" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-type> .
+
+  <http://postdata.linhd.uned.es/kos/stanza-type/tornada> a skos:Concept ;
+    skos:prefLabel "Tornada"@en ;
+    skos:prefLabel "Tornada"@es ;
+    skos:notation "tornada" ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-type> .
+
+ 
