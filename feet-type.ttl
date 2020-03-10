@@ -7,9 +7,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <http://postdata.linhd.uned.es/kos/feet-type> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/non-christian> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated> ;
     dc:creator "María Luisa Díez Platas (UNED)" ;
     dc:date "2019-10-27"^^xsd:date ;
     dc:title "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es ;
