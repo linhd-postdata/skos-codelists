@@ -7,7 +7,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <http://postdata.linhd.uned.es/kos/clausula> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/clausula/> ;
     dc:creator "María Luisa Díez Platas (UNED)" ;
     dc:date "2019-10-27"^^xsd:date ;
     dc:title "Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada"@es ;
