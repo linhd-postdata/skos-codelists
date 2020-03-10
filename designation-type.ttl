@@ -18,9 +18,9 @@
 
 
 <http://postdata.linhd.uned.es/kos/designation-type/pseudonym> a skos:Concept ;
-    skos:prefLabel "pseudonym>"@en ;
+    skos:prefLabel "pseudonym"@en ;
     skos:prefLabel "pseudónimo"@es ;
-    skos:notation "pseudonym>" ;
+    skos:notation "pseudonym" ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/designation-type> .
 
   <http://postdata.linhd.uned.es/kos/designation-type/heteronym> a skos:Concept ;
