@@ -7,7 +7,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/clausula-schema-type/> ;
     dc:creator "María Luisa Díez Platas (UNED)" ;
     dc:date "2019-10-27"^^xsd:date ;
     dc:title "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es ;
