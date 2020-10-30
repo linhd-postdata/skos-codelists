@@ -49,6 +49,878 @@
     "@value" : "V 1.0"
   } ]
 }, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Adivinanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Adivinanza"
+  }, {
+    "@language" : "en",
+    "@value" : "Riddle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Alborada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Alborada"
+  }, {
+    "@language" : "en",
+    "@value" : "Aubade"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Alegoria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Alegoría"
+  }, {
+    "@language" : "en",
+    "@value" : "Allegory"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Ballade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Ballade"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Blason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Blason"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Cancion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Canción"
+  }, {
+    "@language" : "en",
+    "@value" : "Song"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Cento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cento"
+  }, {
+    "@language" : "es",
+    "@value" : "Centón"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Contrafactum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Contrafactum"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Copla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Cosante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cosante"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Cuaderna_Via",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuaderna vía"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Decir",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Decir"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Dirge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Canto Fúnebre"
+  }, {
+    "@language" : "en",
+    "@value" : "Dirge"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Ecfrasis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ekphrasis"
+  }, {
+    "@language" : "es",
+    "@value" : "Écfrasis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Egloga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Eclogue"
+  }, {
+    "@language" : "es",
+    "@value" : "Égloga"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Elegia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Elegy"
+  }, {
+    "@language" : "es",
+    "@value" : "Elegía"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Epica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Epic Poetry"
+  }, {
+    "@language" : "es",
+    "@value" : "Épica"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Epigrama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Epigram"
+  }, {
+    "@language" : "es",
+    "@value" : "Epigrama"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Epitafio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Epitafio"
+  }, {
+    "@language" : "en",
+    "@value" : "Epitaph"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Epitalamio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Epitalamio"
+  }, {
+    "@language" : "en",
+    "@value" : "Epithalamion"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Esparsa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Esparsa"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Estancia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estancia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Estomelo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estomelo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Estrofa_Cruzada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estrofa Cruzada"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Fabula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fable"
+  }, {
+    "@language" : "es",
+    "@value" : "Fábula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Folia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Folia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Georgic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Georgic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Himno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Himno"
+  }, {
+    "@language" : "en",
+    "@value" : "Hymn"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Invective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Invective"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Lai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Lay"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Lai"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Lament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Lament"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Laude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Laude"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Madrigal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Madrigal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Moaxaja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Moaxaja"
+  }, {
+    "@language" : "ar",
+    "@value" : "Muwashshah"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Monologo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Dramatic Monologue"
+  }, {
+    "@language" : "es",
+    "@value" : "Monólogo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Novena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Novena"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Occasional_Verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Occasional Verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Octava_Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Octava"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Oda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Oda"
+  }, {
+    "@language" : "en",
+    "@value" : "Ode"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Paean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Paean"
+  }, {
+    "@language" : "es",
+    "@value" : "Peán"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Palinode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Palinode"
+  }, {
+    "@language" : "es",
+    "@value" : "Palinodia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Panegirico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Panegyric"
+  }, {
+    "@language" : "es",
+    "@value" : "Panegírico"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Parodia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Parodia"
+  }, {
+    "@language" : "en",
+    "@value" : "Parody"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Psalmo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Psalm"
+  }, {
+    "@language" : "es",
+    "@value" : "Psalmo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Quintilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Quintilla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Redondillas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Redondillas"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Replicacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Replicación"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Repregunta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Repregunta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Requesta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Requesta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Respuesta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Respuesta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Romance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Romance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Satira",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Satire"
+  }, {
+    "@language" : "es",
+    "@value" : "Sátira"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Soneto_Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Soneto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Tragedia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Tragedia"
+  }, {
+    "@language" : "en",
+    "@value" : "Tragedy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Verso_Epistolar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Verse Epistle"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso epistolar"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Verso_Libre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Free Verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso Libre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Versos_Blancos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Blank Verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Versos Blancos"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Villancico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Villancico"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Villanelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Villanelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/Zejel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Zajal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Zéjel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
   "@id" : "http://postdata.linhd.uned.es/kos/accentual-syllabic-verse",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -423,6 +1295,19 @@
   } ],
   "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
     "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cantiga",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cantiga"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/catholic",
@@ -1378,27 +2263,6 @@
     "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/foot-unit-type",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@language" : "en",
-    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
-  } ],
-  "http://purl.org/dc/terms/date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2019-10-27"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@language" : "es",
-    "@value" : "Tesauro sobre tipos de unidades que definen la división en pies"
-  }, {
-    "@language" : "en",
-    "@value" : "Thesaurus about types of units that defines the foot division"
-  } ],
-  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
-  } ]
-}, {
   "@id" : "http://postdata.linhd.uned.es/kos/free-verse",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
@@ -1711,6 +2575,22 @@
     "@id" : "http://postdata.linhd.uned.es/kos/metrical-context"
   } ]
 }, {
+  "@id" : "http://postdata.linhd.uned.es/kos/jarcha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Jarcha"
+  }, {
+    "@language" : "ar",
+    "@value" : "Kharja"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ]
+}, {
   "@id" : "http://postdata.linhd.uned.es/kos/jehovah-witness",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
   "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -1857,6 +2737,19 @@
     "@id" : "http://postdata.linhd.uned.es/kos/clausula"
   }, {
     "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/masque",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Masque"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/genre"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/mechanical-arts",
@@ -3091,31 +3984,6 @@
     "@id" : "http://postdata.linhd.uned.es/kos/social-status"
   } ]
 }, {
-  "@id" : "http://postdata.linhd.uned.es/kos/school",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@language" : "en",
-    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
-  } ],
-  "http://purl.org/dc/terms/date" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#date",
-    "@value" : "2019-10-27"
-  } ],
-  "http://purl.org/dc/terms/title" : [ {
-    "@language" : "es",
-    "@value" : "Tesauro sobre movimientos literarios o escuelas de un autor"
-  }, {
-    "@language" : "en",
-    "@value" : "Thesaurus about literary movements or schools of an author"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-    "@language" : "en",
-    "@value" : "School Scheme"
-  } ],
-  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
-  } ]
-}, {
   "@id" : "http://postdata.linhd.uned.es/kos/scottish-stanza",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
   "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
@@ -4265,6 +5133,9 @@
 }, {
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]

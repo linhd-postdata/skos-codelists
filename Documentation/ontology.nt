@@ -46,6 +46,9 @@
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # 
 # 
 # #################################################################
@@ -66,6 +69,456 @@
 # #
 # #################################################################
 # 
+# 
+# http://postdata.linhd.uned.es/kos/Adivinanza
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/2004/02/skos/core#prefLabel> "Adivinanza"@es .
+<http://postdata.linhd.uned.es/kos/Adivinanza> <http://www.w3.org/2004/02/skos/core#prefLabel> "Riddle"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Alborada
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alborada"@es .
+<http://postdata.linhd.uned.es/kos/Alborada> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aubade"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Alegoria
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alegoría"@es .
+<http://postdata.linhd.uned.es/kos/Alegoria> <http://www.w3.org/2004/02/skos/core#prefLabel> "Allegory"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Ballade
+<http://postdata.linhd.uned.es/kos/Ballade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Ballade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Ballade> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Ballade> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Ballade> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ballade"@fr .
+# 
+# http://postdata.linhd.uned.es/kos/Blason
+<http://postdata.linhd.uned.es/kos/Blason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Blason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Blason> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Blason> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Blason> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blason"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Cancion
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canción"@es .
+<http://postdata.linhd.uned.es/kos/Cancion> <http://www.w3.org/2004/02/skos/core#prefLabel> "Song"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Cento
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cento"@es .
+<http://postdata.linhd.uned.es/kos/Cento> <http://www.w3.org/2004/02/skos/core#prefLabel> "Centón"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Contrafactum
+<http://postdata.linhd.uned.es/kos/Contrafactum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Contrafactum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Contrafactum> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Contrafactum> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Contrafactum> <http://www.w3.org/2004/02/skos/core#prefLabel> "Contrafactum"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Copla
+<http://postdata.linhd.uned.es/kos/Copla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Copla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Copla> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Copla> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Copla> <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Cosante
+<http://postdata.linhd.uned.es/kos/Cosante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Cosante> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Cosante> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cosante> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cosante> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cosante"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Cuaderna_Via
+<http://postdata.linhd.uned.es/kos/Cuaderna_Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Cuaderna_Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Cuaderna_Via> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cuaderna_Via> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Cuaderna_Via> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuaderna vía"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Decir
+<http://postdata.linhd.uned.es/kos/Decir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Decir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Decir> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Decir> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Decir> <http://www.w3.org/2004/02/skos/core#prefLabel> "Decir"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Dirge
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/2004/02/skos/core#prefLabel> "Canto Fúnebre"@es .
+<http://postdata.linhd.uned.es/kos/Dirge> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dirge"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Ecfrasis
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ekphrasis"@en .
+<http://postdata.linhd.uned.es/kos/Ecfrasis> <http://www.w3.org/2004/02/skos/core#prefLabel> "Écfrasis"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Egloga
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eclogue"@en .
+<http://postdata.linhd.uned.es/kos/Egloga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Égloga"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Elegia
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elegy"@en .
+<http://postdata.linhd.uned.es/kos/Elegia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Elegía"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Epica
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epic Poetry"@en .
+<http://postdata.linhd.uned.es/kos/Epica> <http://www.w3.org/2004/02/skos/core#prefLabel> "Épica"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Epigrama
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epigram"@en .
+<http://postdata.linhd.uned.es/kos/Epigrama> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epigrama"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Epitafio
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epitafio"@es .
+<http://postdata.linhd.uned.es/kos/Epitafio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epitaph"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Epitalamio
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epitalamio"@es .
+<http://postdata.linhd.uned.es/kos/Epitalamio> <http://www.w3.org/2004/02/skos/core#prefLabel> "Epithalamion"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Esparsa
+<http://postdata.linhd.uned.es/kos/Esparsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Esparsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Esparsa> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Esparsa> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Esparsa> <http://www.w3.org/2004/02/skos/core#prefLabel> "Esparsa"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Estancia
+<http://postdata.linhd.uned.es/kos/Estancia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Estancia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Estancia> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estancia> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estancia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estancia"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Estomelo
+<http://postdata.linhd.uned.es/kos/Estomelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Estomelo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Estomelo> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estomelo> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estomelo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estomelo"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Estrofa_Cruzada
+<http://postdata.linhd.uned.es/kos/Estrofa_Cruzada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Estrofa_Cruzada> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Estrofa_Cruzada> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estrofa_Cruzada> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Estrofa_Cruzada> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estrofa Cruzada"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Fabula
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fable"@en .
+<http://postdata.linhd.uned.es/kos/Fabula> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fábula"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Folia
+<http://postdata.linhd.uned.es/kos/Folia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Folia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Folia> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Folia> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Folia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Folia"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Georgic
+<http://postdata.linhd.uned.es/kos/Georgic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Georgic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Georgic> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Georgic> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Georgic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Georgic"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Himno
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Himno"@es .
+<http://postdata.linhd.uned.es/kos/Himno> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hymn"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Invective
+<http://postdata.linhd.uned.es/kos/Invective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Invective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Invective> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Invective> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Invective> <http://www.w3.org/2004/02/skos/core#prefLabel> "Invective"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Lai
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/2004/02/skos/core#altLabel> "Lay"@es .
+<http://postdata.linhd.uned.es/kos/Lai> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lai"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Lament
+<http://postdata.linhd.uned.es/kos/Lament> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Lament> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Lament> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Lament> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Lament> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lament"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Laude
+<http://postdata.linhd.uned.es/kos/Laude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Laude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Laude> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Laude> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Laude> <http://www.w3.org/2004/02/skos/core#altLabel> "Laude"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Madrigal
+<http://postdata.linhd.uned.es/kos/Madrigal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Madrigal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Madrigal> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Madrigal> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Madrigal> <http://www.w3.org/2004/02/skos/core#altLabel> "Madrigal"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Moaxaja
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moaxaja"@es .
+<http://postdata.linhd.uned.es/kos/Moaxaja> <http://www.w3.org/2004/02/skos/core#prefLabel> "Muwashshah"@ar .
+# 
+# http://postdata.linhd.uned.es/kos/Monologo
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dramatic Monologue"@en .
+<http://postdata.linhd.uned.es/kos/Monologo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monólogo"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Novena
+<http://postdata.linhd.uned.es/kos/Novena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Novena> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Novena> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Novena> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Novena> <http://www.w3.org/2004/02/skos/core#altLabel> "Novena"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Occasional_Verse
+<http://postdata.linhd.uned.es/kos/Occasional_Verse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Occasional_Verse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Occasional_Verse> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Occasional_Verse> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Occasional_Verse> <http://www.w3.org/2004/02/skos/core#prefLabel> "Occasional Verse"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Octava_Genre
+<http://postdata.linhd.uned.es/kos/Octava_Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Octava_Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Octava_Genre> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Octava_Genre> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Octava_Genre> <http://www.w3.org/2004/02/skos/core#altLabel> "Octava"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Oda
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/2004/02/skos/core#altLabel> "Oda"@es .
+<http://postdata.linhd.uned.es/kos/Oda> <http://www.w3.org/2004/02/skos/core#altLabel> "Ode"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Paean
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paean"@en .
+<http://postdata.linhd.uned.es/kos/Paean> <http://www.w3.org/2004/02/skos/core#prefLabel> "Peán"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Palinode
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palinode"@en .
+<http://postdata.linhd.uned.es/kos/Palinode> <http://www.w3.org/2004/02/skos/core#prefLabel> "Palinodia"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Panegirico
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Panegyric"@en .
+<http://postdata.linhd.uned.es/kos/Panegirico> <http://www.w3.org/2004/02/skos/core#prefLabel> "Panegírico"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Parodia
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parodia"@es .
+<http://postdata.linhd.uned.es/kos/Parodia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Parody"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Psalmo
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psalm"@en .
+<http://postdata.linhd.uned.es/kos/Psalmo> <http://www.w3.org/2004/02/skos/core#prefLabel> "Psalmo"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Quintilla
+<http://postdata.linhd.uned.es/kos/Quintilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Quintilla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Quintilla> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Quintilla> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Quintilla> <http://www.w3.org/2004/02/skos/core#altLabel> "Quintilla"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Redondillas
+<http://postdata.linhd.uned.es/kos/Redondillas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Redondillas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Redondillas> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Redondillas> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Redondillas> <http://www.w3.org/2004/02/skos/core#altLabel> "Redondillas"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Replicacion
+<http://postdata.linhd.uned.es/kos/Replicacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Replicacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Replicacion> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Replicacion> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Replicacion> <http://www.w3.org/2004/02/skos/core#altLabel> "Replicación"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Repregunta
+<http://postdata.linhd.uned.es/kos/Repregunta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Repregunta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Repregunta> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Repregunta> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Repregunta> <http://www.w3.org/2004/02/skos/core#altLabel> "Repregunta"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Requesta
+<http://postdata.linhd.uned.es/kos/Requesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Requesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Requesta> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Requesta> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Requesta> <http://www.w3.org/2004/02/skos/core#altLabel> "Requesta"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Respuesta
+<http://postdata.linhd.uned.es/kos/Respuesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Respuesta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Respuesta> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Respuesta> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Respuesta> <http://www.w3.org/2004/02/skos/core#altLabel> "Respuesta"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Romance
+<http://postdata.linhd.uned.es/kos/Romance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Romance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Romance> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Romance> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Romance> <http://www.w3.org/2004/02/skos/core#prefLabel> "Romance"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Satira
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/2004/02/skos/core#prefLabel> "Satire"@en .
+<http://postdata.linhd.uned.es/kos/Satira> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sátira"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Soneto_Genre
+<http://postdata.linhd.uned.es/kos/Soneto_Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Soneto_Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Soneto_Genre> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Soneto_Genre> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Soneto_Genre> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soneto"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Tragedia
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tragedia"@es .
+<http://postdata.linhd.uned.es/kos/Tragedia> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tragedy"@en .
+# 
+# http://postdata.linhd.uned.es/kos/Verso_Epistolar
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verse Epistle"@en .
+<http://postdata.linhd.uned.es/kos/Verso_Epistolar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verso epistolar"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Verso_Libre
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/2004/02/skos/core#prefLabel> "Free Verse"@en .
+<http://postdata.linhd.uned.es/kos/Verso_Libre> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verso Libre"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Versos_Blancos
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/2004/02/skos/core#prefLabel> "Blank Verse"@en .
+<http://postdata.linhd.uned.es/kos/Versos_Blancos> <http://www.w3.org/2004/02/skos/core#prefLabel> "Versos Blancos"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Villancico
+<http://postdata.linhd.uned.es/kos/Villancico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Villancico> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Villancico> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Villancico> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Villancico> <http://www.w3.org/2004/02/skos/core#altLabel> "Villancico"@es .
+# 
+# http://postdata.linhd.uned.es/kos/Villanelle
+<http://postdata.linhd.uned.es/kos/Villanelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Villanelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Villanelle> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Villanelle> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Villanelle> <http://www.w3.org/2004/02/skos/core#prefLabel> "Villanelle"@fr .
+# 
+# http://postdata.linhd.uned.es/kos/Zejel
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/2004/02/skos/core#altLabel> "Zajal"@es .
+<http://postdata.linhd.uned.es/kos/Zejel> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zéjel"@es .
 # 
 # http://postdata.linhd.uned.es/kos/accentual-syllabic-verse
 <http://postdata.linhd.uned.es/kos/accentual-syllabic-verse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -254,6 +707,13 @@
 <http://postdata.linhd.uned.es/kos/cantar> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/metrical-type> .
 <http://postdata.linhd.uned.es/kos/cantar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/metrical-type> .
 <http://postdata.linhd.uned.es/kos/cantar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cantar o copla"@es .
+# 
+# http://postdata.linhd.uned.es/kos/cantiga
+<http://postdata.linhd.uned.es/kos/cantiga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/cantiga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/cantiga> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/cantiga> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/cantiga> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cantiga"@es .
 # 
 # http://postdata.linhd.uned.es/kos/catholic
 <http://postdata.linhd.uned.es/kos/catholic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -722,16 +1182,6 @@
 <http://postdata.linhd.uned.es/kos/foot-type> <http://purl.org/dc/terms/title> "Thesaurus about type of metric foot"@en .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Foot Type Scheme"@en .
 # 
-# http://postdata.linhd.uned.es/kos/foot-unit-type
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipos de unidades que definen la división en pies"@es .
-<http://postdata.linhd.uned.es/kos/foot-unit-type> <http://purl.org/dc/terms/title> "Thesaurus about types of units that defines the foot division"@en .
-# 
 # http://postdata.linhd.uned.es/kos/free-verse
 <http://postdata.linhd.uned.es/kos/free-verse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/free-verse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -886,6 +1336,14 @@
 <http://postdata.linhd.uned.es/kos/isosyllabic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isosilábicos"@es .
 <http://postdata.linhd.uned.es/kos/isosyllabic> <http://www.w3.org/2004/02/skos/core#prefLabel> "Isosyllabic"@en .
 # 
+# http://postdata.linhd.uned.es/kos/jarcha
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jarcha"@es .
+<http://postdata.linhd.uned.es/kos/jarcha> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kharja"@ar .
+# 
 # http://postdata.linhd.uned.es/kos/jehovah-witness
 <http://postdata.linhd.uned.es/kos/jehovah-witness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/jehovah-witness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -958,6 +1416,13 @@
 <http://postdata.linhd.uned.es/kos/masculine_rhyme> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/clausula-scheme-type> .
 <http://postdata.linhd.uned.es/kos/masculine_rhyme> <http://www.w3.org/2004/02/skos/core#prefLabel> "Masculine rhyme"@en .
 <http://postdata.linhd.uned.es/kos/masculine_rhyme> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rima masculina"@es .
+# 
+# http://postdata.linhd.uned.es/kos/masque
+<http://postdata.linhd.uned.es/kos/masque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://postdata.linhd.uned.es/kos/masque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://postdata.linhd.uned.es/kos/masque> <http://www.w3.org/2004/02/skos/core#inScheme> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/masque> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/genre> .
+<http://postdata.linhd.uned.es/kos/masque> <http://www.w3.org/2004/02/skos/core#prefLabel> "Masque"@en .
 # 
 # http://postdata.linhd.uned.es/kos/mechanical-arts
 <http://postdata.linhd.uned.es/kos/mechanical-arts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1556,17 +2021,6 @@
 <http://postdata.linhd.uned.es/kos/scholar> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://postdata.linhd.uned.es/kos/social-status> .
 <http://postdata.linhd.uned.es/kos/scholar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Letrado"@es .
 <http://postdata.linhd.uned.es/kos/scholar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Scholar"@en .
-# 
-# http://postdata.linhd.uned.es/kos/school
-<http://postdata.linhd.uned.es/kos/school> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://postdata.linhd.uned.es/kos/school> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://postdata.linhd.uned.es/kos/school> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<http://postdata.linhd.uned.es/kos/school> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
-<http://postdata.linhd.uned.es/kos/school> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
-<http://postdata.linhd.uned.es/kos/school> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://postdata.linhd.uned.es/kos/school> <http://purl.org/dc/terms/title> "Tesauro sobre movimientos literarios o escuelas de un autor"@es .
-<http://postdata.linhd.uned.es/kos/school> <http://purl.org/dc/terms/title> "Thesaurus about literary movements or schools of an author"@en .
-<http://postdata.linhd.uned.es/kos/school> <http://www.w3.org/2004/02/skos/core#prefLabel> "School Scheme"@en .
 # 
 # http://postdata.linhd.uned.es/kos/scottish-stanza
 <http://postdata.linhd.uned.es/kos/scottish-stanza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
