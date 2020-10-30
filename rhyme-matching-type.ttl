@@ -1,29 +1,77 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/rhyme-matching-type> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant> ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre tipo de rima"@es ;
-    dc:title "Thesaurus about rhyme type"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>.
-
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/allitteration> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "allitteration"@en,
+        "aliteración"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant> a skos:Concept ;
-    skos:prefLabel "assonant"@en ;
-    skos:prefLabel "asonante"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
     skos:notation "assonant" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+    skos:prefLabel "assonant"@en,
+        "asonante"@es .
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant> a skos:Concept ;
-    skos:prefLabel "consonant"@en ;
-    skos:prefLabel "consonante"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
     skos:notation "consonant" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+    skos:prefLabel "consonant"@en,
+        "consonante"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/dactylic> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "dactylic"@en,
+        "esdrújula"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/eye_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "eye rhyme"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/internal_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "internal"@en,
+        "interna"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/perfect_thyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "perfect rhyme"@en,
+        "consonante"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "semirhyme"@en,
+        "ipermetra"@it ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
+    skos:prefLabel "slant rhyme"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about rhyme type"@en,
+        "Tesauro sobre tipo de rima"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-matching-type/allitteration>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/dactylic>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/eye_rhyme>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/internal_rhyme>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/perfect_thyme>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme>,
+        <http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme> ;
+    skos:prefLabel "Thyme Matching Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+

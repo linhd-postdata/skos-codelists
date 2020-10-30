@@ -1,16 +1,35 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/poetic-type> a skos:ConceptScheme, prov:Entity ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre el género literario principal de la obra"@es ;
-    dc:title "Thesaurus about major literary genre of the compositions. "@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
-    prov:hadPrimarySource "".
+<http://vocabularies.unesco.org/thesaurus/concept2493> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept327> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/poetic-type> ;
+    skos:prefLabel "شعر"@ar,
+        "Poetry"@en,
+        "Poesía"@es,
+        "Poésie"@fr,
+        "Поэзия"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/poetic-type> .
+
+<http://vocabularies.unesco.org/thesaurus/concept8399> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept327> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/poetic-type> ;
+    skos:prefLabel "دراما"@ar,
+        "Drama"@en,
+        "Drama"@es,
+        "Drame"@fr,
+        "Драма"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/poetic-type> .
+
+<http://postdata.linhd.uned.es/kos/poetic-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about major literary genre of the compositions. "@en,
+        "Tesauro sobre el género literario principal de la obra"@es ;
+    skos:prefLabel "Poetic Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
 

@@ -1,16 +1,79 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/feet-type> a skos:ConceptScheme, prov:Entity ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es ;
-    dc:title "Thesaurus about categories of stanzas or verses depending on the type of feet"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
-    prov:hadPrimarySource "".
+<http://postdata.linhd.uned.es/kos/foot-type/amphibrach> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Amphibrach"@en,
+        "Anfíbraco"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/anapest> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Anapest"@en,
+        "Anapesto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/dactyl> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Dactyl"@en,
+        "Dáctilo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/iamb> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Iamb"@en,
+        "Yambo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/pyrrhic> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Pyrrhic"@en,
+        "Pírrico"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/spondee> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Spondee"@en,
+        "Espondeo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/foot-type/trochee> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> ;
+    skos:prefLabel "Trochee"@en,
+        "Troqueo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/feet-type>,
+        <http://postdata.linhd.uned.es/kos/foot-type> .
+
+<http://postdata.linhd.uned.es/kos/feet-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about categories of stanzas or verses depending on the type of feet"@en,
+        "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/feet-type/mixed>,
+        <http://postdata.linhd.uned.es/kos/foot-type/amphibrach>,
+        <http://postdata.linhd.uned.es/kos/foot-type/anapest>,
+        <http://postdata.linhd.uned.es/kos/foot-type/dactyl>,
+        <http://postdata.linhd.uned.es/kos/foot-type/iamb>,
+        <http://postdata.linhd.uned.es/kos/foot-type/pyrrhic>,
+        <http://postdata.linhd.uned.es/kos/foot-type/spondee>,
+        <http://postdata.linhd.uned.es/kos/foot-type/trochee> ;
+    skos:prefLabel "Feet Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
 

@@ -1,86 +1,128 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/religious-affiliation> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/non-christian> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated> ;
-    dc:creator "Oscar Corcho (Universidad Politécnica de Madrid)" ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-04-29"^^xsd:date ;
-    dc:title "Tesauro sobre afiliaciones religiosas"@es ;
-    dc:title "Thesaurus about religious affiliations"@es ;
-    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> ;
-    prov:hadPrimarySource <https://www.pewforum.org/2015/05/12/chapter-4-the-shifting-religious-identity-of-demographic-groups/>.
+<http://vocabularies.unesco.org/thesaurus/concept12949> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept293> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:prefLabel "مسلمون"@ar,
+        "Moslems"@en,
+        "Musulmán"@es,
+        "Musulman"@fr,
+        "Мусульмане"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 
+<http://vocabularies.unesco.org/thesaurus/concept2533> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept293> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:prefLabel "يهود"@ar,
+        "Jews"@en,
+        "Judío"@es,
+        "Juif"@fr,
+        "Евреи"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 
-<http://postdata.linhd.uned.es/kos/religious-affiliation/christian> a skos:Concept ;
-    skos:prefLabel "Christian"@en ;
-    skos:prefLabel "Cristiano"@es ;
-    skos:notation "christian" ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/protestant> ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/catholic> ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox> ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/mormon> ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/jehovah-witness> ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/other-christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+<http://vocabularies.unesco.org/thesaurus/concept4777> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept293> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:prefLabel "قديسون"@ar,
+        "Saints"@en,
+        "Santo"@es,
+        "Saint"@fr,
+        "Святые"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 
-  <http://postdata.linhd.uned.es/kos/religious-affiliation/non-christian> a skos:Concept ;
-    skos:prefLabel "Non Christian"@en ;
-    skos:prefLabel "No cristiano"@es ;
-    skos:notation "non-christian" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+<http://vocabularies.unesco.org/thesaurus/concept4979> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept293> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:prefLabel "زعماء دينيون"@ar,
+        "Religious leaders"@en,
+        "Jefe religioso"@es,
+        "Chef religieux"@fr,
+        "Религиозные лидеры"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 
-  <http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated> a skos:Concept ;
-    skos:prefLabel "Unaffiliated"@en ;
-    skos:prefLabel "Sin afiliación"@es ;
-    skos:notation "unaffiliated" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+<http://vocabularies.unesco.org/thesaurus/concept5426> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept293> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:prefLabel "رجال الدين"@ar,
+        "Clergy"@en,
+        "Clero"@es,
+        "Clergé"@fr,
+        "Духовенство"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/religious-affiliation> .
 
-  <http://postdata.linhd.uned.es/kos/religious-affiliation/protestant> a skos:Concept ;
-    skos:prefLabel "Protestant"@en ;
-    skos:prefLabel "Protestante"@es ;
-    skos:notation "protestant" ;
+<http://postdata.linhd.uned.es/kos/religious-affiliation/catholic> a skos:Concept ;
     skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
-
-  <http://postdata.linhd.uned.es/kos/religious-affiliation/catholic> a skos:Concept ;
-    skos:prefLabel "Catholic"@en ;
-    skos:prefLabel "Católico"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
     skos:notation "catholic" ;
-    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
-
-<http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox> a skos:Concept ;
-    skos:prefLabel "Orthodox"@en ;
-    skos:prefLabel "Ortodoxo"@es ;
-    skos:notation "orthodox" ;
-    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
-
-<http://postdata.linhd.uned.es/kos/religious-affiliation/mormon> a skos:Concept ;
-    skos:prefLabel "Mormon"@en ;
-    skos:prefLabel "Mormón"@es ;
-    skos:notation "mormon" ;
-    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+    skos:prefLabel "Catholic"@en,
+        "Católico"@es .
 
 <http://postdata.linhd.uned.es/kos/religious-affiliation/jehovah-witness> a skos:Concept ;
-    skos:prefLabel "Jehova's Witness"@en ;
-    skos:prefLabel "Testigo de Jehová"@es ;
-    skos:notation "jehovah-witness" ;
     skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "jehovah-witness" ;
+    skos:prefLabel "Jehova's Witness"@en,
+        "Testigo de Jehová"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation/mormon> a skos:Concept ;
+    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "mormon" ;
+    skos:prefLabel "Mormon"@en,
+        "Mormón"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox> a skos:Concept ;
+    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "orthodox" ;
+    skos:prefLabel "Orthodox"@en,
+        "Ortodoxo"@es .
 
 <http://postdata.linhd.uned.es/kos/religious-affiliation/other-christian> a skos:Concept ;
-    skos:prefLabel "Other Christian"@en ;
-    skos:prefLabel "Otros Cristianos"@es ;
-    skos:notation "other-christian" ;
     skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> .
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "other-christian" ;
+    skos:prefLabel "Other Christian"@en,
+        "Otros Cristianos"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation/protestant> a skos:Concept ;
+    skos:broader <http://postdata.linhd.uned.es/kos/religious-affiliation/christian> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "protestant" ;
+    skos:prefLabel "Protestant"@en,
+        "Protestante"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:notation "unaffiliated" ;
+    skos:prefLabel "Unaffiliated"@en,
+        "Sin afiliación"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation/christian> a skos:Concept ;
+    skos:exactMatch <http://vocabularies.unesco.org/thesaurus/concept5153> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/religious-affiliation> ;
+    skos:narrower <http://postdata.linhd.uned.es/kos/religious-affiliation/catholic>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/jehovah-witness>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/mormon>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/other-christian>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/protestant> ;
+    skos:notation "christian" ;
+    skos:prefLabel "Christian"@en,
+        "Cristiano"@es .
+
+<http://postdata.linhd.uned.es/kos/religious-affiliation> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-04-29"^^xsd:date ;
+    dct:title "Tesauro sobre afiliaciones religiosas"@es,
+        "Thesaurus about religious affiliations"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/religious-affiliation/christian>,
+        <http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated> ;
+    skos:prefLabel "Religious Affiliation Scheme"@en ;
+    prov:wasAttributedTo <http://www.linkedin.com/in/ocorcho> .
+

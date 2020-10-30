@@ -1,76 +1,73 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/versification-type> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/free-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/blank-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/light-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/serpentine-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse> ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre los tipos de versificación"@es ;
-    dc:title "Thesaurus about types of versification"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
-    prov:hadPrimarySource "".
-
-
- <http://postdata.linhd.uned.es/kos/versification-type/free-verse> a skos:Concept ;
-    skos:prefLabel "Free verse"@en ;
-    skos:prefLabel "Verso libre"@es ;
-    skos:notation "free-verse" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
-
- <http://postdata.linhd.uned.es/kos/versification-type/blank-verse> a skos:Concept ;
-    skos:prefLabel "Blank verse"@en ;
-    skos:prefLabel "Verso blanco"@es ;
-    skos:notation "blank-verse" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
-
- <http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse> a skos:Concept ;
-    skos:prefLabel "Alliterative verse"@en ;
-    skos:prefLabel "Verso aliterativo"@es ;
-    skos:notation "alliterative-verse" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
-
- <http://postdata.linhd.uned.es/kos/versification-type/qualitative-verse> a skos:Concept ;
-    skos:prefLabel "Qualitative verse"@en ;
-    skos:prefLabel "Verso cualitativo"@es ;
+<http://postdata.linhd.uned.es/kos/versification-type/qualitative-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
     skos:notation "qualitative-verse" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
+    skos:prefLabel "Qualitative verse"@en,
+        "Verso cualitativo"@es .
 
- <http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse> a skos:Concept ;
-    skos:prefLabel "Quantitative verse"@en ;
-    skos:prefLabel "Verso cuantitativo"@es ;
-    skos:notation "quantitative-verse" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
-
- <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse> a skos:Concept ;
-    skos:prefLabel "Accentual verse"@en ;
-    skos:prefLabel "Verso acentual"@es ;
-    skos:notation "accentual-verse" ;
-    skos:narrower <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
-
- <http://postdata.linhd.uned.es/kos/versification-type/versification-type/accentual-syllabic-verse> a skos:Concept ;
-    skos:prefLabel "Accentual syllabic verse"@en ;
-    skos:prefLabel "Verso acentual silábico"@es ;
-    skos:notation "accentual-syllabic-verse" ;
+<http://postdata.linhd.uned.es/kos/versification-type/versification-type/accentual-syllabic-verse> a skos:Concept ;
     skos:broader <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse> ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "accentual-syllabic-verse" ;
+    skos:prefLabel "Accentual syllabic verse"@en,
+        "Verso acentual silábico"@es .
 
- <http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse> a skos:Concept ;
-    skos:prefLabel "Syllabic verse"@en ;
-    skos:prefLabel "Verso silábico"@es ;
-    skos:notation "syllabic-verse" ; ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> .
+<http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "alliterative-verse" ;
+    skos:prefLabel "Alliterative verse"@en,
+        "Verso aliterativo"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type/blank-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "blank-verse" ;
+    skos:prefLabel "Blank verse"@en,
+        "Verso blanco"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type/free-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "free-verse" ;
+    skos:prefLabel "Free verse"@en,
+        "Verso libre"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "quantitative-verse" ;
+    skos:prefLabel "Quantitative verse"@en,
+        "Verso cuantitativo"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:notation "syllabic-verse" ;
+    skos:prefLabel "Syllabic verse"@en,
+        "Verso silábico"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type/accentual-verse> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
+    skos:narrower <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse> ;
+    skos:notation "accentual-verse" ;
+    skos:prefLabel "Accentual verse"@en,
+        "Verso acentual"@es .
+
+<http://postdata.linhd.uned.es/kos/versification-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about types of versification"@en,
+        "Tesauro sobre los tipos de versificación"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/blank-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/free-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/light-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/serpentine-verse>,
+        <http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse> ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
 

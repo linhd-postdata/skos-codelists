@@ -1,49 +1,49 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-
-<http://postdata.linhd.uned.es/kos/certainty> a skos:ConceptScheme ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/definitely> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/probably> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/possibily> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/probably-not> ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/definitely-not> ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-05-22"^^xsd:date ;
-    dc:title "Vocabulario controlado sobre grados de certeza"@es ;
-    dc:title "Controlled vocabulary about certainty degree"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://postdata.linhd.uned.es/kos/certainty/definitely> a skos:Concept ;
-    skos:prefLabel "Definitely"@en ;
-    skos:prefLabel "Definitivamente"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> ;
     skos:notation "definitely" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> .
-
-<http://postdata.linhd.uned.es/kos/certainty/probably> a skos:Concept ;
-    skos:prefLabel "Probably"@en ;
-    skos:prefLabel "Probablemente"@es ;
-    skos:notation "probably" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> .
-
-<http://postdata.linhd.uned.es/kos/certainty/possibily> a skos:Concept ;
-    skos:prefLabel "Possibily"@en ;
-    skos:prefLabel "Posiblemente"@es ;
-    skos:notation "possibily" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> .
-
-<http://postdata.linhd.uned.es/kos/certainty/probably-not> a skos:Concept ;
-    skos:prefLabel "Probably not"@en ;
-    skos:prefLabel "Probablemente no"@es ;
-    skos:notation "probably-not" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> .
+    skos:prefLabel "Definitely"@en,
+        "Definitivamente"@es .
 
 <http://postdata.linhd.uned.es/kos/certainty/definitely-not> a skos:Concept ;
-    skos:prefLabel "Definitely not"@en ;
-    skos:prefLabel "Definitivamente no"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> ;
     skos:notation "definitely-not" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> .
+    skos:prefLabel "Definitely not"@en,
+        "Definitivamente no"@es .
+
+<http://postdata.linhd.uned.es/kos/certainty/possibily> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> ;
+    skos:notation "possibily" ;
+    skos:prefLabel "Possibily"@en,
+        "Posiblemente"@es .
+
+<http://postdata.linhd.uned.es/kos/certainty/probably> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> ;
+    skos:notation "probably" ;
+    skos:prefLabel "Probably"@en,
+        "Probablemente"@es .
+
+<http://postdata.linhd.uned.es/kos/certainty/probably-not> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/certainty> ;
+    skos:notation "probably-not" ;
+    skos:prefLabel "Probably not"@en,
+        "Probablemente no"@es .
+
+<http://postdata.linhd.uned.es/kos/certainty> a skos:ConceptScheme ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-05-22"^^xsd:date ;
+    dct:title "Controlled vocabulary about certainty degree"@en,
+        "Vocabulario controlado sobre grados de certeza"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/certainty/definitely>,
+        <http://postdata.linhd.uned.es/kos/certainty/definitely-not>,
+        <http://postdata.linhd.uned.es/kos/certainty/possibily>,
+        <http://postdata.linhd.uned.es/kos/certainty/probably>,
+        <http://postdata.linhd.uned.es/kos/certainty/probably-not> ;
+    skos:prefLabel "Certainty Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+

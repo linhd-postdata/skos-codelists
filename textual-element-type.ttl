@@ -1,39 +1,48 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/textual-element-type> a skos:ConceptScheme, prov:Entity ;
-	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/chapter>;
-	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/epilogue>;  
-	skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/prologue>; 
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre tipos de elementos textuales"@es ;
-    dc:title "Thesaurus about type of textual element"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
-    prov:hadPrimarySource "".
+<http://postdata.linhd.uned.es/kos/textual-element-type/poem> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> ;
+    skos:prefLabel "Poem"@en,
+        "Poema"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/textual-element-type> .
 
+<http://postdata.linhd.uned.es/kos/textual-element-type/stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> ;
+    skos:prefLabel "Stanza"@en,
+        "Estrofa"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/textual-element-type> .
 
 <http://postdata.linhd.uned.es/kos/textual-element-type/chapter> a skos:Concept ;
-    skos:prefLabel "Chapter"@en ;
-    skos:prefLabel "Capítulo"@es ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> ;
     skos:notation "chapter" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+    skos:prefLabel "Chapter"@en,
+        "Capítulo"@es .
 
-  <http://postdata.linhd.uned.es/kos/textual-element-type/epilogue> a skos:Concept ;
-    skos:prefLabel "Epilogue"@en ;
-    skos:prefLabel "Epílogo"@es ;
+<http://postdata.linhd.uned.es/kos/textual-element-type/epilogue> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> ;
     skos:notation "epilogue" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+    skos:prefLabel "Epilogue"@en,
+        "Epílogo"@es .
 
-  <http://postdata.linhd.uned.es/kos/textual-element-type/prologue> a skos:Concept ;
-    skos:prefLabel "Prologue"@en ;
-    skos:prefLabel "Prólogo"@es ;
+<http://postdata.linhd.uned.es/kos/textual-element-type/prologue> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> ;
     skos:notation "prologue" ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/textual-element-type> .
+    skos:prefLabel "Prologue"@en,
+        "Prólogo"@es .
 
-  
+<http://postdata.linhd.uned.es/kos/textual-element-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about type of textual element"@en,
+        "Tesauro sobre tipos de elementos textuales"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/textual-element-type/chapter>,
+        <http://postdata.linhd.uned.es/kos/textual-element-type/epilogue>,
+        <http://postdata.linhd.uned.es/kos/textual-element-type/prologue> ;
+    skos:prefLabel "Textual Element Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+

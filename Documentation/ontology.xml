@@ -1,0 +1,3363 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://postdata.linhd.uned.es/kos/"
+     xml:base="http://postdata.linhd.uned.es/kos/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://postdata.linhd.uned.es/kos/">
+        <owl:versionIRI rdf:resource="http://postdata.linhd.uned.es/kos/1.0"/>
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <dc:contributor>Aitor Díaz Medina (LINHD_POSTDATA-UNED) 
+https://www.linkedin.com/in/aitordiazmedina/</dc:contributor>
+        <dc:contributor>Alvaro Pérez (LINHD_POSTDATA-UNED) 
+https://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/</dc:contributor>
+        <dc:contributor>Helena Bermúdez Sabel
+https://orcid.org/0000-0001-7782-206X</dc:contributor>
+        <dc:contributor>Javier de la Rosa (LINHD_POSTDATA-UNED)
+https://www.linkedin.com/in/versae/</dc:contributor>
+        <dc:contributor>Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) 
+https://orcid.org/0000-0003-3489-2193</dc:contributor>
+        <dc:contributor>Mirella De Sisto (LINHD_POSTDATA-UNED) 
+mdesisto</dc:contributor>
+        <dc:contributor>Mª Luisa Díez Platas
+https://orcid.org/0000-0002-9416-3147</dc:contributor>
+        <dc:contributor>Omar Khalil Gómez (LINHD_POSTDATA-UNED) 
+http://www.linkedin.com/in/omar-k-0959a8129</dc:contributor>
+        <dc:contributor>Salvador Ros Muñoz (UNED)
+srosmu</dc:contributor>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <dc:description xml:lang="en">This ontology gathers the schemes in scope of POSTDATA Network of Ontologies. Each SKOS is a concept scheme that controls the possible values of several properties defined across the network to describe different aspects of poetic works.
+
+In this ontology we gather a full set of concepts and their respective concept schemes, including reused concepts if applicable. In the context of POSTDATA Project, this set of concepts is subjected to modifications that may be required to enhance the global comprehension or consistency of the scheme.
+
+Between the SKOS that are prone to include modifications, we find the folliwng:
+- Genre
+- Literary Period
+- Stanza Type
+- Metrical type</dc:description>
+        <dc:title xml:lang="en">POSTDATA SKOS Concept Schemes Ontology</dc:title>
+        <terms:publisher xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+
+Principal Investigator. Elena González Blanco -- https://orcid.org/0000-0002-0448-1812
+
+Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958</terms:publisher>
+        <owl:versionInfo xml:lang="en">V 1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/accentual-syllabic-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/accentual-syllabic-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/accentual-verse"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>accentual-syllabic-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Accentual syllabic verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso acentual silábico</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/accentual-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/accentual-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/accentual-syllabic-verse"/>
+        <skos:notation>accentual-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Accentual verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso acentual</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/actor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/actor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>actor</skos:notation>
+        <skos:prefLabel xml:lang="en">Actor</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Agente</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/adjective -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/adjective">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>adjective</skos:notation>
+        <skos:prefLabel xml:lang="en">Adjectve</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Adjetivo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/adverb -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/adverb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>adverb</skos:notation>
+        <skos:prefLabel xml:lang="en">Adverb</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Adverbio</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/alcaic-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/alcaic-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Alcaic stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/alliterative-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/alliterative-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>alliterative-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Alliterative verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso aliterativo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/allitteration -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/allitteration">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="es">aliteración</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">allitteration</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/allonym -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/allonym">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:prefLabel xml:lang="en">Allonym</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/amphibrach -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/amphibrach">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Amphibrach</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Anfíbraco</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/anapest -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/anapest">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Anapest</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Anapesto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/apheresis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/apheresis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>apheresis</skos:notation>
+        <skos:prefLabel xml:lang="es">aféresis</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">apheresis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/apocope -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/apocope">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>apocope</skos:notation>
+        <skos:prefLabel xml:lang="en">apocope</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">apocope</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/arranger -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/arranger">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>arranger</skos:notation>
+        <skos:prefLabel xml:lang="en">Arranger</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Organizador</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/article -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/article">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>article</skos:notation>
+        <skos:prefLabel xml:lang="en">Article</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Artículo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/assonant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/assonant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:notation>assonant</skos:notation>
+        <skos:prefLabel xml:lang="es">asonante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">assonant</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/author-education-level -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/author-education-level">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre nivel educativo</terms:title>
+        <terms:title xml:lang="en">Thesaurus about author education level</terms:title>
+        <skos:prefLabel xml:lang="en">Author Education Level Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/ballad-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/ballad-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Ballad stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/baroque -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/baroque">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="en">Baroque</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Barroco</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/beggar -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/beggar">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="en">Beggar</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pobre</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/blank-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/blank-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>blank-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Blank verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso blanco</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cabeza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cabeza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Cabeza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cantar -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cantar">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Cantar o copla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/catholic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/catholic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>catholic</skos:notation>
+        <skos:prefLabel xml:lang="en">Catholic</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Católico</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/certainty -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/certainty">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/definitely"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/definitely-not"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/possibily"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/probably"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/probably-not"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-05-22</terms:date>
+        <terms:title xml:lang="en">Controlled vocabulary about certainty degree</terms:title>
+        <terms:title xml:lang="es">Vocabulario controlado sobre grados de certeza</terms:title>
+        <skos:prefLabel xml:lang="en">Certainty Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/chapter -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/chapter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:notation>chapter</skos:notation>
+        <skos:prefLabel xml:lang="es">Capítulo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chapter</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/character-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/character-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de rol</terms:title>
+        <terms:title xml:lang="en">Thesaurus about character types</terms:title>
+        <skos:prefLabel xml:lang="en">Character type scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/christian -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/christian">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/catholic"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/jehovah-witness"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/mormon"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/orthodox"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/other-christian"/>
+        <skos:narrower rdf:resource="http://postdata.linhd.uned.es/kos/protestant"/>
+        <skos:notation>christian</skos:notation>
+        <skos:prefLabel xml:lang="en">Christian</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cristiano</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/classical-antiquity -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/classical-antiquity">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="es">Antigüedad Clásica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Classical Antiquity</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/clausula -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/clausula">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactylic_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/feminine_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/masculine_rhyme"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada</terms:title>
+        <terms:title xml:lang="en">Thesaurus about the categorisation of the foot according to the rhythmic ending of a line determined by the number of unstressed syllables following the last stressed one.</terms:title>
+        <skos:prefLabel xml:lang="en">Clausula Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/clausula-scheme-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/clausula-scheme-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactylic_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/feminine_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/heterogeneous"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/masculine_rhyme"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas</terms:title>
+        <terms:title xml:lang="en">Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes</terms:title>
+        <skos:prefLabel xml:lang="en">Clausula Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/coda -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/coda">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Coda</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/collector -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/collector">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>collector</skos:notation>
+        <skos:prefLabel xml:lang="es">Coleccionista</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Collector</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/conjunction -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/conjunction">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>conjunction</skos:notation>
+        <skos:prefLabel xml:lang="es">Conjunción</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Conjunction</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/consonant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/consonant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:notation>consonant</skos:notation>
+        <skos:prefLabel xml:lang="en">consonant</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">consonante</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Copla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla-arte-mayor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla-arte-mayor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Copla de arte mayor o de Juan de Mena</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla-arte-menor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla-arte-menor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Copla de arte menor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla-castellana -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla-castellana">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Copla castellana</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla-manrique -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla-manrique">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Copla de Jorge Manrique o estrofa manriqueña</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/copla-real -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/copla-real">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Copla real</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/couplet -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/couplet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Couplet</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pareado</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/crasis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/crasis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>crasis</skos:notation>
+        <skos:prefLabel xml:lang="es">contracción</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">crasis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/critical-edition -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/critical-edition">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:notation>critical-edition</skos:notation>
+        <skos:prefLabel xml:lang="en">Critical edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Edición crítica</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cross -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cross">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:prefLabel xml:lang="en">Cross</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima cruzada</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cuaderna-via -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cuaderna-via">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Cuaderna vía</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cuarteta -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cuarteta">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Cuarteta</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/cuarteto-lira -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/cuarteto-lira">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Cuarteto lira</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/dactyl -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/dactyl">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Dactyl</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dáctilo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/dactylic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/dactylic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="en">dactylic</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">esdrújula</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/dactylic_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/dactylic_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:prefLabel xml:lang="en">Dactylic rhyme</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima esdrújula</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/decima-antigua -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/decima-antigua">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Décima antigua</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/definitely -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/definitely">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+        <skos:notation>definitely</skos:notation>
+        <skos:prefLabel xml:lang="en">Definitely</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Definitivamente</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/definitely-not -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/definitely-not">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+        <skos:notation>definitely-not</skos:notation>
+        <skos:prefLabel xml:lang="en">Definitely not</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Definitivamente no</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/designation-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/designation-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/allonym"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/heteronym"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/orthonym"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pseudonym"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de nombre</terms:title>
+        <terms:title xml:lang="en">Thesaurus about type of name</terms:title>
+        <skos:prefLabel xml:lang="en">Designation Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/diaeresis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/diaeresis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>diaeresis</skos:notation>
+        <skos:altLabel xml:lang="en">dieresis</skos:altLabel>
+        <skos:altLabel xml:lang="es">diéresis</skos:altLabel>
+        <skos:prefLabel xml:lang="en">diaeresis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">dialefa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/diphthong -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/diphthong">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:prefLabel xml:lang="en">Diphthong</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Diptongo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/diplomatic-edition -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/diplomatic-edition">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:notation>diplomatic-edition</skos:notation>
+        <skos:prefLabel xml:lang="en">Diplomatic edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Edición diplomática</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/donor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/donor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="es">Donante del objeto mágico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Donor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/elision -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/elision">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>elision</skos:notation>
+        <skos:prefLabel xml:lang="en">elision</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">elision</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/enclosed -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/enclosed">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:prefLabel xml:lang="en">Enclosed</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima abrazada</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/endecha-real -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/endecha-real">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Endecha real o endecasílaba</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/enlightenment -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/enlightenment">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="en">Enlightenment</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ilustración</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/envoi -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/envoi">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="en">Envoi</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/ephentesis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/ephentesis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>ephentesis</skos:notation>
+        <skos:prefLabel xml:lang="en">ephentesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">epéntesis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/epilogue -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/epilogue">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:notation>epilogue</skos:notation>
+        <skos:prefLabel xml:lang="en">Epilogue</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Epílogo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/eslabón -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/eslabón">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Eslabón</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/espinela -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/espinela">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Decima</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Espinela</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/eye_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/eye_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="en">eye rhyme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/falsehero -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/falsehero">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="en">False Hero</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Falso héroe</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/feet-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/feet-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/amphibrach"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/anapest"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactyl"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/iamb"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/mixed"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pyrrhic"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/spondee"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/trochee"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies</terms:title>
+        <terms:title xml:lang="en">Thesaurus about categories of stanzas or verses depending on the type of feet</terms:title>
+        <skos:prefLabel xml:lang="en">Feet Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/female -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/female">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:prefLabel xml:lang="en">Female</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Mujer</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/feminine_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/feminine_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:prefLabel xml:lang="en">Feminine rhyme</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima femenina</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/fixed-form -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/fixed-form">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+        <skos:prefLabel xml:lang="en">Fixed form</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Forma fija</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/foot-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/foot-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/amphibrach"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/anapest"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactyl"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/iamb"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pyrrhic"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/spondee"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/trochee"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de pie métrico</terms:title>
+        <terms:title xml:lang="en">Thesaurus about type of metric foot</terms:title>
+        <skos:prefLabel xml:lang="en">Foot Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/foot-unit-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/foot-unit-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de unidades que definen la división en pies</terms:title>
+        <terms:title xml:lang="en">Thesaurus about types of units that defines the foot division</terms:title>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/free-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/free-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>free-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Free verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso libre</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/gender -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/gender">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/female"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/male"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/other"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/transgender"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/unknown"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre géneros</terms:title>
+        <terms:title xml:lang="en">Thesaurus about genders</terms:title>
+        <skos:prefLabel xml:lang="en">Gender Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/genre -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/genre">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre géneros literario</terms:title>
+        <terms:title xml:lang="en">Thesaurus about literary genres</terms:title>
+        <skos:prefLabel xml:lang="en">Genre Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/haiku -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/haiku">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Haiku</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/helper -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/helper">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="es">Auxiliar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Helper</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/hero -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/hero">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="en">Hero</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Héroe</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/heterogeneous -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/heterogeneous">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:prefLabel xml:lang="en">Heterogeneous</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Heterogéneo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/heterometric-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/heterometric-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Heterometric stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/heteronym -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/heteronym">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:notation>heteronym</skos:notation>
+        <skos:prefLabel xml:lang="en">heteronym</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">heterónimo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/hiatus -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/hiatus">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>hiatus</skos:notation>
+        <skos:prefLabel xml:lang="es">hiato</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">hiatus</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/hidalgo -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/hidalgo">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Hildago</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/hypertext -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/hypertext">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:notation>hypertext</skos:notation>
+        <skos:prefLabel xml:lang="es">Hipertexto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Hypertext</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/iamb -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/iamb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Iamb</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Yambo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/imparisyllabic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/imparisyllabic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+        <skos:prefLabel xml:lang="es">Imparisilábicos</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Imparisyllabic</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/interjection -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/interjection">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>interjection</skos:notation>
+        <skos:prefLabel xml:lang="es">Interjección</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Interjection</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/internal_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/internal_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="es">interna</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">internal</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/isometric-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/isometric-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Isometric stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/isosyllabic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/isosyllabic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+        <skos:prefLabel xml:lang="es">Isosilábicos</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Isosyllabic</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/jehovah-witness -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/jehovah-witness">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>jehovah-witness</skos:notation>
+        <skos:prefLabel xml:lang="en">Jehova&apos;s Witness</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Testigo de Jehová</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/knight -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/knight">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Caballero</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Knight</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/light-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/light-verse"/>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/liquid_consonant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/liquid_consonant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:altLabel xml:lang="es">Consonante líquida</skos:altLabel>
+        <skos:altLabel xml:lang="en">Liquid consonant</skos:altLabel>
+        <skos:prefLabel xml:lang="es">Consonante Líquida</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Liquid Consonant</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/lira -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/lira">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Lira</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/literary-period -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/literary-period">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre etiquuets de periodos temporales para agrupar ciertas obras</terms:title>
+        <terms:title xml:lang="en">Thesaurus about labels of a time frame for grouping certain works</terms:title>
+        <skos:prefLabel xml:lang="en">Literary Period Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/literary-period-renaissance -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/literary-period-renaissance">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="es">Renacimiento</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Renaissance</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/male -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/male">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:prefLabel xml:lang="es">Hombre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Male</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/masculine_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/masculine_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+        <skos:prefLabel xml:lang="en">Masculine rhyme</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima masculina</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/mechanical-arts -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/mechanical-arts">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="en">Mechanical arts</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Oficial</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metaplasm-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/apheresis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/apocope"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/crasis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/diaeresis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/elision"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/ephentesis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/hiatus"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/metathesis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/paragoge"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/prothesis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/synaeresis"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/synalepha"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/syncope"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/synizesis"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro de metaplasmas o figuras de transformación</terms:title>
+        <terms:title xml:lang="en">Thesaurus of metaplasms</terms:title>
+        <skos:prefLabel xml:lang="en">Metaplasm Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metathesis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metathesis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>metátesis</skos:notation>
+        <skos:prefLabel xml:lang="en">Metathesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">aféresis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metrical-category -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metrical-category">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías principales para la identificación dell tipo métrico</terms:title>
+        <terms:title xml:lang="en">Thesaurus about a main categories for metric type identification</terms:title>
+        <skos:prefLabel xml:lang="en">Metrical Category Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metrical-complexity -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metrical-complexity">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías según número de sílabas (más o menos de ocho)</terms:title>
+        <terms:title xml:lang="en">Thesaurus about categories by number of syllables (more or less than eight)</terms:title>
+        <skos:prefLabel xml:lang="en">Mertrical Complexity Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metrical-context -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metrical-context">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/imparisyllabic"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/isosyllabic"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas </terms:title>
+        <terms:title xml:lang="en">Thesaurus about categories of the poem according to whether the verses have the same number of syllables</terms:title>
+        <skos:prefLabel xml:lang="en">Metrical Context Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/metrical-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/metrical-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/sapphic-stanza"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica</terms:title>
+        <terms:title xml:lang="en">Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”</terms:title>
+        <skos:prefLabel xml:lang="en">Metrical Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/middle-ages -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/middle-ages">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="es">Edad Media</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Middle Ages</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/mixed -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/mixed">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Mixed</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Variado</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/modernism -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/modernism">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="en">Modernism</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Modernismo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/monorhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/monorhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:prefLabel xml:lang="en">Monorhyme</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima continua</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/mormon -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/mormon">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>mormon</skos:notation>
+        <skos:prefLabel xml:lang="en">Mormon</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Mormón</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/mudanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/mudanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Cuerpo o mudanza</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Mudanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/nasal_consonant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/nasal_consonant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:prefLabel xml:lang="es">Consonante nasal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nasal consonant</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/nobleman -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/nobleman">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Noble</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Nobleman</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/noun -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/noun">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>noun</skos:notation>
+        <skos:prefLabel xml:lang="es">Nombre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Noun</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/novena -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/novena">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Novena</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/nucleus-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/diphthong"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/liquid_consonant"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/nasal_consonant"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/triphthong"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/vowel"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de núcleos silábicos (tipología lingüístca</terms:title>
+        <terms:title xml:lang="en">Thesaurus about types of syllabic nucleus (linguistic typology)</terms:title>
+        <skos:prefLabel xml:lang="en">Nucleus Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/octava-aguda -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/octava-aguda">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Octava aguda o italiana</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/octava-real -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/octava-real">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Octava real</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/octave -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/octave">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Octava</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/orthodox -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/orthodox">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>orthodox</skos:notation>
+        <skos:prefLabel xml:lang="en">Orthodox</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ortodoxo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/orthonym -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/orthonym">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:prefLabel xml:lang="en">Orthonym</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ortónimo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/other -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/other">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Otro</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/other-christian -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/other-christian">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>other-christian</skos:notation>
+        <skos:prefLabel xml:lang="en">Other Christian</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Otros Cristianos</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/ovillejo -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/ovillejo">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Ovillejo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/pair -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/pair">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+        <skos:notation>pair</skos:notation>
+        <skos:prefLabel xml:lang="en">Pair</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Par</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rima pareada</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/paragoge -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/paragoge">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>paragoge</skos:notation>
+        <skos:prefLabel xml:lang="en">paragoge</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">paragoge</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/parallel-text -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/parallel-text">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:prefLabel xml:lang="en">Parallel-text</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/part-of-speech -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/adjective"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/adverb"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/article"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/conjunction"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/interjection"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/noun"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/preposition"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pronoun"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/verb"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre las categorías de palabras que tienen características gramaticales similares</terms:title>
+        <terms:title xml:lang="en">Thesaurus about the categories of words that have similar grammatical properties.</terms:title>
+        <skos:prefLabel xml:lang="en">Part Of Speech Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/perfect_thyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/perfect_thyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="es">consonante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">perfect rhyme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/poem -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/poem">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:prefLabel xml:lang="en">Poem</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Poema</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/poetic-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/poetic-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre el género literario principal de la obra</terms:title>
+        <terms:title xml:lang="en">Thesaurus about major literary genre of the compositions. </terms:title>
+        <skos:prefLabel xml:lang="en">Poetic Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/possibily -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/possibily">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+        <skos:notation>possibily</skos:notation>
+        <skos:prefLabel xml:lang="es">Posiblemente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Possibily</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/preposition -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/preposition">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>preposition</skos:notation>
+        <skos:prefLabel xml:lang="es">Preposición</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Preposition</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/priest -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/priest">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Clérigo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Priest</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/princess -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/princess">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="es">Princesa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Princess</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/princessfather -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/princessfather">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="en">Princess&apos; Father</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Rey o mandatario</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/probably -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/probably">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+        <skos:notation>probably</skos:notation>
+        <skos:prefLabel xml:lang="es">Probablemente</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Probably</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/probably-not -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/probably-not">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+        <skos:notation>probably-not</skos:notation>
+        <skos:prefLabel xml:lang="es">Probablemente no</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Probably not</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/prologue -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/prologue">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:notation>prologue</skos:notation>
+        <skos:prefLabel xml:lang="en">Prologue</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Prólogo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/pronoun -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/pronoun">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>pronoun</skos:notation>
+        <skos:prefLabel xml:lang="es">Pronombre</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pronoun</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/protestant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/protestant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:broader rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>protestant</skos:notation>
+        <skos:prefLabel xml:lang="en">Protestant</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Protestante</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/prothesis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/prothesis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>prothesis</skos:notation>
+        <skos:prefLabel xml:lang="en">prothesis</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">prótesis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/pseudonym -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/pseudonym">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+        <skos:notation>pseudonym</skos:notation>
+        <skos:prefLabel xml:lang="en">pseudonym</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">pseudónimo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/public-position -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/public-position">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Cargo público</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Public position</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/pushkin_sonnet -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/pushkin_sonnet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Pushkin sonnet</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/pyrrhic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/pyrrhic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Pyrrhic</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pírrico</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/qualitative-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/qualitative-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>qualitative-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Qualitative verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso cualitativo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/quantitative-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/quantitative-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>quantitative-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Quantitative verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso cuantitativo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/quatrain -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/quatrain">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Cuarteto</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Quatrain</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/quintain -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/quintain">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Quintain</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Quinteto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/quintilla -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/quintilla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Quintilla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/realism -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/realism">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="en">Realism</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Realismo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/redondilla -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/redondilla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Redondilla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/refrain -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/refrain">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:notation>refrain</skos:notation>
+        <skos:prefLabel xml:lang="es">Estribillo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Refrain</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/religious-affiliation -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/christian"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/unaffiliated"/>
+        <prov:wasAttributedTo rdf:resource="http://www.linkedin.com/in/ocorcho"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-29</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre afiliaciones religiosas</terms:title>
+        <terms:title xml:lang="es">Thesaurus about religious affiliations</terms:title>
+        <skos:prefLabel xml:lang="en">Religious Affiliation Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/revuelta -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/revuelta">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="es">Revuelta</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/rhyme-disposition -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pair"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre categorías de estrofas según la disposición de su rima</terms:title>
+        <terms:title xml:lang="en">Thesaurus about stanza categories according to their rhyme arrangement</terms:title>
+        <skos:prefLabel xml:lang="en">Rhyme DIsposition Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/rhyme-matching-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/allitteration"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/assonant"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/consonant"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactylic"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/eye_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/internal_rhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/perfect_thyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/semirhyme"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/slant_rhyme"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipo de rima</terms:title>
+        <terms:title xml:lang="en">Thesaurus about rhyme type</terms:title>
+        <skos:prefLabel xml:lang="en">Rhyme Matching Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/role-function -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/role-function">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/actor"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/arranger"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/collector"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/singer"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/sponsor"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/transcriptor"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre el papel específico representado por un agente en una obra</terms:title>
+        <terms:title xml:lang="en">Thesaurus about specific function performed by some agent on a work</terms:title>
+        <skos:prefLabel xml:lang="en">Role Function Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/romance -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/romance">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Romance</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/romanticism -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/romanticism">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="en">Romanticism</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Romanticismo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sapphic-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sapphic-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:notation>sapphic-stanza</skos:notation>
+        <skos:prefLabel xml:lang="es">Estrofa sáfica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sapphic stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/scholar -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/scholar">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Letrado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scholar</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/school -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/school">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre movimientos literarios o escuelas de un autor</terms:title>
+        <terms:title xml:lang="en">Thesaurus about literary movements or schools of an author</terms:title>
+        <skos:prefLabel xml:lang="en">School Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/scottish-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/scottish-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Scottish stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/seguidilla -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/seguidilla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Seguidilla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/semirhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/semirhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="it">ipermetra</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">semirhyme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/septet -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/septet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Septet</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Septeto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/serpentine-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/serpentine-verse"/>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/servant -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/servant">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Criado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Servant</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/serventesio -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/serventesio">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Serventesio</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sestet -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sestet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Sestet</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sestine -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sestine">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Sestine</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sextina</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sexta-rima -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sexta-rima">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Sexta rima</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sexteto -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sexteto">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Sestain</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Sexteto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sexteto-lira -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sexteto-lira">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Sexteto lira</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sextilla -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sextilla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Sextilla</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/silva -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/silva">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Silva</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/singer -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/singer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>singer</skos:notation>
+        <skos:prefLabel xml:lang="es">Cantante</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Singer</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/slant_rhyme -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/slant_rhyme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+        <skos:prefLabel xml:lang="en">slant rhyme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/social-status -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/social-status">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre el statuus social de una persona</terms:title>
+        <terms:title xml:lang="en">Thesaurus about the socialstatus of a person</terms:title>
+        <skos:prefLabel xml:lang="en">Social Status Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/soldier -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/soldier">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Soldado</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Soldier</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/soneto -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/soneto">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="es">Soneto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/spenserian-stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/spenserian-stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Spenserian stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/spondee -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/spondee">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="es">Espondeo</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Spondee</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/sponsor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/sponsor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>sponsor</skos:notation>
+        <skos:prefLabel xml:lang="es">Patrocinador</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Sponsor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/stand-alone_lines -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/stand-alone_lines">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:prefLabel xml:lang="en">Stand-alone lines</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/stanza -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/stanza">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+        <skos:prefLabel xml:lang="es">Estrofa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Stanza</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/stanza-edition-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/critical-edition"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/diplomatic-edition"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/translation"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre el tipo de textos proporcionados en las estrofas</terms:title>
+        <terms:title xml:lang="en">Thesaurus about the type of the texts provided in the Stanzas </terms:title>
+        <skos:prefLabel xml:lang="en">Stanza Edition Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/stanza-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/stanza-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/refrain"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/tornada"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipo de estrofas pero no por su métrica</terms:title>
+        <terms:title xml:lang="en">Thesaurus about type of stanzas, but not by their metric</terms:title>
+        <skos:prefLabel xml:lang="en">Stanza Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/strophic -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/strophic">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+        <skos:prefLabel xml:lang="es">Combinación estrófica</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Strophic</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/syllabic-verse -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/syllabic-verse">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+        <skos:notation>syllabic-verse</skos:notation>
+        <skos:prefLabel xml:lang="en">Syllabic verse</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verso silábico</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/synaeresis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/synaeresis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>synaeresis</skos:notation>
+        <skos:prefLabel xml:lang="es">sinéresis</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">synaeresis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/synalepha -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/synalepha">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>synalepha</skos:notation>
+        <skos:prefLabel xml:lang="es">sinalefa</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">synalepha</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/syncope -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/syncope">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>syncope</skos:notation>
+        <skos:prefLabel xml:lang="en">syncope</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">síncopa</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/synizesis -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/synizesis">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+        <skos:notation>synizesis</skos:notation>
+        <skos:prefLabel xml:lang="en">synizesis</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/tercet -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/tercet">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Tercet</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Terceto</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/terza-rima -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/terza-rima">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+        <skos:prefLabel xml:lang="en">Terza rima</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/textual-element-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/chapter"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/epilogue"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/prologue"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre tipos de elementos textuales</terms:title>
+        <terms:title xml:lang="en">Thesaurus about type of textual element</terms:title>
+        <skos:prefLabel xml:lang="en">Textual Element Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/tornada -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/tornada">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+        <skos:altLabel xml:lang="es">Tornata o vuelta</skos:altLabel>
+        <skos:note xml:lang="es">tornada</skos:note>
+        <skos:prefLabel xml:lang="en">Tornada</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Tornada</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/transcriptor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/transcriptor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+        <skos:notation>Ttranscriptor</skos:notation>
+        <skos:prefLabel xml:lang="en">Transcriptor</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Transcriptor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/transgender -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/transgender">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:prefLabel xml:lang="en">Transgender</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Transgénero</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/translation -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/translation">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+        <skos:notation>translation</skos:notation>
+        <skos:prefLabel xml:lang="es">Traducción</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Translation</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/triphthong -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/triphthong">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:prefLabel xml:lang="en">Triphthong</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Triptongo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/trochee -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/trochee">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+        <skos:prefLabel xml:lang="en">Trochee</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Troqueo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/unaffiliated -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/unaffiliated">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:notation>unaffiliated</skos:notation>
+        <skos:prefLabel xml:lang="es">Sin afiliación</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Unaffiliated</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/unknown -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/unknown">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+        <skos:prefLabel xml:lang="es">Género desconocido</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Unknown gender</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/vanguardism -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/vanguardism">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+        <skos:prefLabel xml:lang="es">Vanguardias</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vanguardism</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/verb -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/verb">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+        <skos:notation>verb</skos:notation>
+        <skos:prefLabel xml:lang="en">Verb</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Verbo</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/versification-type -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/versification-type">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/accentual-syllabic-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/accentual-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/alliterative-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/blank-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/free-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/light-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/quantitative-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/serpentine-verse"/>
+        <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/syllabic-verse"/>
+        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
+        <terms:title xml:lang="es">Tesauro sobre los tipos de versificación</terms:title>
+        <terms:title xml:lang="en">Thesaurus about types of versification</terms:title>
+        <skos:prefLabel xml:lang="en">Versification Type Scheme</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/verso-arte-mayor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/verso-arte-mayor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+        <skos:prefLabel xml:lang="es">Verso de arte mayor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/verso-arte-menor -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/verso-arte-menor">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+        <skos:prefLabel xml:lang="es">Verso de arte menor</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/villain -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/villain">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+        <skos:prefLabel xml:lang="es">Agresor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Villain</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/vowel -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/vowel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+        <skos:prefLabel xml:lang="es">Vocal</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Vowel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://postdata.linhd.uned.es/kos/writer -->
+
+
+    <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/writer">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+        <skos:prefLabel xml:lang="es">Escritor</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Writer</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept12949 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept12949">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:prefLabel xml:lang="en">Moslems</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Musulman</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Musulmán</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Мусульмане</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">مسلمون</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept1485 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept1485">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:prefLabel xml:lang="fr">Enseignement supérieur</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enseñanza superior</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Higher education</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Высшее образование</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تعليم عالي</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept2493 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept2493">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+        <skos:prefLabel xml:lang="es">Poesía</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Poetry</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Poésie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Поэзия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">شعر</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept2533 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept2533">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:prefLabel xml:lang="en">Jews</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Judío</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Juif</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Евреи</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">يهود</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept4777 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept4777">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:prefLabel xml:lang="fr">Saint</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Saints</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Santo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Святые</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">قديسون</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept4979 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept4979">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:prefLabel xml:lang="fr">Chef religieux</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Jefe religioso</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Religious leaders</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Религиозные лидеры</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">زعماء دينيون</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept5081 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept5081">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:prefLabel xml:lang="en">Early childhood education</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Educación de la primera infancia</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Éducation de la prime enfance</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Раннее детское образование</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تعليم في مرحلة الطفولة المبكرة</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept5426 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept5426">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+        <skos:prefLabel xml:lang="en">Clergy</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Clergé</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Clero</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Духовенство</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">رجال الدين</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept8399 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept8399">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+        <skos:prefLabel xml:lang="en">Drama</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Drama</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Drame</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Драма</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">دراما</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept9290 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept9290">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:prefLabel xml:lang="fr">Enseignement primaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enseñanza primaria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Primary education</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Начальное образование</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تعليم ابتدائي</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vocabularies.unesco.org/thesaurus/concept9291 -->
+
+
+    <owl:NamedIndividual rdf:about="http://vocabularies.unesco.org/thesaurus/concept9291">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:topConceptOf rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+        <skos:prefLabel xml:lang="fr">Enseignement secondaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enseñanza secundaria</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Secondary education</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Среднее образование</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">تعليم ثانوي</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.linkedin.com/in/ocorcho -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.linkedin.com/in/ocorcho"/>
+    
+
+
+    <!-- https://www.linkedin.com/in/m-luisa-diez-platas-05710614 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

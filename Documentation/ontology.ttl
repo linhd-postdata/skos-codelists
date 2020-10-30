@@ -1,0 +1,2377 @@
+@prefix : <http://postdata.linhd.uned.es/kos/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://postdata.linhd.uned.es/kos/> .
+
+<http://postdata.linhd.uned.es/kos/> rdf:type owl:Ontology ;
+                                      owl:versionIRI <http://postdata.linhd.uned.es/kos/1.0> ;
+                                      owl:imports <http://www.w3.org/2004/02/skos/core> ,
+                                                  <http://www.w3.org/ns/prov-o-20130430> ;
+                                      <http://purl.org/dc/elements/1.1/contributor> """Aitor Díaz Medina (LINHD_POSTDATA-UNED) 
+https://www.linkedin.com/in/aitordiazmedina/""" ,
+                                                                                    """Alvaro Pérez (LINHD_POSTDATA-UNED) 
+https://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/""" ,
+                                                                                    """Helena Bermúdez Sabel
+https://orcid.org/0000-0001-7782-206X""" ,
+                                                                                    """Javier de la Rosa (LINHD_POSTDATA-UNED)
+https://www.linkedin.com/in/versae/""" ,
+                                                                                    """Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) 
+https://orcid.org/0000-0003-3489-2193""" ,
+                                                                                    """Mirella De Sisto (LINHD_POSTDATA-UNED) 
+mdesisto""" ,
+                                                                                    """Mª Luisa Díez Platas
+https://orcid.org/0000-0002-9416-3147""" ,
+                                                                                    """Omar Khalil Gómez (LINHD_POSTDATA-UNED) 
+http://www.linkedin.com/in/omar-k-0959a8129""" ,
+                                                                                    """Salvador Ros Muñoz (UNED)
+srosmu""" ;
+                                      <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                                      <http://purl.org/dc/elements/1.1/description> """This ontology gathers the schemes in scope of POSTDATA Network of Ontologies. Each SKOS is a concept scheme that controls the possible values of several properties defined across the network to describe different aspects of poetic works.
+
+In this ontology we gather a full set of concepts and their respective concept schemes, including reused concepts if applicable. In the context of POSTDATA Project, this set of concepts is subjected to modifications that may be required to enhance the global comprehension or consistency of the scheme.
+
+Between the SKOS that are prone to include modifications, we find the folliwng:
+- Genre
+- Literary Period
+- Stanza Type
+- Metrical type"""@en ;
+                                      <http://purl.org/dc/elements/1.1/title> "POSTDATA SKOS Concept Schemes Ontology"@en ;
+                                      <http://purl.org/dc/terms/publisher> """POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”
+
+Principal Investigator. Elena González Blanco -- https://orcid.org/0000-0002-0448-1812
+
+Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958"""@en ;
+                                      owl:versionInfo "V 1.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://postdata.linhd.uned.es/kos/accentual-syllabic-verse
+:accentual-syllabic-verse rdf:type owl:NamedIndividual ,
+                                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+                          <http://www.w3.org/2004/02/skos/core#broader> :accentual-verse ;
+                          <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                          <http://www.w3.org/2004/02/skos/core#notation> "accentual-syllabic-verse" ;
+                          <http://www.w3.org/2004/02/skos/core#prefLabel> "Accentual syllabic verse"@en ,
+                                                                          "Verso acentual silábico"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/accentual-verse
+:accentual-verse rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                 <http://www.w3.org/2004/02/skos/core#narrower> :accentual-syllabic-verse ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "accentual-verse" ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Accentual verse"@en ,
+                                                                 "Verso acentual"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/actor
+:actor rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+       <http://www.w3.org/2004/02/skos/core#notation> "actor" ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor"@en ,
+                                                       "Agente"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/adjective
+:adjective rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+           <http://www.w3.org/2004/02/skos/core#notation> "adjective" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Adjectve"@en ,
+                                                           "Adjetivo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/adverb
+:adverb rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+        <http://www.w3.org/2004/02/skos/core#notation> "adverb" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Adverb"@en ,
+                                                        "Adverbio"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/alcaic-stanza
+:alcaic-stanza rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Alcaic stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/alliterative-verse
+:alliterative-verse rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "alliterative-verse" ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Alliterative verse"@en ,
+                                                                    "Verso aliterativo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/allitteration
+:allitteration rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "aliteración"@es ,
+                                                               "allitteration"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/allonym
+:allonym rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :designation-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :designation-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Allonym"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/amphibrach
+:amphibrach rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                           :foot-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                               :foot-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Amphibrach"@en ,
+                                                            "Anfíbraco"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/anapest
+:anapest rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                        :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                            :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Anapest"@en ,
+                                                         "Anapesto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/apheresis
+:apheresis rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "apheresis" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "aféresis"@es ,
+                                                           "apheresis"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/apocope
+:apocope rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+         <http://www.w3.org/2004/02/skos/core#notation> "apocope" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "apocope"@en ,
+                                                         "apocope"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/arranger
+:arranger rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+          <http://www.w3.org/2004/02/skos/core#notation> "arranger" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Arranger"@en ,
+                                                          "Organizador"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/article
+:article rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+         <http://www.w3.org/2004/02/skos/core#notation> "article" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Article"@en ,
+                                                         "Artículo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/assonant
+:assonant rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+          <http://www.w3.org/2004/02/skos/core#notation> "assonant" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "asonante"@es ,
+                                                          "assonant"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/author-education-level
+:author-education-level rdf:type owl:NamedIndividual ,
+                                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                                 <http://www.w3.org/ns/prov#Entity> ;
+                        <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                        <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                        <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                        <http://purl.org/dc/terms/title> "Tesauro sobre nivel educativo"@es ,
+                                                         "Thesaurus about author education level"@en ;
+                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Author Education Level Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/ballad-stanza
+:ballad-stanza rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Ballad stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/baroque
+:baroque rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Baroque"@en ,
+                                                         "Barroco"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/beggar
+:beggar rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Beggar"@en ,
+                                                        "Pobre"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/blank-verse
+:blank-verse rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+             <http://www.w3.org/2004/02/skos/core#notation> "blank-verse" ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Blank verse"@en ,
+                                                             "Verso blanco"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cabeza
+:cabeza rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Cabeza"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cantar
+:cantar rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Cantar o copla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/catholic
+:catholic rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+          <http://www.w3.org/2004/02/skos/core#notation> "catholic" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Catholic"@en ,
+                                                          "Católico"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/certainty
+:certainty rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :definitely ,
+                                                               :definitely-not ,
+                                                               :possibily ,
+                                                               :probably ,
+                                                               :probably-not ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+           <http://purl.org/dc/terms/date> "2019-05-22"^^xsd:date ;
+           <http://purl.org/dc/terms/title> "Controlled vocabulary about certainty degree"@en ,
+                                            "Vocabulario controlado sobre grados de certeza"@es ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Certainty Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/chapter
+:chapter rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :textual-element-type ;
+         <http://www.w3.org/2004/02/skos/core#notation> "chapter" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Capítulo"@es ,
+                                                         "Chapter"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/character-type
+:character-type rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                         <http://www.w3.org/ns/prov#Entity> ;
+                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                <http://purl.org/dc/terms/title> "Tesauro sobre tipos de rol"@es ,
+                                                 "Thesaurus about character types"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Character type scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/christian
+:christian rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+           <http://www.w3.org/2004/02/skos/core#narrower> :catholic ,
+                                                          :jehovah-witness ,
+                                                          :mormon ,
+                                                          :orthodox ,
+                                                          :other-christian ,
+                                                          :protestant ;
+           <http://www.w3.org/2004/02/skos/core#notation> "christian" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Christian"@en ,
+                                                           "Cristiano"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/classical-antiquity
+:classical-antiquity rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+                     <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Antigüedad Clásica"@es ,
+                                                                     "Classical Antiquity"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/clausula
+:clausula rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                   <http://www.w3.org/ns/prov#Entity> ;
+          <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dactylic_rhyme ,
+                                                              :feminine_rhyme ,
+                                                              :masculine_rhyme ;
+          <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+          <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+          <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+          <http://purl.org/dc/terms/title> "Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada"@es ,
+                                           "Thesaurus about the categorisation of the foot according to the rhythmic ending of a line determined by the number of unstressed syllables following the last stressed one."@en ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Clausula Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/clausula-scheme-type
+:clausula-scheme-type rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                               <http://www.w3.org/ns/prov#Entity> ;
+                      <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dactylic_rhyme ,
+                                                                          :feminine_rhyme ,
+                                                                          :heterogeneous ,
+                                                                          :masculine_rhyme ;
+                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                      <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                      <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                      <http://purl.org/dc/terms/title> "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es ,
+                                                       "Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Clausula Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/coda
+:coda rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Coda"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/collector
+:collector rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+           <http://www.w3.org/2004/02/skos/core#notation> "collector" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Coleccionista"@es ,
+                                                           "Collector"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/conjunction
+:conjunction rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+             <http://www.w3.org/2004/02/skos/core#notation> "conjunction" ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Conjunción"@es ,
+                                                             "Conjunction"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/consonant
+:consonant rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "consonant" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "consonant"@en ,
+                                                           "consonante"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla
+:copla rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla-arte-mayor
+:copla-arte-mayor rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla de arte mayor o de Juan de Mena"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla-arte-menor
+:copla-arte-menor rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla de arte menor"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla-castellana
+:copla-castellana rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla castellana"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla-manrique
+:copla-manrique rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla de Jorge Manrique o estrofa manriqueña"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/copla-real
+:copla-real rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Copla real"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/couplet
+:couplet rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Couplet"@en ,
+                                                         "Pareado"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/crasis
+:crasis rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+        <http://www.w3.org/2004/02/skos/core#notation> "crasis" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "contracción"@es ,
+                                                        "crasis"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/critical-edition
+:critical-edition rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-edition-type ;
+                  <http://www.w3.org/2004/02/skos/core#notation> "critical-edition" ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Critical edition"@en ,
+                                                                  "Edición crítica"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cross
+:cross rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-disposition ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-disposition ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Cross"@en ,
+                                                       "Rima cruzada"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cuaderna-via
+:cuaderna-via rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuaderna vía"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cuarteta
+:cuarteta rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuarteta"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/cuarteto-lira
+:cuarteto-lira rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuarteto lira"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/dactyl
+:dactyl rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                       :foot-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                           :foot-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Dactyl"@en ,
+                                                        "Dáctilo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/dactylic
+:dactylic rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "dactylic"@en ,
+                                                          "esdrújula"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/dactylic_rhyme
+:dactylic_rhyme rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :clausula ,
+                                                               :clausula-scheme-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :clausula ,
+                                                                   :clausula-scheme-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Dactylic rhyme"@en ,
+                                                                "Rima esdrújula"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/decima-antigua
+:decima-antigua rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Décima antigua"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/definitely
+:definitely rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :certainty ;
+            <http://www.w3.org/2004/02/skos/core#notation> "definitely" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Definitely"@en ,
+                                                            "Definitivamente"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/definitely-not
+:definitely-not rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :certainty ;
+                <http://www.w3.org/2004/02/skos/core#notation> "definitely-not" ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Definitely not"@en ,
+                                                                "Definitivamente no"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/designation-type
+:designation-type rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                           <http://www.w3.org/ns/prov#Entity> ;
+                  <http://www.w3.org/2004/02/skos/core#hasTopConcept> :allonym ,
+                                                                      :heteronym ,
+                                                                      :orthonym ,
+                                                                      :pseudonym ;
+                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                  <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                  <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                  <http://purl.org/dc/terms/title> "Tesauro sobre tipos de nombre"@es ,
+                                                   "Thesaurus about type of name"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Designation Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/diaeresis
+:diaeresis rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "diaeresis" ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "dieresis"@en ,
+                                                          "diéresis"@es ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "diaeresis"@en ,
+                                                           "dialefa"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/diphthong
+:diphthong rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :nucleus-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :nucleus-type ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Diphthong"@en ,
+                                                           "Diptongo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/diplomatic-edition
+:diplomatic-edition rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-edition-type ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "diplomatic-edition" ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Diplomatic edition"@en ,
+                                                                    "Edición diplomática"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/donor
+:donor rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Donante del objeto mágico"@es ,
+                                                       "Donor"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/elision
+:elision rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+         <http://www.w3.org/2004/02/skos/core#notation> "elision" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "elision"@en ,
+                                                         "elision"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/enclosed
+:enclosed rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-disposition ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-disposition ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Enclosed"@en ,
+                                                          "Rima abrazada"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/endecha-real
+:endecha-real rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Endecha real o endecasílaba"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/enlightenment
+:enlightenment rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Enlightenment"@en ,
+                                                               "Ilustración"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/envoi
+:envoi rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Envoi"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/ephentesis
+:ephentesis rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+            <http://www.w3.org/2004/02/skos/core#notation> "ephentesis" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "ephentesis"@en ,
+                                                            "epéntesis"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/epilogue
+:epilogue rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :textual-element-type ;
+          <http://www.w3.org/2004/02/skos/core#notation> "epilogue" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Epilogue"@en ,
+                                                          "Epílogo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/eslabón
+:eslabón rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Eslabón"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/espinela
+:espinela rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Decima"@en ,
+                                                          "Espinela"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/eye_rhyme
+:eye_rhyme rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "eye rhyme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/falsehero
+:falsehero rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "False Hero"@en ,
+                                                           "Falso héroe"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/feet-type
+:feet-type rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                    <http://www.w3.org/ns/prov#Entity> ;
+           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :amphibrach ,
+                                                               :anapest ,
+                                                               :dactyl ,
+                                                               :iamb ,
+                                                               :mixed ,
+                                                               :pyrrhic ,
+                                                               :spondee ,
+                                                               :trochee ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+           <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+           <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es ,
+                                            "Thesaurus about categories of stanzas or verses depending on the type of feet"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Feet Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/female
+:female rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :gender ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :gender ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Female"@en ,
+                                                        "Mujer"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/feminine_rhyme
+:feminine_rhyme rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :clausula ,
+                                                               :clausula-scheme-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :clausula ,
+                                                                   :clausula-scheme-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Feminine rhyme"@en ,
+                                                                "Rima femenina"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/fixed-form
+:fixed-form rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-category ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-category ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Fixed form"@en ,
+                                                            "Forma fija"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/foot-type
+:foot-type rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                    <http://www.w3.org/ns/prov#Entity> ;
+           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :amphibrach ,
+                                                               :anapest ,
+                                                               :dactyl ,
+                                                               :iamb ,
+                                                               :pyrrhic ,
+                                                               :spondee ,
+                                                               :trochee ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+           <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+           <http://purl.org/dc/terms/title> "Tesauro sobre tipos de pie métrico"@es ,
+                                            "Thesaurus about type of metric foot"@en ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Foot Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/foot-unit-type
+:foot-unit-type rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                         <http://www.w3.org/ns/prov#Entity> ;
+                <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                <http://purl.org/dc/terms/title> "Tesauro sobre tipos de unidades que definen la división en pies"@es ,
+                                                 "Thesaurus about types of units that defines the foot division"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/free-verse
+:free-verse rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+            <http://www.w3.org/2004/02/skos/core#notation> "free-verse" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Free verse"@en ,
+                                                            "Verso libre"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/gender
+:gender rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                 <http://www.w3.org/ns/prov#Entity> ;
+        <http://www.w3.org/2004/02/skos/core#hasTopConcept> :female ,
+                                                            :male ,
+                                                            :other ,
+                                                            :transgender ,
+                                                            :unknown ;
+        <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+        <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+        <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+        <http://purl.org/dc/terms/title> "Tesauro sobre géneros"@es ,
+                                         "Thesaurus about genders"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Gender Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/genre
+:genre rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                <http://www.w3.org/ns/prov#Entity> ;
+       <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+       <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+       <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+       <http://purl.org/dc/terms/title> "Tesauro sobre géneros literario"@es ,
+                                        "Thesaurus about literary genres"@en ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Genre Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/haiku
+:haiku rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Haiku"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/helper
+:helper rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Auxiliar"@es ,
+                                                        "Helper"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/hero
+:hero rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Hero"@en ,
+                                                      "Héroe"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/heterogeneous
+:heterogeneous rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :clausula-scheme-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :clausula-scheme-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Heterogeneous"@en ,
+                                                               "Heterogéneo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/heterometric-stanza
+:heterometric-stanza rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#Concept> ;
+                     <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                     <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Heterometric stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/heteronym
+:heteronym rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :designation-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "heteronym" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "heteronym"@en ,
+                                                           "heterónimo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/hiatus
+:hiatus rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+        <http://www.w3.org/2004/02/skos/core#notation> "hiatus" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "hiato"@es ,
+                                                        "hiatus"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/hidalgo
+:hidalgo rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Hildago"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/hypertext
+:hypertext rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-edition-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-edition-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "hypertext" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Hipertexto"@es ,
+                                                           "Hypertext"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/iamb
+:iamb rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                     :foot-type ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                         :foot-type ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Iamb"@en ,
+                                                      "Yambo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/imparisyllabic
+:imparisyllabic rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-context ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-context ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Imparisilábicos"@es ,
+                                                                "Imparisyllabic"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/interjection
+:interjection rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+              <http://www.w3.org/2004/02/skos/core#notation> "interjection" ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Interjección"@es ,
+                                                              "Interjection"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/internal_rhyme
+:internal_rhyme rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "interna"@es ,
+                                                                "internal"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/isometric-stanza
+:isometric-stanza rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Isometric stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/isosyllabic
+:isosyllabic rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-context ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-context ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Isosilábicos"@es ,
+                                                             "Isosyllabic"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/jehovah-witness
+:jehovah-witness rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "jehovah-witness" ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Jehova's Witness"@en ,
+                                                                 "Testigo de Jehová"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/knight
+:knight rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Caballero"@es ,
+                                                        "Knight"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/light-verse
+:light-verse rdf:type owl:NamedIndividual .
+
+
+###  http://postdata.linhd.uned.es/kos/liquid_consonant
+:liquid_consonant rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :nucleus-type ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :nucleus-type ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Consonante líquida"@es ,
+                                                                 "Liquid consonant"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Consonante Líquida"@es ,
+                                                                  "Liquid Consonant"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/lira
+:lira rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Lira"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/literary-period
+:literary-period rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                          <http://www.w3.org/ns/prov#Entity> ;
+                 <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                 <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                 <http://purl.org/dc/terms/title> "Tesauro sobre etiquuets de periodos temporales para agrupar ciertas obras"@es ,
+                                                  "Thesaurus about labels of a time frame for grouping certain works"@en ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Literary Period Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/literary-period-renaissance
+:literary-period-renaissance rdf:type owl:NamedIndividual ,
+                                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+                             <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+                             <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+                             <http://www.w3.org/2004/02/skos/core#prefLabel> "Renacimiento"@es ,
+                                                                             "Renaissance"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/male
+:male rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :gender ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :gender ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Hombre"@es ,
+                                                      "Male"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/masculine_rhyme
+:masculine_rhyme rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :clausula ,
+                                                                :clausula-scheme-type ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :clausula ,
+                                                                    :clausula-scheme-type ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Masculine rhyme"@en ,
+                                                                 "Rima masculina"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/mechanical-arts
+:mechanical-arts rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Mechanical arts"@en ,
+                                                                 "Oficial"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/metaplasm-type
+:metaplasm-type rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                         <http://www.w3.org/ns/prov#Entity> ;
+                <http://www.w3.org/2004/02/skos/core#hasTopConcept> :apheresis ,
+                                                                    :apocope ,
+                                                                    :crasis ,
+                                                                    :diaeresis ,
+                                                                    :elision ,
+                                                                    :ephentesis ,
+                                                                    :hiatus ,
+                                                                    :metathesis ,
+                                                                    :paragoge ,
+                                                                    :prothesis ,
+                                                                    :synaeresis ,
+                                                                    :synalepha ,
+                                                                    :syncope ,
+                                                                    :synizesis ;
+                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                <http://purl.org/dc/terms/title> "Tesauro de metaplasmas o figuras de transformación"@es ,
+                                                 "Thesaurus of metaplasms"@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Metaplasm Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/metathesis
+:metathesis rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+            <http://www.w3.org/2004/02/skos/core#notation> "metátesis" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Metathesis"@en ,
+                                                            "aféresis"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/metrical-category
+:metrical-category rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                            <http://www.w3.org/ns/prov#Entity> ;
+                   <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                   <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                   <http://purl.org/dc/terms/title> "Tesauro sobre categorías principales para la identificación dell tipo métrico"@es ,
+                                                    "Thesaurus about a main categories for metric type identification"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Metrical Category Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/metrical-complexity
+:metrical-complexity rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                              <http://www.w3.org/ns/prov#Entity> ;
+                     <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                     <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                     <http://purl.org/dc/terms/title> "Tesauro sobre categorías según número de sílabas (más o menos de ocho)"@es ,
+                                                      "Thesaurus about categories by number of syllables (more or less than eight)"@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Mertrical Complexity Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/metrical-context
+:metrical-context rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                           <http://www.w3.org/ns/prov#Entity> ;
+                  <http://www.w3.org/2004/02/skos/core#hasTopConcept> :imparisyllabic ,
+                                                                      :isosyllabic ;
+                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                  <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                  <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                  <http://purl.org/dc/terms/title> "Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas "@es ,
+                                                   "Thesaurus about categories of the poem according to whether the verses have the same number of syllables"@en ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Metrical Context Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/metrical-type
+:metrical-type rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                        <http://www.w3.org/ns/prov#Entity> ;
+               <http://www.w3.org/2004/02/skos/core#hasTopConcept> :sapphic-stanza ;
+               <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+               <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+               <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+               <http://purl.org/dc/terms/title> "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es ,
+                                                "Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Metrical Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/middle-ages
+:middle-ages rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Edad Media"@es ,
+                                                             "Middle Ages"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/mixed
+:mixed rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :foot-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :foot-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Mixed"@en ,
+                                                       "Variado"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/modernism
+:modernism rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Modernism"@en ,
+                                                           "Modernismo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/monorhyme
+:monorhyme rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-disposition ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-disposition ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Monorhyme"@en ,
+                                                           "Rima continua"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/mormon
+:mormon rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+        <http://www.w3.org/2004/02/skos/core#notation> "mormon" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Mormon"@en ,
+                                                        "Mormón"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/mudanza
+:mudanza rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuerpo o mudanza"@es ,
+                                                         "Mudanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/nasal_consonant
+:nasal_consonant rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :nucleus-type ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :nucleus-type ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Consonante nasal"@es ,
+                                                                 "Nasal consonant"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/nobleman
+:nobleman rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Noble"@es ,
+                                                          "Nobleman"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/noun
+:noun rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+      <http://www.w3.org/2004/02/skos/core#notation> "noun" ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Nombre"@es ,
+                                                      "Noun"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/novena
+:novena rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Novena"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/nucleus-type
+:nucleus-type rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                       <http://www.w3.org/ns/prov#Entity> ;
+              <http://www.w3.org/2004/02/skos/core#hasTopConcept> :diphthong ,
+                                                                  :liquid_consonant ,
+                                                                  :nasal_consonant ,
+                                                                  :triphthong ,
+                                                                  :vowel ;
+              <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+              <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+              <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+              <http://purl.org/dc/terms/title> "Tesauro sobre tipos de núcleos silábicos (tipología lingüístca"@es ,
+                                               "Thesaurus about types of syllabic nucleus (linguistic typology)"@en ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Nucleus Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/octava-aguda
+:octava-aguda rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Octava aguda o italiana"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/octava-real
+:octava-real rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Octava real"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/octave
+:octave rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Octava"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/orthodox
+:orthodox rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+          <http://www.w3.org/2004/02/skos/core#notation> "orthodox" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Orthodox"@en ,
+                                                          "Ortodoxo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/orthonym
+:orthonym rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :designation-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :designation-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Orthonym"@en ,
+                                                          "Ortónimo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/other
+:other rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :gender ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :gender ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Other"@en ,
+                                                       "Otro"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/other-christian
+:other-christian rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                 <http://www.w3.org/2004/02/skos/core#notation> "other-christian" ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Other Christian"@en ,
+                                                                 "Otros Cristianos"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/ovillejo
+:ovillejo rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Ovillejo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/pair
+:pair rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-disposition ;
+      <http://www.w3.org/2004/02/skos/core#notation> "pair" ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Pair"@en ,
+                                                      "Par"@es ,
+                                                      "Rima pareada"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/paragoge
+:paragoge rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+          <http://www.w3.org/2004/02/skos/core#notation> "paragoge" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "paragoge"@en ,
+                                                          "paragoge"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/parallel-text
+:parallel-text rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-edition-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-edition-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Parallel-text"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/part-of-speech
+:part-of-speech rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                         <http://www.w3.org/ns/prov#Entity> ;
+                <http://www.w3.org/2004/02/skos/core#hasTopConcept> :adjective ,
+                                                                    :adverb ,
+                                                                    :article ,
+                                                                    :conjunction ,
+                                                                    :interjection ,
+                                                                    :noun ,
+                                                                    :preposition ,
+                                                                    :pronoun ,
+                                                                    :verb ;
+                <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                <http://purl.org/dc/terms/title> "Tesauro sobre las categorías de palabras que tienen características gramaticales similares"@es ,
+                                                 "Thesaurus about the categories of words that have similar grammatical properties."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Part Of Speech Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/perfect_thyme
+:perfect_thyme rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#Concept> ;
+               <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+               <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "consonante"@es ,
+                                                               "perfect rhyme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/poem
+:poem rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :textual-element-type ;
+      <http://www.w3.org/2004/02/skos/core#topConceptOf> :textual-element-type ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Poem"@en ,
+                                                      "Poema"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/poetic-type
+:poetic-type rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                      <http://www.w3.org/ns/prov#Entity> ;
+             <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+             <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+             <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+             <http://purl.org/dc/terms/title> "Tesauro sobre el género literario principal de la obra"@es ,
+                                              "Thesaurus about major literary genre of the compositions. "@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Poetic Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/possibily
+:possibily rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :certainty ;
+           <http://www.w3.org/2004/02/skos/core#notation> "possibily" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Posiblemente"@es ,
+                                                           "Possibily"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/preposition
+:preposition rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+             <http://www.w3.org/2004/02/skos/core#notation> "preposition" ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Preposición"@es ,
+                                                             "Preposition"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/priest
+:priest rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Clérigo"@es ,
+                                                        "Priest"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/princess
+:princess rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Princesa"@es ,
+                                                          "Princess"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/princessfather
+:princessfather rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Princess' Father"@en ,
+                                                                "Rey o mandatario"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/probably
+:probably rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :certainty ;
+          <http://www.w3.org/2004/02/skos/core#notation> "probably" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Probablemente"@es ,
+                                                          "Probably"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/probably-not
+:probably-not rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :certainty ;
+              <http://www.w3.org/2004/02/skos/core#notation> "probably-not" ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Probablemente no"@es ,
+                                                              "Probably not"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/prologue
+:prologue rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :textual-element-type ;
+          <http://www.w3.org/2004/02/skos/core#notation> "prologue" ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Prologue"@en ,
+                                                          "Prólogo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/pronoun
+:pronoun rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+         <http://www.w3.org/2004/02/skos/core#notation> "pronoun" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Pronombre"@es ,
+                                                         "Pronoun"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/protestant
+:protestant rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#broader> :christian ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+            <http://www.w3.org/2004/02/skos/core#notation> "protestant" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Protestant"@en ,
+                                                            "Protestante"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/prothesis
+:prothesis rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "prothesis" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "prothesis"@en ,
+                                                           "prótesis"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/pseudonym
+:pseudonym rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :designation-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "pseudonym" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "pseudonym"@en ,
+                                                           "pseudónimo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/public-position
+:public-position rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Cargo público"@es ,
+                                                                 "Public position"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/pushkin_sonnet
+:pushkin_sonnet rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Pushkin sonnet"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/pyrrhic
+:pyrrhic rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                        :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                            :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Pyrrhic"@en ,
+                                                         "Pírrico"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/qualitative-verse
+:qualitative-verse rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                   <http://www.w3.org/2004/02/skos/core#notation> "qualitative-verse" ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Qualitative verse"@en ,
+                                                                   "Verso cualitativo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/quantitative-verse
+:quantitative-verse rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                    <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                    <http://www.w3.org/2004/02/skos/core#notation> "quantitative-verse" ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantitative verse"@en ,
+                                                                    "Verso cuantitativo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/quatrain
+:quatrain rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Cuarteto"@es ,
+                                                          "Quatrain"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/quintain
+:quintain rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Quintain"@en ,
+                                                          "Quinteto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/quintilla
+:quintilla rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "Quintilla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/realism
+:realism rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Realism"@en ,
+                                                         "Realismo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/redondilla
+:redondilla rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Redondilla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/refrain
+:refrain rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#notation> "refrain" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Estribillo"@es ,
+                                                         "Refrain"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/religious-affiliation
+:religious-affiliation rdf:type owl:NamedIndividual ,
+                                <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                                <http://www.w3.org/ns/prov#Entity> ;
+                       <http://www.w3.org/2004/02/skos/core#hasTopConcept> :christian ,
+                                                                           :unaffiliated ;
+                       <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.linkedin.com/in/ocorcho> ;
+                       <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                       <http://purl.org/dc/terms/date> "2019-04-29"^^xsd:date ;
+                       <http://purl.org/dc/terms/title> "Tesauro sobre afiliaciones religiosas"@es ,
+                                                        "Thesaurus about religious affiliations"@es ;
+                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Religious Affiliation Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/revuelta
+:revuelta rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Revuelta"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/rhyme-disposition
+:rhyme-disposition rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                            <http://www.w3.org/ns/prov#Entity> ;
+                   <http://www.w3.org/2004/02/skos/core#hasTopConcept> :pair ;
+                   <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                   <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                   <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                   <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ,
+                                                    "Thesaurus about stanza categories according to their rhyme arrangement"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhyme DIsposition Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/rhyme-matching-type
+:rhyme-matching-type rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                              <http://www.w3.org/ns/prov#Entity> ;
+                     <http://www.w3.org/2004/02/skos/core#hasTopConcept> :allitteration ,
+                                                                         :assonant ,
+                                                                         :consonant ,
+                                                                         :dactylic ,
+                                                                         :eye_rhyme ,
+                                                                         :internal_rhyme ,
+                                                                         :perfect_thyme ,
+                                                                         :semirhyme ,
+                                                                         :slant_rhyme ;
+                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                     <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                     <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                     <http://purl.org/dc/terms/title> "Tesauro sobre tipo de rima"@es ,
+                                                      "Thesaurus about rhyme type"@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Rhyme Matching Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/role-function
+:role-function rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                        <http://www.w3.org/ns/prov#Entity> ;
+               <http://www.w3.org/2004/02/skos/core#hasTopConcept> :actor ,
+                                                                   :arranger ,
+                                                                   :collector ,
+                                                                   :singer ,
+                                                                   :sponsor ,
+                                                                   :transcriptor ;
+               <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+               <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+               <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+               <http://purl.org/dc/terms/title> "Tesauro sobre el papel específico representado por un agente en una obra"@es ,
+                                                "Thesaurus about specific function performed by some agent on a work"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Role Function Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/romance
+:romance rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Romance"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/romanticism
+:romanticism rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Romanticism"@en ,
+                                                             "Romanticismo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sapphic-stanza
+:sapphic-stanza rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                <http://www.w3.org/2004/02/skos/core#notation> "sapphic-stanza" ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Estrofa sáfica"@es ,
+                                                                "Sapphic stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/scholar
+:scholar rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Letrado"@es ,
+                                                         "Scholar"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/school
+:school rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                 <http://www.w3.org/ns/prov#Entity> ;
+        <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+        <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+        <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+        <http://purl.org/dc/terms/title> "Tesauro sobre movimientos literarios o escuelas de un autor"@es ,
+                                         "Thesaurus about literary movements or schools of an author"@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "School Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/scottish-stanza
+:scottish-stanza rdf:type owl:NamedIndividual ,
+                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                 <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                 <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Scottish stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/seguidilla
+:seguidilla rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Seguidilla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/semirhyme
+:semirhyme rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "ipermetra"@it ,
+                                                           "semirhyme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/septet
+:septet rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Septet"@en ,
+                                                        "Septeto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/serpentine-verse
+:serpentine-verse rdf:type owl:NamedIndividual .
+
+
+###  http://postdata.linhd.uned.es/kos/servant
+:servant rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Criado"@es ,
+                                                         "Servant"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/serventesio
+:serventesio rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Serventesio"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sestet
+:sestet rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Sestet"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/sestine
+:sestine rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Sestine"@en ,
+                                                         "Sextina"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sexta-rima
+:sexta-rima rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Sexta rima"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sexteto
+:sexteto rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Sestain"@en ,
+                                                         "Sexteto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sexteto-lira
+:sexteto-lira rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Sexteto lira"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/sextilla
+:sextilla rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Sextilla"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/silva
+:silva rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Silva"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/singer
+:singer rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+        <http://www.w3.org/2004/02/skos/core#notation> "singer" ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Cantante"@es ,
+                                                        "Singer"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/slant_rhyme
+:slant_rhyme rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :rhyme-matching-type ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :rhyme-matching-type ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "slant rhyme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/social-status
+:social-status rdf:type owl:NamedIndividual ,
+                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                        <http://www.w3.org/ns/prov#Entity> ;
+               <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+               <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+               <http://purl.org/dc/terms/title> "Tesauro sobre el statuus social de una persona"@es ,
+                                                "Thesaurus about the socialstatus of a person"@en ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "Social Status Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/soldier
+:soldier rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Soldado"@es ,
+                                                         "Soldier"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/soneto
+:soneto rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Soneto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/spenserian-stanza
+:spenserian-stanza rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+                   <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Spenserian stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/spondee
+:spondee rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                        :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                            :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Espondeo"@es ,
+                                                         "Spondee"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/sponsor
+:sponsor rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+         <http://www.w3.org/2004/02/skos/core#notation> "sponsor" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Patrocinador"@es ,
+                                                         "Sponsor"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/stand-alone_lines
+:stand-alone_lines rdf:type owl:NamedIndividual ,
+                            <http://www.w3.org/2004/02/skos/core#Concept> ;
+                   <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+                   <http://www.w3.org/2004/02/skos/core#topConceptOf> :stanza-type ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "Stand-alone lines"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/stanza
+:stanza rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :textual-element-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :textual-element-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Estrofa"@es ,
+                                                        "Stanza"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/stanza-edition-type
+:stanza-edition-type rdf:type owl:NamedIndividual ,
+                              <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                              <http://www.w3.org/ns/prov#Entity> ;
+                     <http://www.w3.org/2004/02/skos/core#hasTopConcept> :critical-edition ,
+                                                                         :diplomatic-edition ,
+                                                                         :translation ;
+                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                     <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                     <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                     <http://purl.org/dc/terms/title> "Tesauro sobre el tipo de textos proporcionados en las estrofas"@es ,
+                                                      "Thesaurus about the type of the texts provided in the Stanzas "@en ;
+                     <http://www.w3.org/2004/02/skos/core#prefLabel> "Stanza Edition Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/stanza-type
+:stanza-type rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                      <http://www.w3.org/ns/prov#Entity> ;
+             <http://www.w3.org/2004/02/skos/core#hasTopConcept> :refrain ,
+                                                                 :tornada ;
+             <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+             <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+             <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+             <http://purl.org/dc/terms/title> "Tesauro sobre tipo de estrofas pero no por su métrica"@es ,
+                                              "Thesaurus about type of stanzas, but not by their metric"@en ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Stanza Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/strophic
+:strophic rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2004/02/skos/core#Concept> ;
+          <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-category ;
+          <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-category ;
+          <http://www.w3.org/2004/02/skos/core#prefLabel> "Combinación estrófica"@es ,
+                                                          "Strophic"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/syllabic-verse
+:syllabic-verse rdf:type owl:NamedIndividual ,
+                         <http://www.w3.org/2004/02/skos/core#Concept> ;
+                <http://www.w3.org/2004/02/skos/core#inScheme> :versification-type ;
+                <http://www.w3.org/2004/02/skos/core#notation> "syllabic-verse" ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "Syllabic verse"@en ,
+                                                                "Verso silábico"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/synaeresis
+:synaeresis rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+            <http://www.w3.org/2004/02/skos/core#notation> "synaeresis" ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "sinéresis"@es ,
+                                                            "synaeresis"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/synalepha
+:synalepha rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "synalepha" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "sinalefa"@es ,
+                                                           "synalepha"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/syncope
+:syncope rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+         <http://www.w3.org/2004/02/skos/core#notation> "syncope" ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "syncope"@en ,
+                                                         "síncopa"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/synizesis
+:synizesis rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2004/02/skos/core#Concept> ;
+           <http://www.w3.org/2004/02/skos/core#inScheme> :metaplasm-type ;
+           <http://www.w3.org/2004/02/skos/core#notation> "synizesis" ;
+           <http://www.w3.org/2004/02/skos/core#prefLabel> "synizesis"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/tercet
+:tercet rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Tercet"@en ,
+                                                        "Terceto"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/terza-rima
+:terza-rima rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Terza rima"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/textual-element-type
+:textual-element-type rdf:type owl:NamedIndividual ,
+                               <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                               <http://www.w3.org/ns/prov#Entity> ;
+                      <http://www.w3.org/2004/02/skos/core#hasTopConcept> :chapter ,
+                                                                          :epilogue ,
+                                                                          :prologue ;
+                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                      <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                      <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                      <http://purl.org/dc/terms/title> "Tesauro sobre tipos de elementos textuales"@es ,
+                                                       "Thesaurus about type of textual element"@en ;
+                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Textual Element Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/tornada
+:tornada rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-type ;
+         <http://www.w3.org/2004/02/skos/core#altLabel> "Tornata o vuelta"@es ;
+         <http://www.w3.org/2004/02/skos/core#note> "tornada"@es ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Tornada"@en ,
+                                                         "Tornada"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/transcriptor
+:transcriptor rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :role-function ;
+              <http://www.w3.org/2004/02/skos/core#notation> "Ttranscriptor" ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Transcriptor"@en ,
+                                                              "Transcriptor"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/transgender
+:transgender rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :gender ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :gender ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Transgender"@en ,
+                                                             "Transgénero"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/translation
+:translation rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :stanza-edition-type ;
+             <http://www.w3.org/2004/02/skos/core#notation> "translation" ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Traducción"@es ,
+                                                             "Translation"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/triphthong
+:triphthong rdf:type owl:NamedIndividual ,
+                     <http://www.w3.org/2004/02/skos/core#Concept> ;
+            <http://www.w3.org/2004/02/skos/core#inScheme> :nucleus-type ;
+            <http://www.w3.org/2004/02/skos/core#topConceptOf> :nucleus-type ;
+            <http://www.w3.org/2004/02/skos/core#prefLabel> "Triphthong"@en ,
+                                                            "Triptongo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/trochee
+:trochee rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :feet-type ,
+                                                        :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :feet-type ,
+                                                            :foot-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Trochee"@en ,
+                                                         "Troqueo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/unaffiliated
+:unaffiliated rdf:type owl:NamedIndividual ,
+                       <http://www.w3.org/2004/02/skos/core#Concept> ;
+              <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+              <http://www.w3.org/2004/02/skos/core#notation> "unaffiliated" ;
+              <http://www.w3.org/2004/02/skos/core#prefLabel> "Sin afiliación"@es ,
+                                                              "Unaffiliated"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/unknown
+:unknown rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :gender ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :gender ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Género desconocido"@es ,
+                                                         "Unknown gender"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/vanguardism
+:vanguardism rdf:type owl:NamedIndividual ,
+                      <http://www.w3.org/2004/02/skos/core#Concept> ;
+             <http://www.w3.org/2004/02/skos/core#inScheme> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#topConceptOf> :literary-period ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Vanguardias"@es ,
+                                                             "Vanguardism"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/verb
+:verb rdf:type owl:NamedIndividual ,
+               <http://www.w3.org/2004/02/skos/core#Concept> ;
+      <http://www.w3.org/2004/02/skos/core#inScheme> :part-of-speech ;
+      <http://www.w3.org/2004/02/skos/core#notation> "verb" ;
+      <http://www.w3.org/2004/02/skos/core#prefLabel> "Verb"@en ,
+                                                      "Verbo"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/versification-type
+:versification-type rdf:type owl:NamedIndividual ,
+                             <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
+                             <http://www.w3.org/ns/prov#Entity> ;
+                    <http://www.w3.org/2004/02/skos/core#hasTopConcept> :accentual-syllabic-verse ,
+                                                                        :accentual-verse ,
+                                                                        :alliterative-verse ,
+                                                                        :blank-verse ,
+                                                                        :free-verse ,
+                                                                        :light-verse ,
+                                                                        :quantitative-verse ,
+                                                                        :serpentine-verse ,
+                                                                        :syllabic-verse ;
+                    <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                    <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+                    <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
+                    <http://purl.org/dc/terms/title> "Tesauro sobre los tipos de versificación"@es ,
+                                                     "Thesaurus about types of versification"@en ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Versification Type Scheme"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/verso-arte-mayor
+:verso-arte-mayor rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-complexity ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-complexity ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Verso de arte mayor"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/verso-arte-menor
+:verso-arte-menor rdf:type owl:NamedIndividual ,
+                           <http://www.w3.org/2004/02/skos/core#Concept> ;
+                  <http://www.w3.org/2004/02/skos/core#inScheme> :metrical-complexity ;
+                  <http://www.w3.org/2004/02/skos/core#topConceptOf> :metrical-complexity ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Verso de arte menor"@es .
+
+
+###  http://postdata.linhd.uned.es/kos/villain
+:villain rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2004/02/skos/core#Concept> ;
+         <http://www.w3.org/2004/02/skos/core#inScheme> :character-type ;
+         <http://www.w3.org/2004/02/skos/core#topConceptOf> :character-type ;
+         <http://www.w3.org/2004/02/skos/core#prefLabel> "Agresor"@es ,
+                                                         "Villain"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/vowel
+:vowel rdf:type owl:NamedIndividual ,
+                <http://www.w3.org/2004/02/skos/core#Concept> ;
+       <http://www.w3.org/2004/02/skos/core#inScheme> :nucleus-type ;
+       <http://www.w3.org/2004/02/skos/core#topConceptOf> :nucleus-type ;
+       <http://www.w3.org/2004/02/skos/core#prefLabel> "Vocal"@es ,
+                                                       "Vowel"@en .
+
+
+###  http://postdata.linhd.uned.es/kos/writer
+:writer rdf:type owl:NamedIndividual ,
+                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+        <http://www.w3.org/2004/02/skos/core#inScheme> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#topConceptOf> :social-status ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "Escritor"@es ,
+                                                        "Writer"@en .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept12949
+<http://vocabularies.unesco.org/thesaurus/concept12949> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                        <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                                                        <http://www.w3.org/2004/02/skos/core#topConceptOf> :religious-affiliation ;
+                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Moslems"@en ,
+                                                                                                        "Musulman"@fr ,
+                                                                                                        "Musulmán"@es ,
+                                                                                                        "Мусульмане"@ru ,
+                                                                                                        "مسلمون"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept1485
+<http://vocabularies.unesco.org/thesaurus/concept1485> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Enseignement supérieur"@fr ,
+                                                                                                       "Enseñanza superior"@es ,
+                                                                                                       "Higher education"@en ,
+                                                                                                       "Высшее образование"@ru ,
+                                                                                                       "تعليم عالي"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept2493
+<http://vocabularies.unesco.org/thesaurus/concept2493> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :poetic-type ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :poetic-type ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Poesía"@es ,
+                                                                                                       "Poetry"@en ,
+                                                                                                       "Poésie"@fr ,
+                                                                                                       "Поэзия"@ru ,
+                                                                                                       "شعر"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept2533
+<http://vocabularies.unesco.org/thesaurus/concept2533> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Jews"@en ,
+                                                                                                       "Judío"@es ,
+                                                                                                       "Juif"@fr ,
+                                                                                                       "Евреи"@ru ,
+                                                                                                       "يهود"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept4777
+<http://vocabularies.unesco.org/thesaurus/concept4777> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint"@fr ,
+                                                                                                       "Saints"@en ,
+                                                                                                       "Santo"@es ,
+                                                                                                       "Святые"@ru ,
+                                                                                                       "قديسون"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept4979
+<http://vocabularies.unesco.org/thesaurus/concept4979> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Chef religieux"@fr ,
+                                                                                                       "Jefe religioso"@es ,
+                                                                                                       "Religious leaders"@en ,
+                                                                                                       "Религиозные лидеры"@ru ,
+                                                                                                       "زعماء دينيون"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept5081
+<http://vocabularies.unesco.org/thesaurus/concept5081> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Early childhood education"@en ,
+                                                                                                       "Educación de la primera infancia"@es ,
+                                                                                                       "Éducation de la prime enfance"@fr ,
+                                                                                                       "Раннее детское образование"@ru ,
+                                                                                                       "تعليم في مرحلة الطفولة المبكرة"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept5426
+<http://vocabularies.unesco.org/thesaurus/concept5426> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :religious-affiliation ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Clergy"@en ,
+                                                                                                       "Clergé"@fr ,
+                                                                                                       "Clero"@es ,
+                                                                                                       "Духовенство"@ru ,
+                                                                                                       "رجال الدين"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept8399
+<http://vocabularies.unesco.org/thesaurus/concept8399> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :poetic-type ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :poetic-type ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Drama"@en ,
+                                                                                                       "Drama"@es ,
+                                                                                                       "Drame"@fr ,
+                                                                                                       "Драма"@ru ,
+                                                                                                       "دراما"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept9290
+<http://vocabularies.unesco.org/thesaurus/concept9290> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Enseignement primaire"@fr ,
+                                                                                                       "Enseñanza primaria"@es ,
+                                                                                                       "Primary education"@en ,
+                                                                                                       "Начальное образование"@ru ,
+                                                                                                       "تعليم ابتدائي"@ar .
+
+
+###  http://vocabularies.unesco.org/thesaurus/concept9291
+<http://vocabularies.unesco.org/thesaurus/concept9291> rdf:type owl:NamedIndividual ,
+                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                       <http://www.w3.org/2004/02/skos/core#inScheme> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> :author-education-level ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Enseignement secondaire"@fr ,
+                                                                                                       "Enseñanza secundaria"@es ,
+                                                                                                       "Secondary education"@en ,
+                                                                                                       "Среднее образование"@ru ,
+                                                                                                       "تعليم ثانوي"@ar .
+
+
+###  http://www.linkedin.com/in/ocorcho
+<http://www.linkedin.com/in/ocorcho> rdf:type owl:NamedIndividual .
+
+
+###  https://www.linkedin.com/in/m-luisa-diez-platas-05710614
+<https://www.linkedin.com/in/m-luisa-diez-platas-05710614> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

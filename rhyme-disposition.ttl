@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-disposition/cross> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-disposition> ;
+    skos:prefLabel "Cross"@en,
+        "Rima cruzada"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-disposition> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-disposition/enclosed> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-disposition> ;
+    skos:prefLabel "Enclosed"@en,
+        "Rima abrazada"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-disposition> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-disposition/monorhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-disposition> ;
+    skos:prefLabel "Monorhyme"@en,
+        "Rima continua"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-disposition> .
+
+<http://postdata.linhd.uned.es/kos/rhyme-disposition/pair> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-disposition> ;
+    skos:notation "pair" ;
+    skos:prefLabel "Pair"@en,
+        "Par"@es,
+        "Rima pareada"@es .
+
+<http://postdata.linhd.uned.es/kos/rhyme-disposition> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about stanza categories according to their rhyme arrangement"@en,
+        "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-disposition/pair> ;
+    skos:prefLabel "Thyme DIsposition Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+

@@ -1,17 +1,49 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/clausula-scheme-type> a skos:ConceptScheme, prov:Entity ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es ;
-    dc:title "Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>.
+<http://postdata.linhd.uned.es/kos/clausula-scheme-type/heterogeneous> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/clausula-scheme-type> ;
+    skos:prefLabel "Heterogeneous"@en,
+        "Heterogéneo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/clausula-scheme-type> .
 
+<http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> ;
+    skos:prefLabel "Dactylic rhyme"@en,
+        "Rima esdrújula"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> .
 
+<http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> ;
+    skos:prefLabel "Feminine rhyme"@en,
+        "Rima femenina"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> .
+
+<http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> ;
+    skos:prefLabel "Masculine rhyme"@en,
+        "Rima masculina"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/clausula>,
+        <http://postdata.linhd.uned.es/kos/clausula-scheme-type> .
+
+<http://postdata.linhd.uned.es/kos/clausula-scheme-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes"@en,
+        "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/clausula-scheme-type/heterogeneous>,
+        <http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme>,
+        <http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme>,
+        <http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme> ;
+    skos:prefLabel "Clausula Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
 

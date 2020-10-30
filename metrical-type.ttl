@@ -1,24 +1,255 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix dc: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/metrical-type> a skos:ConceptScheme, prov:Entity ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza> ;
-    dc:date "2019-10-27"^^xsd:date ;
-    dc:title "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es ;
-    dc:title "Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
-    prov:hadPrimarySource "".
+<http://postdata.linhd.uned.es/kos/metrical-type/alcaic-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Alcaic stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
+<http://postdata.linhd.uned.es/kos/metrical-type/ballad-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Ballad stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/cantar> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Cantar o copla"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/copla-arte-mayor> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Copla de arte mayor o de Juan de Mena"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/copla-arte-menor> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Copla de arte menor"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/copla-castellana> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Copla castellana"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/copla-manrique> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Copla de Jorge Manrique o estrofa manriqueña"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/copla-real> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Copla real"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/couplet> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Couplet"@en,
+        "Pareado"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/cuaderna-via> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Cuaderna vía"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/cuarteta> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Cuarteta"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/cuarteto-lira> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Cuarteto lira"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/decima-antigua> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Décima antigua"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/endecha-real> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Endecha real o endecasílaba"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/espinela> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Decima"@en,
+        "Espinela"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/haiku> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Haiku"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/heterometric-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Heterometric stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/isometric-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Isometric stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/lira> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Lira"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/novena> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Novena"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/octava-aguda> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Octava aguda o italiana"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/octava-real> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Octava real"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/octave> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Octava"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/ovillejo> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Ovillejo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/pushkin_sonnet> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Pushkin sonnet"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/quatrain> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Quatrain"@en,
+        "Cuarteto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/quintain> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Quintain"@en,
+        "Quinteto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/quintilla> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Quintilla"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/redondilla> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Redondilla"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/romance> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Romance"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/scottish-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Scottish stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/seguidilla> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Seguidilla"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/septet> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Septet"@en,
+        "Septeto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/serventesio> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Serventesio"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sestet> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sestet"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sestine> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sestine"@en,
+        "Sextina"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sexta-rima> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sexta rima"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sexteto> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sestain"@en,
+        "Sexteto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sexteto-lira> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sexteto lira"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/sextilla> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Sextilla"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/silva> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Silva"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/soneto> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Soneto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/spenserian-stanza> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Spenserian stanza"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/tercet> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Tercet"@en,
+        "Terceto"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
+
+<http://postdata.linhd.uned.es/kos/metrical-type/terza-rima> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:prefLabel "Terza rima"@en ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza> a skos:Concept ;
-    skos:prefLabel "Sapphic stanza"@en ;
-    skos:prefLabel "Estrofa sáfica"@es ;
-    skos:notation "sapphic-stanza" ; ;
-    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> .
+    skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
+    skos:notation "sapphic-stanza" ;
+    skos:prefLabel "Sapphic stanza"@en,
+        "Estrofa sáfica"@es .
 
-  
+<http://postdata.linhd.uned.es/kos/metrical-type> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”"@en,
+        "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es ;
+    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza> ;
+    skos:prefLabel "Metrical Type Scheme"@en ;
+    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+

@@ -1,0 +1,4271 @@
+[ {
+  "@id" : "http://postdata.linhd.uned.es/kos/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Aitor Díaz Medina (LINHD_POSTDATA-UNED) \nhttps://www.linkedin.com/in/aitordiazmedina/"
+  }, {
+    "@value" : "Alvaro Pérez (LINHD_POSTDATA-UNED) \nhttps://www.linkedin.com/in/álvaro-pérez-pozo-ab241154/"
+  }, {
+    "@value" : "Helena Bermúdez Sabel\nhttps://orcid.org/0000-0001-7782-206X"
+  }, {
+    "@value" : "Javier de la Rosa (LINHD_POSTDATA-UNED)\nhttps://www.linkedin.com/in/versae/"
+  }, {
+    "@value" : "Laura Hernández Lorenzo (LINHD_POSTDATA-UNED) \nhttps://orcid.org/0000-0003-3489-2193"
+  }, {
+    "@value" : "Mirella De Sisto (LINHD_POSTDATA-UNED) \nmdesisto"
+  }, {
+    "@value" : "Mª Luisa Díez Platas\nhttps://orcid.org/0000-0002-9416-3147"
+  }, {
+    "@value" : "Omar Khalil Gómez (LINHD_POSTDATA-UNED) \nhttp://www.linkedin.com/in/omar-k-0959a8129"
+  }, {
+    "@value" : "Salvador Ros Muñoz (UNED)\nsrosmu"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "This ontology gathers the schemes in scope of POSTDATA Network of Ontologies. Each SKOS is a concept scheme that controls the possible values of several properties defined across the network to describe different aspects of poetic works.\n\nIn this ontology we gather a full set of concepts and their respective concept schemes, including reused concepts if applicable. In the context of POSTDATA Project, this set of concepts is subjected to modifications that may be required to enhance the global comprehension or consistency of the scheme.\n\nBetween the SKOS that are prone to include modifications, we find the folliwng:\n- Genre\n- Literary Period\n- Stanza Type\n- Metrical type"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA SKOS Concept Schemes Ontology"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”\n\nPrincipal Investigator. Elena González Blanco -- https://orcid.org/0000-0002-0448-1812\n\nTechnical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov-o-20130430"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "V 1.0"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/accentual-syllabic-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/accentual-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "accentual-syllabic-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accentual syllabic verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso acentual silábico"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/accentual-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/accentual-syllabic-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "accentual-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accentual verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso acentual"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "actor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Actor"
+  }, {
+    "@language" : "es",
+    "@value" : "Agente"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/adjective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "adjective"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Adjectve"
+  }, {
+    "@language" : "es",
+    "@value" : "Adjetivo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/adverb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "adverb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Adverb"
+  }, {
+    "@language" : "es",
+    "@value" : "Adverbio"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/alcaic-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Alcaic stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/alliterative-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "alliterative-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Alliterative verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso aliterativo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/allitteration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "aliteración"
+  }, {
+    "@language" : "en",
+    "@value" : "allitteration"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/allonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Allonym"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/amphibrach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Amphibrach"
+  }, {
+    "@language" : "es",
+    "@value" : "Anfíbraco"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/anapest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Anapest"
+  }, {
+    "@language" : "es",
+    "@value" : "Anapesto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/apheresis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "apheresis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "aféresis"
+  }, {
+    "@language" : "en",
+    "@value" : "apheresis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/apocope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "apocope"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "apocope"
+  }, {
+    "@language" : "es",
+    "@value" : "apocope"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/arranger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "arranger"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Arranger"
+  }, {
+    "@language" : "es",
+    "@value" : "Organizador"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/article",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "article"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Article"
+  }, {
+    "@language" : "es",
+    "@value" : "Artículo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/assonant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "assonant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "asonante"
+  }, {
+    "@language" : "en",
+    "@value" : "assonant"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/author-education-level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre nivel educativo"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about author education level"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Author Education Level Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/ballad-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Ballad stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/baroque",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Baroque"
+  }, {
+    "@language" : "es",
+    "@value" : "Barroco"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/beggar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Beggar"
+  }, {
+    "@language" : "es",
+    "@value" : "Pobre"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/blank-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "blank-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Blank verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso blanco"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cabeza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cabeza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cantar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cantar o copla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/catholic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "catholic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Catholic"
+  }, {
+    "@language" : "es",
+    "@value" : "Católico"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/certainty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-05-22"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Controlled vocabulary about certainty degree"
+  }, {
+    "@language" : "es",
+    "@value" : "Vocabulario controlado sobre grados de certeza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/definitely"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/definitely-not"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/possibily"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/probably"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/probably-not"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Certainty Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/chapter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "chapter"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Capítulo"
+  }, {
+    "@language" : "en",
+    "@value" : "Chapter"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/character-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de rol"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about character types"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Character type scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/christian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/catholic"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/jehovah-witness"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/mormon"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/orthodox"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/other-christian"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/protestant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Christian"
+  }, {
+    "@language" : "es",
+    "@value" : "Cristiano"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/classical-antiquity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Antigüedad Clásica"
+  }, {
+    "@language" : "en",
+    "@value" : "Classical Antiquity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/clausula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about the categorisation of the foot according to the rhythmic ending of a line determined by the number of unstressed syllables following the last stressed one."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/dactylic_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/feminine_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/masculine_rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Clausula Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/dactylic_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/feminine_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/heterogeneous"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/masculine_rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Clausula Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/coda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Coda"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/collector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "collector"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Coleccionista"
+  }, {
+    "@language" : "en",
+    "@value" : "Collector"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/conjunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "conjunction"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Conjunción"
+  }, {
+    "@language" : "en",
+    "@value" : "Conjunction"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/consonant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "consonant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "consonant"
+  }, {
+    "@language" : "es",
+    "@value" : "consonante"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla-arte-mayor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla de arte mayor o de Juan de Mena"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla-arte-menor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla de arte menor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla-castellana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla castellana"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla-manrique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla de Jorge Manrique o estrofa manriqueña"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/copla-real",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Copla real"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/couplet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Couplet"
+  }, {
+    "@language" : "es",
+    "@value" : "Pareado"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/crasis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "crasis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "contracción"
+  }, {
+    "@language" : "en",
+    "@value" : "crasis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/critical-edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "critical-edition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Critical edition"
+  }, {
+    "@language" : "es",
+    "@value" : "Edición crítica"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cross",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cross"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima cruzada"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cuaderna-via",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuaderna vía"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cuarteta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuarteta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/cuarteto-lira",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuarteto lira"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/dactyl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Dactyl"
+  }, {
+    "@language" : "es",
+    "@value" : "Dáctilo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/dactylic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "dactylic"
+  }, {
+    "@language" : "es",
+    "@value" : "esdrújula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/dactylic_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Dactylic rhyme"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima esdrújula"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/decima-antigua",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Décima antigua"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/definitely",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/certainty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "definitely"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Definitely"
+  }, {
+    "@language" : "es",
+    "@value" : "Definitivamente"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/definitely-not",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/certainty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "definitely-not"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Definitely not"
+  }, {
+    "@language" : "es",
+    "@value" : "Definitivamente no"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/designation-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de nombre"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about type of name"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/allonym"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/heteronym"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/orthonym"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/pseudonym"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Designation Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/diaeresis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "dieresis"
+  }, {
+    "@language" : "es",
+    "@value" : "diéresis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "diaeresis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "diaeresis"
+  }, {
+    "@language" : "es",
+    "@value" : "dialefa"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/diphthong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Diphthong"
+  }, {
+    "@language" : "es",
+    "@value" : "Diptongo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/diplomatic-edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "diplomatic-edition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Diplomatic edition"
+  }, {
+    "@language" : "es",
+    "@value" : "Edición diplomática"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/donor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Donante del objeto mágico"
+  }, {
+    "@language" : "en",
+    "@value" : "Donor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/elision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "elision"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "elision"
+  }, {
+    "@language" : "es",
+    "@value" : "elision"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/enclosed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Enclosed"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima abrazada"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/endecha-real",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Endecha real o endecasílaba"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/enlightenment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Enlightenment"
+  }, {
+    "@language" : "es",
+    "@value" : "Ilustración"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/envoi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Envoi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/ephentesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "ephentesis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "ephentesis"
+  }, {
+    "@language" : "es",
+    "@value" : "epéntesis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/epilogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "epilogue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Epilogue"
+  }, {
+    "@language" : "es",
+    "@value" : "Epílogo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/eslabón",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Eslabón"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/espinela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Decima"
+  }, {
+    "@language" : "es",
+    "@value" : "Espinela"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/eye_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "eye rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/falsehero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "False Hero"
+  }, {
+    "@language" : "es",
+    "@value" : "Falso héroe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/feet-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about categories of stanzas or verses depending on the type of feet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/amphibrach"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/anapest"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/dactyl"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/iamb"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/mixed"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/pyrrhic"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/spondee"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/trochee"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Feet Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Female"
+  }, {
+    "@language" : "es",
+    "@value" : "Mujer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/feminine_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Feminine rhyme"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima femenina"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/fixed-form",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Fixed form"
+  }, {
+    "@language" : "es",
+    "@value" : "Forma fija"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-category"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/foot-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de pie métrico"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about type of metric foot"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/amphibrach"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/anapest"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/dactyl"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/iamb"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/pyrrhic"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/spondee"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/trochee"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Foot Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/foot-unit-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de unidades que definen la división en pies"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about types of units that defines the foot division"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/free-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "free-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Free verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso libre"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre géneros"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about genders"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/female"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/male"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/other"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/transgender"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/unknown"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Gender Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre géneros literario"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about literary genres"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Genre Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/haiku",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Haiku"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/helper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Auxiliar"
+  }, {
+    "@language" : "en",
+    "@value" : "Helper"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/hero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Hero"
+  }, {
+    "@language" : "es",
+    "@value" : "Héroe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/heterogeneous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Heterogeneous"
+  }, {
+    "@language" : "es",
+    "@value" : "Heterogéneo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/heterometric-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Heterometric stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/heteronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "heteronym"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "heteronym"
+  }, {
+    "@language" : "es",
+    "@value" : "heterónimo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/hiatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "hiatus"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "hiato"
+  }, {
+    "@language" : "en",
+    "@value" : "hiatus"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/hidalgo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Hildago"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/hypertext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "hypertext"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Hipertexto"
+  }, {
+    "@language" : "en",
+    "@value" : "Hypertext"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/iamb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Iamb"
+  }, {
+    "@language" : "es",
+    "@value" : "Yambo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/imparisyllabic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-context"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Imparisilábicos"
+  }, {
+    "@language" : "en",
+    "@value" : "Imparisyllabic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-context"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/interjection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "interjection"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Interjección"
+  }, {
+    "@language" : "en",
+    "@value" : "Interjection"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/internal_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "interna"
+  }, {
+    "@language" : "en",
+    "@value" : "internal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/isometric-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Isometric stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/isosyllabic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-context"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Isosilábicos"
+  }, {
+    "@language" : "en",
+    "@value" : "Isosyllabic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-context"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/jehovah-witness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "jehovah-witness"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Jehova's Witness"
+  }, {
+    "@language" : "es",
+    "@value" : "Testigo de Jehová"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/knight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Caballero"
+  }, {
+    "@language" : "en",
+    "@value" : "Knight"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/light-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/liquid_consonant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Consonante líquida"
+  }, {
+    "@language" : "en",
+    "@value" : "Liquid consonant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Consonante Líquida"
+  }, {
+    "@language" : "en",
+    "@value" : "Liquid Consonant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/lira",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Lira"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/literary-period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre etiquuets de periodos temporales para agrupar ciertas obras"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about labels of a time frame for grouping certain works"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Literary Period Scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/literary-period-renaissance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Renacimiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Renaissance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Hombre"
+  }, {
+    "@language" : "en",
+    "@value" : "Male"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/masculine_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Masculine rhyme"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima masculina"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/mechanical-arts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mechanical arts"
+  }, {
+    "@language" : "es",
+    "@value" : "Oficial"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro de metaplasmas o figuras de transformación"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus of metaplasms"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/apheresis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/apocope"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/crasis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/diaeresis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/elision"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/ephentesis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/hiatus"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/metathesis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/paragoge"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/prothesis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/synaeresis"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/synalepha"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/syncope"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/synizesis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Metaplasm Type Scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metathesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "metátesis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Metathesis"
+  }, {
+    "@language" : "es",
+    "@value" : "aféresis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metrical-category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías principales para la identificación dell tipo métrico"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about a main categories for metric type identification"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Metrical Category Scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metrical-complexity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías según número de sílabas (más o menos de ocho)"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about categories by number of syllables (more or less than eight)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mertrical Complexity Scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metrical-context",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas "
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about categories of the poem according to whether the verses have the same number of syllables"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/imparisyllabic"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/isosyllabic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Metrical Context Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/metrical-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/sapphic-stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Metrical Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/middle-ages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Edad Media"
+  }, {
+    "@language" : "en",
+    "@value" : "Middle Ages"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/mixed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mixed"
+  }, {
+    "@language" : "es",
+    "@value" : "Variado"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/modernism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Modernism"
+  }, {
+    "@language" : "es",
+    "@value" : "Modernismo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/monorhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Monorhyme"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima continua"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/mormon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "mormon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mormon"
+  }, {
+    "@language" : "es",
+    "@value" : "Mormón"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/mudanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuerpo o mudanza"
+  }, {
+    "@language" : "en",
+    "@value" : "Mudanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/nasal_consonant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Consonante nasal"
+  }, {
+    "@language" : "en",
+    "@value" : "Nasal consonant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/nobleman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Noble"
+  }, {
+    "@language" : "en",
+    "@value" : "Nobleman"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/noun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "noun"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Nombre"
+  }, {
+    "@language" : "en",
+    "@value" : "Noun"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/novena",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Novena"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de núcleos silábicos (tipología lingüístca"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about types of syllabic nucleus (linguistic typology)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/diphthong"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/liquid_consonant"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/nasal_consonant"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/triphthong"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/vowel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Nucleus Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/octava-aguda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Octava aguda o italiana"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/octava-real",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Octava real"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/octave",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Octava"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/orthodox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "orthodox"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Orthodox"
+  }, {
+    "@language" : "es",
+    "@value" : "Ortodoxo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/orthonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Orthonym"
+  }, {
+    "@language" : "es",
+    "@value" : "Ortónimo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Other"
+  }, {
+    "@language" : "es",
+    "@value" : "Otro"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/other-christian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "other-christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Other Christian"
+  }, {
+    "@language" : "es",
+    "@value" : "Otros Cristianos"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/ovillejo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Ovillejo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/pair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "pair"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Pair"
+  }, {
+    "@language" : "es",
+    "@value" : "Par"
+  }, {
+    "@language" : "es",
+    "@value" : "Rima pareada"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/paragoge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "paragoge"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "paragoge"
+  }, {
+    "@language" : "es",
+    "@value" : "paragoge"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/parallel-text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Parallel-text"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre las categorías de palabras que tienen características gramaticales similares"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about the categories of words that have similar grammatical properties."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/adjective"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/adverb"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/article"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/conjunction"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/interjection"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/noun"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/preposition"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/pronoun"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/verb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Part Of Speech Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/perfect_thyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "consonante"
+  }, {
+    "@language" : "en",
+    "@value" : "perfect rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/poem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Poem"
+  }, {
+    "@language" : "es",
+    "@value" : "Poema"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/poetic-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre el género literario principal de la obra"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about major literary genre of the compositions. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Poetic Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/possibily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/certainty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "possibily"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Posiblemente"
+  }, {
+    "@language" : "en",
+    "@value" : "Possibily"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/preposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "preposition"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Preposición"
+  }, {
+    "@language" : "en",
+    "@value" : "Preposition"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/priest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Clérigo"
+  }, {
+    "@language" : "en",
+    "@value" : "Priest"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/princess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Princesa"
+  }, {
+    "@language" : "en",
+    "@value" : "Princess"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/princessfather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Princess' Father"
+  }, {
+    "@language" : "es",
+    "@value" : "Rey o mandatario"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/probably",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/certainty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "probably"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Probablemente"
+  }, {
+    "@language" : "en",
+    "@value" : "Probably"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/probably-not",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/certainty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "probably-not"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Probablemente no"
+  }, {
+    "@language" : "en",
+    "@value" : "Probably not"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/prologue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "prologue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Prologue"
+  }, {
+    "@language" : "es",
+    "@value" : "Prólogo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/pronoun",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "pronoun"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Pronombre"
+  }, {
+    "@language" : "en",
+    "@value" : "Pronoun"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/protestant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#broader" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "protestant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Protestant"
+  }, {
+    "@language" : "es",
+    "@value" : "Protestante"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/prothesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "prothesis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "prothesis"
+  }, {
+    "@language" : "es",
+    "@value" : "prótesis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/pseudonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/designation-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "pseudonym"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "pseudonym"
+  }, {
+    "@language" : "es",
+    "@value" : "pseudónimo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/public-position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cargo público"
+  }, {
+    "@language" : "en",
+    "@value" : "Public position"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/pushkin_sonnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Pushkin sonnet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/pyrrhic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Pyrrhic"
+  }, {
+    "@language" : "es",
+    "@value" : "Pírrico"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/qualitative-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "qualitative-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Qualitative verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso cualitativo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/quantitative-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "quantitative-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Quantitative verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso cuantitativo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/quatrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cuarteto"
+  }, {
+    "@language" : "en",
+    "@value" : "Quatrain"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/quintain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Quintain"
+  }, {
+    "@language" : "es",
+    "@value" : "Quinteto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/quintilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Quintilla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/realism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Realism"
+  }, {
+    "@language" : "es",
+    "@value" : "Realismo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/redondilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Redondilla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/refrain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "refrain"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estribillo"
+  }, {
+    "@language" : "en",
+    "@value" : "Refrain"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-04-29"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre afiliaciones religiosas"
+  }, {
+    "@language" : "es",
+    "@value" : "Thesaurus about religious affiliations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/christian"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/unaffiliated"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Religious Affiliation Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "http://www.linkedin.com/in/ocorcho"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/revuelta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Revuelta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/rhyme-disposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre categorías de estrofas según la disposición de su rima"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about stanza categories according to their rhyme arrangement"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/pair"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Rhyme DIsposition Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipo de rima"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about rhyme type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/allitteration"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/assonant"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/consonant"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/dactylic"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/eye_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/internal_rhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/perfect_thyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/semirhyme"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/slant_rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Rhyme Matching Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/role-function",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre el papel específico representado por un agente en una obra"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about specific function performed by some agent on a work"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/actor"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/arranger"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/collector"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/singer"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/sponsor"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/transcriptor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Role Function Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/romance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Romance"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/romanticism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Romanticism"
+  }, {
+    "@language" : "es",
+    "@value" : "Romanticismo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sapphic-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "sapphic-stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estrofa sáfica"
+  }, {
+    "@language" : "en",
+    "@value" : "Sapphic stanza"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/scholar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Letrado"
+  }, {
+    "@language" : "en",
+    "@value" : "Scholar"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/school",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre movimientos literarios o escuelas de un autor"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about literary movements or schools of an author"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "School Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/scottish-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Scottish stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/seguidilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Seguidilla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/semirhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "it",
+    "@value" : "ipermetra"
+  }, {
+    "@language" : "en",
+    "@value" : "semirhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/septet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Septet"
+  }, {
+    "@language" : "es",
+    "@value" : "Septeto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/serpentine-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/servant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Criado"
+  }, {
+    "@language" : "en",
+    "@value" : "Servant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/serventesio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Serventesio"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sestet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sestet"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sestine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sestine"
+  }, {
+    "@language" : "es",
+    "@value" : "Sextina"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sexta-rima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Sexta rima"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sexteto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Sestain"
+  }, {
+    "@language" : "es",
+    "@value" : "Sexteto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sexteto-lira",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Sexteto lira"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sextilla",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Sextilla"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/silva",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Silva"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/singer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "singer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Cantante"
+  }, {
+    "@language" : "en",
+    "@value" : "Singer"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/slant_rhyme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "slant rhyme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/social-status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre el statuus social de una persona"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about the socialstatus of a person"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Social Status Scheme"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/soldier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Soldado"
+  }, {
+    "@language" : "en",
+    "@value" : "Soldier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/soneto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Soneto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/spenserian-stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Spenserian stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/spondee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Espondeo"
+  }, {
+    "@language" : "en",
+    "@value" : "Spondee"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/sponsor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "sponsor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Patrocinador"
+  }, {
+    "@language" : "en",
+    "@value" : "Sponsor"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/stand-alone_lines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Stand-alone lines"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Estrofa"
+  }, {
+    "@language" : "en",
+    "@value" : "Stanza"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre el tipo de textos proporcionados en las estrofas"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about the type of the texts provided in the Stanzas "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/critical-edition"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/diplomatic-edition"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/translation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Stanza Edition Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/stanza-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipo de estrofas pero no por su métrica"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about type of stanzas, but not by their metric"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/refrain"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/tornada"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Stanza Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/strophic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-category"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Combinación estrófica"
+  }, {
+    "@language" : "en",
+    "@value" : "Strophic"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-category"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/syllabic-verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/versification-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "syllabic-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Syllabic verse"
+  }, {
+    "@language" : "es",
+    "@value" : "Verso silábico"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/synaeresis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "synaeresis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "sinéresis"
+  }, {
+    "@language" : "en",
+    "@value" : "synaeresis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/synalepha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "synalepha"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "sinalefa"
+  }, {
+    "@language" : "en",
+    "@value" : "synalepha"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/syncope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "syncope"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "syncope"
+  }, {
+    "@language" : "es",
+    "@value" : "síncopa"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/synizesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metaplasm-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "synizesis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "synizesis"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/tercet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Tercet"
+  }, {
+    "@language" : "es",
+    "@value" : "Terceto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/terza-rima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Terza rima"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/textual-element-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre tipos de elementos textuales"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about type of textual element"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/chapter"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/epilogue"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/prologue"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Textual Element Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/tornada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "es",
+    "@value" : "Tornata o vuelta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "es",
+    "@value" : "tornada"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Tornada"
+  }, {
+    "@language" : "es",
+    "@value" : "Tornada"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/transcriptor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/role-function"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "Ttranscriptor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Transcriptor"
+  }, {
+    "@language" : "es",
+    "@value" : "Transcriptor"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/transgender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Transgender"
+  }, {
+    "@language" : "es",
+    "@value" : "Transgénero"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/translation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/stanza-edition-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "translation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Traducción"
+  }, {
+    "@language" : "en",
+    "@value" : "Translation"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/triphthong",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Triphthong"
+  }, {
+    "@language" : "es",
+    "@value" : "Triptongo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/trochee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Trochee"
+  }, {
+    "@language" : "es",
+    "@value" : "Troqueo"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/feet-type"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/foot-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/unaffiliated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "unaffiliated"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Sin afiliación"
+  }, {
+    "@language" : "en",
+    "@value" : "Unaffiliated"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/unknown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Género desconocido"
+  }, {
+    "@language" : "en",
+    "@value" : "Unknown gender"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/gender"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/vanguardism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Vanguardias"
+  }, {
+    "@language" : "en",
+    "@value" : "Vanguardism"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/literary-period"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/verb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/part-of-speech"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "verb"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Verb"
+  }, {
+    "@language" : "es",
+    "@value" : "Verbo"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/versification-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#ConceptScheme", "http://www.w3.org/ns/prov#Entity" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
+    "@value" : "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-10-27"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "Tesauro sobre los tipos de versificación"
+  }, {
+    "@language" : "en",
+    "@value" : "Thesaurus about types of versification"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/accentual-syllabic-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/accentual-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/alliterative-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/blank-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/free-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/light-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/quantitative-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/serpentine-verse"
+  }, {
+    "@id" : "http://postdata.linhd.uned.es/kos/syllabic-verse"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Versification Type Scheme"
+  } ],
+  "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
+    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/verso-arte-mayor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-complexity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Verso de arte mayor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-complexity"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/verso-arte-menor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-complexity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Verso de arte menor"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/metrical-complexity"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/villain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Agresor"
+  }, {
+    "@language" : "en",
+    "@value" : "Villain"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/character-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/vowel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Vocal"
+  }, {
+    "@language" : "en",
+    "@value" : "Vowel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/nucleus-type"
+  } ]
+}, {
+  "@id" : "http://postdata.linhd.uned.es/kos/writer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Escritor"
+  }, {
+    "@language" : "en",
+    "@value" : "Writer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/social-status"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept12949",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Moslems"
+  }, {
+    "@language" : "fr",
+    "@value" : "Musulman"
+  }, {
+    "@language" : "es",
+    "@value" : "Musulmán"
+  }, {
+    "@language" : "ru",
+    "@value" : "Мусульмане"
+  }, {
+    "@language" : "ar",
+    "@value" : "مسلمون"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept1485",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Enseignement supérieur"
+  }, {
+    "@language" : "es",
+    "@value" : "Enseñanza superior"
+  }, {
+    "@language" : "en",
+    "@value" : "Higher education"
+  }, {
+    "@language" : "ru",
+    "@value" : "Высшее образование"
+  }, {
+    "@language" : "ar",
+    "@value" : "تعليم عالي"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept2493",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/poetic-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "es",
+    "@value" : "Poesía"
+  }, {
+    "@language" : "en",
+    "@value" : "Poetry"
+  }, {
+    "@language" : "fr",
+    "@value" : "Poésie"
+  }, {
+    "@language" : "ru",
+    "@value" : "Поэзия"
+  }, {
+    "@language" : "ar",
+    "@value" : "شعر"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/poetic-type"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept2533",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Jews"
+  }, {
+    "@language" : "es",
+    "@value" : "Judío"
+  }, {
+    "@language" : "fr",
+    "@value" : "Juif"
+  }, {
+    "@language" : "ru",
+    "@value" : "Евреи"
+  }, {
+    "@language" : "ar",
+    "@value" : "يهود"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept4777",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Saint"
+  }, {
+    "@language" : "en",
+    "@value" : "Saints"
+  }, {
+    "@language" : "es",
+    "@value" : "Santo"
+  }, {
+    "@language" : "ru",
+    "@value" : "Святые"
+  }, {
+    "@language" : "ar",
+    "@value" : "قديسون"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept4979",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Chef religieux"
+  }, {
+    "@language" : "es",
+    "@value" : "Jefe religioso"
+  }, {
+    "@language" : "en",
+    "@value" : "Religious leaders"
+  }, {
+    "@language" : "ru",
+    "@value" : "Религиозные лидеры"
+  }, {
+    "@language" : "ar",
+    "@value" : "زعماء دينيون"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept5081",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Early childhood education"
+  }, {
+    "@language" : "es",
+    "@value" : "Educación de la primera infancia"
+  }, {
+    "@language" : "fr",
+    "@value" : "Éducation de la prime enfance"
+  }, {
+    "@language" : "ru",
+    "@value" : "Раннее детское образование"
+  }, {
+    "@language" : "ar",
+    "@value" : "تعليم في مرحلة الطفولة المبكرة"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept5426",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Clergy"
+  }, {
+    "@language" : "fr",
+    "@value" : "Clergé"
+  }, {
+    "@language" : "es",
+    "@value" : "Clero"
+  }, {
+    "@language" : "ru",
+    "@value" : "Духовенство"
+  }, {
+    "@language" : "ar",
+    "@value" : "رجال الدين"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/religious-affiliation"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept8399",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/poetic-type"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Drama"
+  }, {
+    "@language" : "es",
+    "@value" : "Drama"
+  }, {
+    "@language" : "fr",
+    "@value" : "Drame"
+  }, {
+    "@language" : "ru",
+    "@value" : "Драма"
+  }, {
+    "@language" : "ar",
+    "@value" : "دراما"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/poetic-type"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept9290",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Enseignement primaire"
+  }, {
+    "@language" : "es",
+    "@value" : "Enseñanza primaria"
+  }, {
+    "@language" : "en",
+    "@value" : "Primary education"
+  }, {
+    "@language" : "ru",
+    "@value" : "Начальное образование"
+  }, {
+    "@language" : "ar",
+    "@value" : "تعليم ابتدائي"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ]
+}, {
+  "@id" : "http://vocabularies.unesco.org/thesaurus/concept9291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Enseignement secondaire"
+  }, {
+    "@language" : "es",
+    "@value" : "Enseñanza secundaria"
+  }, {
+    "@language" : "en",
+    "@value" : "Secondary education"
+  }, {
+    "@language" : "ru",
+    "@value" : "Среднее образование"
+  }, {
+    "@language" : "ar",
+    "@value" : "تعليم ثانوي"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "http://postdata.linhd.uned.es/kos/author-education-level"
+  } ]
+}, {
+  "@id" : "http://www.linkedin.com/in/ocorcho",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+} ]
