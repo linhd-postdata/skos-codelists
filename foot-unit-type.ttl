@@ -10,5 +10,5 @@
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about types of units that defines the foot division"@en,
         "Tesauro sobre tipos de unidades que definen la división en pies"@es ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

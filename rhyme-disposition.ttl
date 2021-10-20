@@ -37,5 +37,5 @@
         "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ;
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-disposition/pair> ;
     skos:prefLabel "Thyme DIsposition Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

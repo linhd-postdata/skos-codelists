@@ -13,7 +13,8 @@
 
 <http://postdata.linhd.uned.es/kos/stanza-edition-type/parallel-text> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-edition-type> ;
-    skos:prefLabel "Parallel-text"@en ;
+    skos:prefLabel "Parallel-text"@en,
+        "Textos alineados"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/stanza-edition-type> .
 
 <http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition> a skos:Concept ;
@@ -44,5 +45,5 @@
         <http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition>,
         <http://postdata.linhd.uned.es/kos/stanza-edition-type/translation> ;
     skos:prefLabel "Stanza Edition Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

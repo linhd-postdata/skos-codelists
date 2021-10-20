@@ -1120,7 +1120,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/author-education-level">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre nivel educativo</terms:title>
@@ -1241,7 +1241,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/possibily"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/probably"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/probably-not"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-05-22</terms:date>
         <terms:title xml:lang="en">Controlled vocabulary about certainty degree</terms:title>
@@ -1320,7 +1320,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/dactylic_rhyme"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/feminine_rhyme"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/masculine_rhyme"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada</terms:title>
@@ -1340,7 +1340,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/feminine_rhyme"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/heterogeneous"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/masculine_rhyme"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas</terms:title>
@@ -1653,7 +1653,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/heteronym"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/orthonym"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pseudonym"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipos de nombre</terms:title>
@@ -1870,7 +1870,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pyrrhic"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/spondee"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/trochee"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies</terms:title>
@@ -1934,7 +1934,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pyrrhic"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/spondee"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/trochee"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipos de pie métrico</terms:title>
@@ -1968,7 +1968,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/other"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/transgender"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/unknown"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre géneros</terms:title>
@@ -1984,7 +1984,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/genre">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre géneros literario</terms:title>
@@ -2423,7 +2423,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/imparisyllabic"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/isosyllabic"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas </terms:title>
@@ -2440,7 +2440,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/sapphic-stanza"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica</terms:title>
@@ -2591,7 +2591,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/nasal_consonant"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/triphthong"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/vowel"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipos de núcleos silábicos (tipología lingüístca</terms:title>
@@ -2757,7 +2757,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/preposition"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pronoun"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/verb"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre las categorías de palabras que tienen características gramaticales similares</terms:title>
@@ -2799,7 +2799,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     <owl:NamedIndividual rdf:about="http://postdata.linhd.uned.es/kos/poetic-type">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre el género literario principal de la obra</terms:title>
@@ -3145,7 +3145,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/pair"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre categorías de estrofas según la disposición de su rima</terms:title>
@@ -3170,7 +3170,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/perfect_thyme"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/semirhyme"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/slant_rhyme"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipo de rima</terms:title>
@@ -3192,7 +3192,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/singer"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/sponsor"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/transcriptor"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre el papel específico representado por un agente en una obra</terms:title>
@@ -3560,7 +3560,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/critical-edition"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/diplomatic-edition"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/translation"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre el tipo de textos proporcionados en las estrofas</terms:title>
@@ -3578,7 +3578,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/refrain"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/tornada"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipo de estrofas pero no por su métrica</terms:title>
@@ -3699,7 +3699,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/chapter"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/epilogue"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/prologue"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre tipos de elementos textuales</terms:title>
@@ -3857,7 +3857,7 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/quantitative-verse"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/serpentine-verse"/>
         <skos:hasTopConcept rdf:resource="http://postdata.linhd.uned.es/kos/syllabic-verse"/>
-        <prov:wasAttributedTo rdf:resource="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+        <prov:wasAttributedTo rdf:resource="https://postdata.linhd.uned.es"/>
         <dc:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</dc:creator>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</terms:date>
         <terms:title xml:lang="es">Tesauro sobre los tipos de versificación</terms:title>
@@ -4113,10 +4113,10 @@ Technical Director. Salvador Ros Muñoz -- https://orcid.org/0000-0001-6330-4958
     
 
 
-    <!-- https://www.linkedin.com/in/m-luisa-diez-platas-05710614 -->
+    <!-- https://postdata.linhd.uned.es -->
 
 
-    <owl:NamedIndividual rdf:about="https://www.linkedin.com/in/m-luisa-diez-platas-05710614"/>
+    <owl:NamedIndividual rdf:about="https://postdata.linhd.uned.es"/>
 </rdf:RDF>
 
 

@@ -73,5 +73,5 @@
         <http://postdata.linhd.uned.es/kos/part-of-speech/preposition>,
         <http://postdata.linhd.uned.es/kos/part-of-speech/pronoun>,
         <http://postdata.linhd.uned.es/kos/part-of-speech/verb> ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

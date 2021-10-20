@@ -656,7 +656,7 @@
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<http://postdata.linhd.uned.es/kos/author-education-level> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/author-education-level> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/author-education-level> <http://purl.org/dc/terms/title> "Tesauro sobre nivel educativo"@es .
@@ -732,7 +732,7 @@
 <http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/possibily> .
 <http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/probably> .
 <http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/probably-not> .
-<http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/certainty> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/certainty> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/certainty> <http://purl.org/dc/terms/date> "2019-05-22"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/certainty> <http://purl.org/dc/terms/title> "Controlled vocabulary about certainty degree"@en .
@@ -786,7 +786,7 @@
 <http://postdata.linhd.uned.es/kos/clausula> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/dactylic_rhyme> .
 <http://postdata.linhd.uned.es/kos/clausula> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/feminine_rhyme> .
 <http://postdata.linhd.uned.es/kos/clausula> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/masculine_rhyme> .
-<http://postdata.linhd.uned.es/kos/clausula> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/clausula> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/clausula> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/clausula> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/clausula> <http://purl.org/dc/terms/title> "Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada"@es .
@@ -801,7 +801,7 @@
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/feminine_rhyme> .
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/heterogeneous> .
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/masculine_rhyme> .
-<http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/clausula-scheme-type> <http://purl.org/dc/terms/title> "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es .
@@ -994,7 +994,7 @@
 <http://postdata.linhd.uned.es/kos/designation-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/heteronym> .
 <http://postdata.linhd.uned.es/kos/designation-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/orthonym> .
 <http://postdata.linhd.uned.es/kos/designation-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/pseudonym> .
-<http://postdata.linhd.uned.es/kos/designation-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/designation-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/designation-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/designation-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/designation-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipos de nombre"@es .
@@ -1131,7 +1131,7 @@
 <http://postdata.linhd.uned.es/kos/feet-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/pyrrhic> .
 <http://postdata.linhd.uned.es/kos/feet-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/spondee> .
 <http://postdata.linhd.uned.es/kos/feet-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/trochee> .
-<http://postdata.linhd.uned.es/kos/feet-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/feet-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/feet-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/feet-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/feet-type> <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es .
@@ -1175,7 +1175,7 @@
 <http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/pyrrhic> .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/spondee> .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/trochee> .
-<http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/foot-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/foot-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipos de pie métrico"@es .
@@ -1199,7 +1199,7 @@
 <http://postdata.linhd.uned.es/kos/gender> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/other> .
 <http://postdata.linhd.uned.es/kos/gender> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/transgender> .
 <http://postdata.linhd.uned.es/kos/gender> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/unknown> .
-<http://postdata.linhd.uned.es/kos/gender> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/gender> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/gender> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/gender> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/gender> <http://purl.org/dc/terms/title> "Tesauro sobre géneros"@es .
@@ -1210,7 +1210,7 @@
 <http://postdata.linhd.uned.es/kos/genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://postdata.linhd.uned.es/kos/genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<http://postdata.linhd.uned.es/kos/genre> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/genre> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/genre> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/genre> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/genre> <http://purl.org/dc/terms/title> "Tesauro sobre géneros literario"@es .
@@ -1490,7 +1490,7 @@
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/imparisyllabic> .
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/isosyllabic> .
-<http://postdata.linhd.uned.es/kos/metrical-context> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/metrical-context> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/metrical-context> <http://purl.org/dc/terms/title> "Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas "@es .
@@ -1502,7 +1502,7 @@
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/sapphic-stanza> .
-<http://postdata.linhd.uned.es/kos/metrical-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/metrical-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/metrical-type> <http://purl.org/dc/terms/title> "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es .
@@ -1598,7 +1598,7 @@
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/nasal_consonant> .
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/triphthong> .
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/vowel> .
-<http://postdata.linhd.uned.es/kos/nucleus-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/nucleus-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/nucleus-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipos de núcleos silábicos (tipología lingüístca"@es .
@@ -1704,7 +1704,7 @@
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/preposition> .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/pronoun> .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/verb> .
-<http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/part-of-speech> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/part-of-speech> <http://purl.org/dc/terms/title> "Tesauro sobre las categorías de palabras que tienen características gramaticales similares"@es .
@@ -1731,7 +1731,7 @@
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
-<http://postdata.linhd.uned.es/kos/poetic-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/poetic-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/poetic-type> <http://purl.org/dc/terms/title> "Tesauro sobre el género literario principal de la obra"@es .
@@ -1947,7 +1947,7 @@
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/pair> .
-<http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas según la disposición de su rima"@es .
@@ -1967,7 +1967,7 @@
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/perfect_thyme> .
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/semirhyme> .
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/slant_rhyme> .
-<http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipo de rima"@es .
@@ -1984,7 +1984,7 @@
 <http://postdata.linhd.uned.es/kos/role-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/singer> .
 <http://postdata.linhd.uned.es/kos/role-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/sponsor> .
 <http://postdata.linhd.uned.es/kos/role-function> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/transcriptor> .
-<http://postdata.linhd.uned.es/kos/role-function> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/role-function> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/role-function> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/role-function> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/role-function> <http://purl.org/dc/terms/title> "Tesauro sobre el papel específico representado por un agente en una obra"@es .
@@ -2208,7 +2208,7 @@
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/critical-edition> .
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/diplomatic-edition> .
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/translation> .
-<http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/stanza-edition-type> <http://purl.org/dc/terms/title> "Tesauro sobre el tipo de textos proporcionados en las estrofas"@es .
@@ -2221,7 +2221,7 @@
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/refrain> .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/tornada> .
-<http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/stanza-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/stanza-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipo de estrofas pero no por su métrica"@es .
@@ -2297,7 +2297,7 @@
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/chapter> .
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/epilogue> .
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/prologue> .
-<http://postdata.linhd.uned.es/kos/textual-element-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/textual-element-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/textual-element-type> <http://purl.org/dc/terms/title> "Tesauro sobre tipos de elementos textuales"@es .
@@ -2400,7 +2400,7 @@
 <http://postdata.linhd.uned.es/kos/versification-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/quantitative-verse> .
 <http://postdata.linhd.uned.es/kos/versification-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/serpentine-verse> .
 <http://postdata.linhd.uned.es/kos/versification-type> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://postdata.linhd.uned.es/kos/syllabic-verse> .
-<http://postdata.linhd.uned.es/kos/versification-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+<http://postdata.linhd.uned.es/kos/versification-type> <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> .
 <http://postdata.linhd.uned.es/kos/versification-type> <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en .
 <http://postdata.linhd.uned.es/kos/versification-type> <http://purl.org/dc/terms/date> "2019-10-27"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://postdata.linhd.uned.es/kos/versification-type> <http://purl.org/dc/terms/title> "Tesauro sobre los tipos de versificación"@es .
@@ -2569,7 +2569,7 @@
 # http://www.linkedin.com/in/ocorcho
 <http://www.linkedin.com/in/ocorcho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://www.linkedin.com/in/m-luisa-diez-platas-05710614
-<https://www.linkedin.com/in/m-luisa-diez-platas-05710614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://postdata.linhd.uned.es/
+<https://postdata.linhd.uned.es/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

@@ -25,5 +25,5 @@
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metrical-context/imparisyllabic>,
         <http://postdata.linhd.uned.es/kos/metrical-context/isosyllabic> ;
     skos:prefLabel "Metrical Context Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

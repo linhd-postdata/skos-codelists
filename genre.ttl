@@ -11,5 +11,5 @@
     dct:title "Thesaurus about literary genres"@en,
         "Tesauro sobre géneros literario"@es ;
     skos:prefLabel "Genre Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 
