@@ -48,5 +48,5 @@
         <http://postdata.linhd.uned.es/kos/nucleus-type/triphthong>,
         <http://postdata.linhd.uned.es/kos/nucleus-type/vowel> ;
     skos:prefLabel "Nucleus Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

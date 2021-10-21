@@ -6,17 +6,20 @@
 
 <http://postdata.linhd.uned.es/kos/metrical-type/alcaic-stanza> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Alcaic stanza"@en ;
+    skos:prefLabel "Alcaic stanza"@en,
+        "Estrofa Alcaica"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/ballad-stanza> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Ballad stanza"@en ;
+    skos:prefLabel "Ballad stanza"@en,
+        "Balada"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/cantar> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Cantar o copla"@es ;
+    skos:prefLabel "Cantar o copla"@es
+        "Cantar or copla"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/copla-arte-mayor> a skos:Concept ;
@@ -251,5 +254,5 @@
         "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es ;
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza> ;
     skos:prefLabel "Metrical Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

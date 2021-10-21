@@ -31,5 +31,5 @@
     dct:title "Thesaurus about major literary genre of the compositions. "@en,
         "Tesauro sobre el género literario principal de la obra"@es ;
     skos:prefLabel "Poetic Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

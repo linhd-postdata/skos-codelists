@@ -1207,7 +1207,7 @@
     "@value" : "Author Education Level Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/ballad-stanza",
@@ -1362,7 +1362,7 @@
     "@value" : "Certainty Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/chapter",
@@ -1477,7 +1477,7 @@
     "@value" : "Clausula Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/clausula-scheme-type",
@@ -1511,7 +1511,7 @@
     "@value" : "Clausula Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/coda",
@@ -1891,7 +1891,7 @@
     "@value" : "Designation Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/diaeresis",
@@ -2168,7 +2168,7 @@
     "@value" : "Feet Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/female",
@@ -2260,7 +2260,7 @@
     "@value" : "Foot Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/free-verse",
@@ -2312,7 +2312,7 @@
     "@value" : "Gender Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/genre",
@@ -2337,7 +2337,7 @@
     "@value" : "Genre Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/haiku",
@@ -2906,7 +2906,7 @@
     "@value" : "Metrical Context Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/metrical-type",
@@ -2934,7 +2934,7 @@
     "@value" : "Metrical Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/middle-ages",
@@ -3130,7 +3130,7 @@
     "@value" : "Nucleus Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/octava-aguda",
@@ -3344,7 +3344,7 @@
     "@value" : "Part Of Speech Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/perfect_thyme",
@@ -3401,7 +3401,7 @@
     "@value" : "Poetic Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/possibily",
@@ -3838,7 +3838,7 @@
     "@value" : "Rhyme DIsposition Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/rhyme-matching-type",
@@ -3882,7 +3882,7 @@
     "@value" : "Rhyme Matching Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/role-function",
@@ -3920,7 +3920,7 @@
     "@value" : "Role Function Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/romance",
@@ -4358,7 +4358,7 @@
     "@value" : "Stanza Edition Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/stanza-type",
@@ -4388,7 +4388,7 @@
     "@value" : "Stanza Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/strophic",
@@ -4542,7 +4542,7 @@
     "@value" : "Textual Element Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/tornada",
@@ -4755,7 +4755,7 @@
     "@value" : "Versification Type Scheme"
   } ],
   "http://www.w3.org/ns/prov#wasAttributedTo" : [ {
-    "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614"
+    "@id" : "https://postdata.linhd.uned.es/"
   } ]
 }, {
   "@id" : "http://postdata.linhd.uned.es/kos/verso-arte-mayor",
@@ -5137,6 +5137,6 @@
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://www.linkedin.com/in/m-luisa-diez-platas-05710614",
+  "@id" : "https://postdata.linhd.uned.es/",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 } ]

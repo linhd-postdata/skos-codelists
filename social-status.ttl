@@ -74,6 +74,6 @@
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about the socialstatus of a person"@en,
-        "Tesauro sobre el statuus social de una persona"@es ;
+        "Tesauro sobre el estatus social de una persona"@es ;
     skos:prefLabel "Social Status Scheme"@en .
 

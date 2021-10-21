@@ -11,5 +11,5 @@
     dct:title "Thesaurus about literary movements or schools of an author"@en,
         "Tesauro sobre movimientos literarios o escuelas de un autor"@es ;
     skos:prefLabel "School Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

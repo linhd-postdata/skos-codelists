@@ -42,7 +42,8 @@
 
 <http://postdata.linhd.uned.es/kos/stanza-type/stand-alone_lines> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/stanza-type> ;
-    skos:prefLabel "Stand-alone lines"@en ;
+    skos:prefLabel "Stand-alone lines"@en,
+        "Líneas sueltas"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/stanza-type> .
 
 <http://postdata.linhd.uned.es/kos/stanza-type/refrain> a skos:Concept ;
@@ -67,5 +68,5 @@
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-type/refrain>,
         <http://postdata.linhd.uned.es/kos/stanza-type/tornada> ;
     skos:prefLabel "Stanza Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

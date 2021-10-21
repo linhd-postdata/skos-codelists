@@ -756,7 +756,7 @@ xsd:date rdf:type rdfs:Datatype .
 :author-education-level rdf:type owl:NamedIndividual ,
                                  <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
                                  <http://www.w3.org/ns/prov#Entity> ;
-                        <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                        <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                         <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                         <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                         <http://purl.org/dc/terms/title> "Tesauro sobre nivel educativo"@es ,
@@ -841,7 +841,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                :possibily ,
                                                                :probably ,
                                                                :probably-not ;
-           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
            <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
            <http://purl.org/dc/terms/date> "2019-05-22"^^xsd:date ;
            <http://purl.org/dc/terms/title> "Controlled vocabulary about certainty degree"@en ,
@@ -900,7 +900,7 @@ xsd:date rdf:type rdfs:Datatype .
           <http://www.w3.org/2004/02/skos/core#hasTopConcept> :dactylic_rhyme ,
                                                               :feminine_rhyme ,
                                                               :masculine_rhyme ;
-          <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+          <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
           <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
           <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
           <http://purl.org/dc/terms/title> "Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada"@es ,
@@ -916,7 +916,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                           :feminine_rhyme ,
                                                                           :heterogeneous ,
                                                                           :masculine_rhyme ;
-                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                       <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                       <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                       <http://purl.org/dc/terms/title> "Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas"@es ,
@@ -1133,7 +1133,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                       :heteronym ,
                                                                       :orthonym ,
                                                                       :pseudonym ;
-                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                   <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                   <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                   <http://purl.org/dc/terms/title> "Tesauro sobre tipos de nombre"@es ,
@@ -1286,7 +1286,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                :pyrrhic ,
                                                                :spondee ,
                                                                :trochee ;
-           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
            <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
            <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
            <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies"@es ,
@@ -1334,7 +1334,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                :pyrrhic ,
                                                                :spondee ,
                                                                :trochee ;
-           <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+           <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
            <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
            <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
            <http://purl.org/dc/terms/title> "Tesauro sobre tipos de pie métrico"@es ,
@@ -1360,7 +1360,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                             :other ,
                                                             :transgender ,
                                                             :unknown ;
-        <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+        <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
         <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
         <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
         <http://purl.org/dc/terms/title> "Tesauro sobre géneros"@es ,
@@ -1372,7 +1372,7 @@ xsd:date rdf:type rdfs:Datatype .
 :genre rdf:type owl:NamedIndividual ,
                 <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
                 <http://www.w3.org/ns/prov#Entity> ;
-       <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+       <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
        <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
        <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
        <http://purl.org/dc/terms/title> "Tesauro sobre géneros literario"@es ,
@@ -1684,7 +1684,7 @@ xsd:date rdf:type rdfs:Datatype .
                            <http://www.w3.org/ns/prov#Entity> ;
                   <http://www.w3.org/2004/02/skos/core#hasTopConcept> :imparisyllabic ,
                                                                       :isosyllabic ;
-                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                  <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                   <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                   <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                   <http://purl.org/dc/terms/title> "Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas "@es ,
@@ -1697,7 +1697,7 @@ xsd:date rdf:type rdfs:Datatype .
                         <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
                         <http://www.w3.org/ns/prov#Entity> ;
                <http://www.w3.org/2004/02/skos/core#hasTopConcept> :sapphic-stanza ;
-               <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+               <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                <http://purl.org/dc/terms/title> "Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica"@es ,
@@ -1804,7 +1804,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                   :nasal_consonant ,
                                                                   :triphthong ,
                                                                   :vowel ;
-              <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+              <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
               <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
               <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
               <http://purl.org/dc/terms/title> "Tesauro sobre tipos de núcleos silábicos (tipología lingüístca"@es ,
@@ -1922,7 +1922,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                     :preposition ,
                                                                     :pronoun ,
                                                                     :verb ;
-                <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                 <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                 <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                 <http://purl.org/dc/terms/title> "Tesauro sobre las categorías de palabras que tienen características gramaticales similares"@es ,
@@ -1952,7 +1952,7 @@ xsd:date rdf:type rdfs:Datatype .
 :poetic-type rdf:type owl:NamedIndividual ,
                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
                       <http://www.w3.org/ns/prov#Entity> ;
-             <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+             <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
              <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
              <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
              <http://purl.org/dc/terms/title> "Tesauro sobre el género literario principal de la obra"@es ,
@@ -2194,7 +2194,7 @@ xsd:date rdf:type rdfs:Datatype .
                             <http://www.w3.org/2004/02/skos/core#ConceptScheme> ,
                             <http://www.w3.org/ns/prov#Entity> ;
                    <http://www.w3.org/2004/02/skos/core#hasTopConcept> :pair ;
-                   <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                   <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                    <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                    <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                    <http://purl.org/dc/terms/title> "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ,
@@ -2215,7 +2215,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                          :perfect_thyme ,
                                                                          :semirhyme ,
                                                                          :slant_rhyme ;
-                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                      <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                      <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                      <http://purl.org/dc/terms/title> "Tesauro sobre tipo de rima"@es ,
@@ -2233,7 +2233,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                    :singer ,
                                                                    :sponsor ,
                                                                    :transcriptor ;
-               <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+               <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                <http://purl.org/dc/terms/title> "Tesauro sobre el papel específico representado por un agente en una obra"@es ,
@@ -2486,7 +2486,7 @@ xsd:date rdf:type rdfs:Datatype .
                      <http://www.w3.org/2004/02/skos/core#hasTopConcept> :critical-edition ,
                                                                          :diplomatic-edition ,
                                                                          :translation ;
-                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                     <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                      <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                      <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                      <http://purl.org/dc/terms/title> "Tesauro sobre el tipo de textos proporcionados en las estrofas"@es ,
@@ -2500,7 +2500,7 @@ xsd:date rdf:type rdfs:Datatype .
                       <http://www.w3.org/ns/prov#Entity> ;
              <http://www.w3.org/2004/02/skos/core#hasTopConcept> :refrain ,
                                                                  :tornada ;
-             <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+             <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
              <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
              <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
              <http://purl.org/dc/terms/title> "Tesauro sobre tipo de estrofas pero no por su métrica"@es ,
@@ -2585,7 +2585,7 @@ xsd:date rdf:type rdfs:Datatype .
                       <http://www.w3.org/2004/02/skos/core#hasTopConcept> :chapter ,
                                                                           :epilogue ,
                                                                           :prologue ;
-                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                      <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                       <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                       <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                       <http://purl.org/dc/terms/title> "Tesauro sobre tipos de elementos textuales"@es ,
@@ -2699,7 +2699,7 @@ xsd:date rdf:type rdfs:Datatype .
                                                                         :quantitative-verse ,
                                                                         :serpentine-verse ,
                                                                         :syllabic-verse ;
-                    <http://www.w3.org/ns/prov#wasAttributedTo> <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> ;
+                    <http://www.w3.org/ns/prov#wasAttributedTo> <https://postdata.linhd.uned.es/> ;
                     <http://purl.org/dc/elements/1.1/creator> "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
                     <http://purl.org/dc/terms/date> "2019-10-27"^^xsd:date ;
                     <http://purl.org/dc/terms/title> "Tesauro sobre los tipos de versificación"@es ,
@@ -2886,8 +2886,8 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.linkedin.com/in/ocorcho> rdf:type owl:NamedIndividual .
 
 
-###  https://www.linkedin.com/in/m-luisa-diez-platas-05710614
-<https://www.linkedin.com/in/m-luisa-diez-platas-05710614> rdf:type owl:NamedIndividual .
+###  https://postdata.linhd.uned.es/
+<https://postdata.linhd.uned.es/> rdf:type owl:NamedIndividual .
 
 
 ###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

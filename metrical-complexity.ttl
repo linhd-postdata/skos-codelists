@@ -6,12 +6,14 @@
 
 <http://postdata.linhd.uned.es/kos/metrical-complexity/verso-arte-mayor> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-complexity> ;
-    skos:prefLabel "Verso de arte mayor"@es ;
+    skos:prefLabel "Verso de arte mayor"@es,
+        "Verse with 9 or more syllables"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-complexity> .
 
 <http://postdata.linhd.uned.es/kos/metrical-complexity/verso-arte-menor> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-complexity> ;
-    skos:prefLabel "Verso de arte menor"@es ;
+    skos:prefLabel "Verso de arte menor"@es,
+        "Verse with 8 or less syllables"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-complexity> .
 
 <http://postdata.linhd.uned.es/kos/metrical-complexity> a skos:ConceptScheme,

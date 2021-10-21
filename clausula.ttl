@@ -38,5 +38,5 @@
         <http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme>,
         <http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme> ;
     skos:prefLabel "Clausula Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

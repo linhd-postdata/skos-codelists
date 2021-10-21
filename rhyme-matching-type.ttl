@@ -31,7 +31,8 @@
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type/eye_rhyme> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
-    skos:prefLabel "eye rhyme"@en ;
+    skos:prefLabel "eye rhyme"@en,
+        "rima falsa"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type/internal_rhyme> a skos:Concept ;
@@ -54,7 +55,8 @@
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/rhyme-matching-type> ;
-    skos:prefLabel "slant rhyme"@en ;
+    skos:prefLabel "slant rhyme"@en,
+        "rima imperfecta"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/rhyme-matching-type> .
 
 <http://postdata.linhd.uned.es/kos/rhyme-matching-type> a skos:ConceptScheme,
@@ -73,5 +75,5 @@
         <http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme>,
         <http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme> ;
     skos:prefLabel "Thyme Matching Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

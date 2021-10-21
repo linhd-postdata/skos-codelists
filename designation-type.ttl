@@ -6,7 +6,8 @@
 
 <http://postdata.linhd.uned.es/kos/certainty/designation-type/allonym> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/designation-type> ;
-    skos:prefLabel "Allonym"@en ;
+    skos:prefLabel "Allonym"@en ,
+        "Alónimo"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/designation-type> .
 
 <http://postdata.linhd.uned.es/kos/designation-type/heteronym> a skos:Concept ;
@@ -38,5 +39,5 @@
         <http://postdata.linhd.uned.es/kos/designation-type/orthonym>,
         <http://postdata.linhd.uned.es/kos/designation-type/pseudonym> ;
     skos:prefLabel "Designation Type Scheme"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614> .
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

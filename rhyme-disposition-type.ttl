@@ -12,7 +12,7 @@
     dc:date "2019-10-27"^^xsd:date ;
     dc:title "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ;
     dc:title "Thesaurus about stanza categories according to their rhyme arrangement"@en ;
-    prov:wasAttributedTo <https://www.linkedin.com/in/m-luisa-diez-platas-05710614>;
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/>;
     prov:hadPrimarySource "".
 
 
