@@ -18,7 +18,7 @@
 
 <http://postdata.linhd.uned.es/kos/metrical-type/cantar> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Cantar o copla"@es
+    skos:prefLabel "Cantar o copla"@es,
         "Cantar or copla"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
@@ -55,12 +55,12 @@
 
 <http://postdata.linhd.uned.es/kos/metrical-type/cuaderna-via> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Cuaderna vía"@es ;
+    skos:prefLabel "Cuaderna vía"@es;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/cuarteta> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/metrical-type> ;
-    skos:prefLabel "Cuarteta"@es ;
+    skos:prefLabel "Cuarteta"@es;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-type> .
 
 <http://postdata.linhd.uned.es/kos/metrical-type/cuarteto-lira> a skos:Concept ;

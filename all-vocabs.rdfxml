@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://api.stardog.com/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:stardog="tag:stardog:api:"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/genre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about literary genres</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre géneros literario</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Genre Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-unit-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about types of units that defines the foot division</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de unidades que definen la división en pies</title>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/school">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about literary movements or schools of an author</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre movimientos literarios o escuelas de un autor</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">School Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías de estrofas según la disposición de su rima</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about stanza categories according to their rhyme arrangement</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Thyme DIsposition Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition/pair"/>
+	<creator xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">María Luisa Díez Platas (UNED)</creator>
+	<hadPrimarySource xmlns="http://www.w3.org/ns/prov#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hadPrimarySource>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition/pair">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Pair</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Par</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima pareada</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pair</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-category/fixed-form">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Fixed form</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Forma fija</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-category">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about a main categories for metric type identification</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías principales para la identificación dell tipo métrico</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Metrical Category Scheme</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-category/strophic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Strophic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Combinación estrófica</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-category"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-complexity/verso-arte-mayor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso de arte mayor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Verse with 9 or more syllables</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-complexity">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about categories by number of syllables (more or less than eight)</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías según número de sílabas (más o menos de ocho)</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mertrical Complexity Scheme</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-complexity/verso-arte-menor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso de arte menor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Verse with 8 or less syllables</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-complexity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept2493">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">شعر</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Poetry</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Poesía</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Poésie</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Поэзия</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept327"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/poetic-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about major literary genre of the compositions. </title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre el género literario principal de la obra</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Poetic Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept8399">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">دراما</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Drama</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Drama</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Drame</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Драма</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/poetic-type"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept327"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-context/imparisyllabic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Imparisyllabic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Imparisilábicos</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-context">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about categories of the poem according to whether the verses have the same number of syllables</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías del poema según si los versos tienen el mismo número de sílabas </title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Metrical Context Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context/imparisyllabic"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context/isosyllabic"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-context/isosyllabic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Isosyllabic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Isosilábicos</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-context"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition/cross">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Cross</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima cruzada</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition/enclosed">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Enclosed</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima abrazada</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-disposition/monorhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Monorhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima continua</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-disposition"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/designation-type/allonym">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Allonym</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Alónimo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/designation-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about type of name</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de nombre</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Designation Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/designation-type/allonym"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type/heteronym"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type/orthonym"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type/pseudonym"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/designation-type/heteronym">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">heteronym</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">heterónimo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteronym</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/designation-type/orthonym">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Orthonym</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ortónimo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/designation-type/pseudonym">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">pseudonym</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">pseudónimo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudonym</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/designation-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender/female">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Female</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Mujer</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about genders</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre géneros</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Gender Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender/female"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender/male"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender/other"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender/transgender"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender/unknown"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender/male">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Male</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Hombre</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender/other">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Other</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Otro</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender/transgender">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Transgender</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Transgénero</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/gender/unknown">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Unknown</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Desconocido</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/gender"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/definitely">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Definitely</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Definitivamente</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definitely</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-05-22</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Controlled vocabulary about certainty degree</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Vocabulario controlado sobre grados de certeza</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Certainty Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/definitely"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/definitely-not"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/possibily"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/probably"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty/probably-not"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/definitely-not">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Definitely not</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Definitivamente no</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definitely-not</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/possibily">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Possibily</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Posiblemente</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">possibily</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/probably">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Probably</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Probablemente</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probably</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/certainty/probably-not">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Probably not</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Probablemente no</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probably-not</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/certainty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type/poem">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Poem</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Poema</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about type of textual element</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de elementos textuales</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Textual Element Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type/chapter"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type/epilogue"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type/prologue"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type/stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Stanza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Estrofa</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type/chapter">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chapter</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Capítulo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chapter</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type/epilogue">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Epilogue</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Epílogo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epilogue</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/textual-element-type/prologue">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Prologue</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Prólogo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prologue</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/textual-element-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Dactylic rhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima esdrújula</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about the categorisation of the foot according to the rhythmic ending of a line determined by the number of unstressed syllables following the last stressed one.</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre la categorización del pie según la terminación rítmica de una línea determinada por el número de sílabas sin acentuar que siguen a la última acentuada</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Clausula Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula-scheme-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about categorisation of the stanza according to the distribution of clausulae/gender of rhymes</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorización de la estrofa según la distribución de las cláusulas o género de las rimas</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Clausula Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type/heterogeneous"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Feminine rhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima femenina</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Masculine rhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rima masculina</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type/hypertext">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Hypertext</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Hipertexto</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertext</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about the type of the texts provided in the Stanzas </title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre el tipo de textos proporcionados en las estrofas</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Stanza Edition Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type/translation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type/parallel-text">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Parallel-text</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Textos alineados</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Critical edition</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Edición crítica</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical-edition</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Diplomatic edition</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Edición diplomática</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diplomatic-edition</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-edition-type/translation">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Translation</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Traducción</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translation</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-edition-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/liquid_consonant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Liquid Consonant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Consonante Líquida</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Liquid consonant</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Consonante líquida</altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about types of syllabic nucleus (linguistic typology)</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de núcleos silábicos (tipología lingüístca</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Nucleus Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/liquid_consonant"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type/diphthong"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type/nasal_consonant"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type/triphthong"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type/vowel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type/diphthong">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Diphthong</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Diptongo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type/nasal_consonant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Nasal consonant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Consonante nasal</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type/triphthong">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Triphthong</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Triptongo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/nucleus-type/vowel">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Vowel</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Vocal</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/nucleus-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/actor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Actor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Agente</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actor</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about specific function performed by some agent on a work</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre el papel específico representado por un agente en una obra</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Role Function Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/actor"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/arranger"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/collector"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/singer"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/sponsor"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function/transcriptor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/arranger">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Arranger</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Organizador</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arranger</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/collector">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Collector</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Coleccionista</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collector</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/singer">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Singer</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cantante</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">singer</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/sponsor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sponsor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Patrocinador</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sponsor</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/role-function/transcriptor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Transcriptor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Transcriptor</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ttranscriptor</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/role-function"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/donor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Donor</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Donante del objeto mágico</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about character types</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de rol</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Character type scheme</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/falsehero">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">False Hero</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Falso héroe</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/helper">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Helper</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Auxiliar</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/hero">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Hero</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Héroe</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/princess">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Princess</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Princesa</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/princessfather">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Princess' Father</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Rey o mandatario</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/character-type/villain">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Villain</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Agresor</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/character-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/clausula-scheme-type/heterogeneous">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Heterogeneous</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Heterogéneo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/clausula-scheme-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept1485">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">تعليم عالي</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Higher education</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Enseñanza superior</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Enseignement supérieur</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Высшее образование</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/author-education-level">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about author education level</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre nivel educativo</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Author Education Level Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept5081">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">تعليم في مرحلة الطفولة المبكرة</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early childhood education</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Educación de la primera infancia</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Éducation de la prime enfance</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Раннее детское образование</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept9290">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">تعليم ابتدائي</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Primary education</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Enseñanza primaria</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Enseignement primaire</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начальное образование</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept9291">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">تعليم ثانوي</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Secondary education</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Enseñanza secundaria</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Enseignement secondaire</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Среднее образование</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/author-education-level"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept36"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period-renaissance">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Renaissance</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Renacimiento</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about labels of a time frame for grouping certain works</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre etiquuets de periodos temporales para agrupar ciertas obras</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Literary Period Scheme</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/baroque">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Baroque</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Barroco</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/classical-antiquity">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Classical Antiquity</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Antigüedad Clásica</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/enlightenment">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Enlightenment</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ilustración</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/middle-ages">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Middle Ages</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Edad Media</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/modernism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Modernism</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Modernismo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/realism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Realism</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Realismo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/romanticism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Romanticism</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Romanticismo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/literary-period/vanguardism">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Vanguardism</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Vanguardias</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/literary-period"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/cabeza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cabeza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about type of stanzas, but not by their metric</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipo de estrofas pero no por su métrica</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Stanza Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type/refrain"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type/tornada"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/coda">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Coda</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/copla">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/envoi">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Envoi</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/eslabón">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Eslabón</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/mudanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mudanza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cuerpo o mudanza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/revuelta">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Revuelta</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/stand-alone_lines">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Stand-alone lines</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Líneas sueltas</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/refrain">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Refrain</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Estribillo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">refrain</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/stanza-type/tornada">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Tornada</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Tornada</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/stanza-type"/>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Tornata o vuelta</altLabel>
+	<note xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">tornada</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/adjective">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Adjectve</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Adjetivo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adjective</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about the categories of words that have similar grammatical properties.</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre las categorías de palabras que tienen características gramaticales similares</title>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/adjective"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/adverb"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/article"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/conjunction"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/interjection"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/noun"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/preposition"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/pronoun"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech/verb"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/adverb">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Adverb</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Adverbio</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adverb</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/article">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Article</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Artículo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">article</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/conjunction">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Conjunction</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Conjunción</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conjunction</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/interjection">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Interjection</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Interjección</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interjection</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/noun">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Noun</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Nombre</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noun</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/preposition">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Preposition</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Preposición</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preposition</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/pronoun">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Pronoun</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Pronombre</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pronoun</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/part-of-speech/verb">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Verb</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verbo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">verb</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/part-of-speech"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/beggar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Beggar</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Pobre</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about the socialstatus of a person</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre el estatus social de una persona</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Social Status Scheme</prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/hidalgo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Hildago</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/knight">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Knight</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Caballero</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/mechanical-arts">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mechanical arts</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Oficial</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/nobleman">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Nobleman</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Noble</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/priest">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Priest</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Clérigo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/public-position">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Public position</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cargo público</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/scholar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Scholar</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Letrado</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/servant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Servant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Criado</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/soldier">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Soldier</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Soldado</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/social-status/writer">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Writer</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Escritor</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/social-status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/qualitative-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Qualitative verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso cualitativo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qualitative-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about types of versification</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre los tipos de versificación</title>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/accentual-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/blank-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/free-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/light-verse"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/serpentine-verse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/versification-type/accentual-syllabic-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Accentual syllabic verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso acentual silábico</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accentual-syllabic-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/accentual-verse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/accentual-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Accentual verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso acentual</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accentual-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Alliterative verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso aliterativo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alliterative-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/blank-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Blank verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso blanco</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blank-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/free-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Free verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso libre</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">free-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/quantitative-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Quantitative verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso cuantitativo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantitative-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/versification-type/syllabic-verse">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Syllabic verse</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Verso silábico</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syllabic-verse</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/versification-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/amphibrach">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Amphibrach</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Anfíbraco</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/feet-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about categories of stanzas or verses depending on the type of feet</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías de estrofas o versos dependiendo del tipo de pies</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Feet Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/amphibrach"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/anapest"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/dactyl"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/iamb"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/pyrrhic"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/spondee"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/trochee"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type/mixed"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about type of metric foot</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipos de pie métrico</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Foot Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/amphibrach"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/anapest"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/dactyl"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/iamb"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/pyrrhic"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/spondee"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type/trochee"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/anapest">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Anapest</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Anapesto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/dactyl">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Dactyl</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Dáctilo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/iamb">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Iamb</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Yambo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/pyrrhic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Pyrrhic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Pírrico</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/spondee">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Spondee</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Espondeo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/foot-type/trochee">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Trochee</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Troqueo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/feet-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/feet-type/mixed">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mixed</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Variado</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/foot-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/allitteration">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">allitteration</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">aliteración</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about rhyme type</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre tipo de rima</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Thyme Matching Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/allitteration"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/dactylic"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/eye_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/internal_rhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/perfect_thyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/assonant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">assonant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">asonante</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assonant</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/consonant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">consonant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">consonante</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consonant</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/dactylic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">dactylic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">esdrújula</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/eye_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">eye rhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">rima falsa</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/internal_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">internal</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">interna</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/perfect_thyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">consonante</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">perfect rhyme</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">semirhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="it">ipermetra</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">slant rhyme</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">rima imperfecta</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/rhyme-matching-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/apheresis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">apheresis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">aféresis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apheresis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus of metaplasms</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro de metaplasmas o figuras de transformación</title>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/apheresis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/apocope"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/crasis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/diaeresis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/elision"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/ephentesis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/hiatus"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/metathesis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/paragoge"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/prothesis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/synaeresis"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/synalepha"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/syncope"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type/synizesis"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/apocope">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">apocope</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">apocope</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apocope</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/crasis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">crasis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">contracción</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crasis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/diaeresis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">diaeresis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">dialefa</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diaeresis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">dieresis</altLabel>
+	<altLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">diéresis</altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/elision">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">elision</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">elision</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elision</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/ephentesis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">ephentesis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">epéntesis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ephentesis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/hiatus">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">hiatus</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">hiato</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hiatus</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/metathesis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">aféresis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">metathesis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metátesis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/paragoge">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">paragoge</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">paragoge</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paragoge</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/prothesis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">prothesis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">prótesis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prothesis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/synaeresis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">synaeresis</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">sinéresis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaeresis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/synalepha">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">synalepha</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">sinalefa</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synalepha</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/syncope">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">syncope</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">síncopa</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syncope</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metaplasm-type/synizesis">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">synizesis</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synizesis</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metaplasm-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept12949">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">مسلمون</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Moslems</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Musulmán</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Musulman</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Мусульмане</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept293"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-29</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre afiliaciones religiosas</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Thesaurus about religious affiliations</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Religious Affiliation Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="http://www.linkedin.com/in/ocorcho"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept2533">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">يهود</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Jews</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Judío</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Juif</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Евреи</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept293"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept4777">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">قديسون</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Saints</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Santo</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Saint</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Святые</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept293"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept4979">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">زعماء دينيون</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Religious leaders</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Jefe religioso</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Chef religieux</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Религиозные лидеры</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept293"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://vocabularies.unesco.org/thesaurus/concept5426">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">رجال الدين</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Clergy</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Clero</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Clergé</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Духовенство</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept293"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/catholic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Catholic</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Católico</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catholic</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/christian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Christian</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cristiano</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">christian</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/catholic"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/jehovah-witness"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/mormon"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/other-christian"/>
+	<narrower xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/protestant"/>
+	<exactMatch xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://vocabularies.unesco.org/thesaurus/concept5153"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/jehovah-witness">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Jehova's Witness</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Testigo de Jehová</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jehovah-witness</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/mormon">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mormon</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Mormón</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mormon</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/orthodox">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Orthodox</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ortodoxo</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orthodox</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/other-christian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Other Christian</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Otros Cristianos</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other-christian</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/protestant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Protestant</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Protestante</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protestant</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+	<broader xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation/christian"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/religious-affiliation/unaffiliated">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Unaffiliated</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sin afiliación</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unaffiliated</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/religious-affiliation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/alcaic-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Alcaic stanza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Estrofa Alcaica</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+	<creator xmlns="http://purl.org/dc/elements/1.1/" xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</creator>
+	<date xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-27</date>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Thesaurus about categories of  stanzas/lines  grouping according to metrics. ”</title>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="es">Tesauro sobre categorías del agrupamiento de estrofas o versos según la métrica</title>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Metrical Type Scheme</prefLabel>
+	<wasAttributedTo xmlns="http://www.w3.org/ns/prov#" rdf:resource="https://postdata.linhd.uned.es/"/>
+	<hasTopConcept xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/ballad-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Ballad stanza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Balada</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/cantar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cantar o copla</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Cantar or copla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/copla-arte-mayor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla de arte mayor o de Juan de Mena</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/copla-arte-menor">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla de arte menor</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/copla-castellana">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla castellana</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/copla-manrique">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla de Jorge Manrique o estrofa manriqueña</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/copla-real">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Copla real</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/couplet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Couplet</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Pareado</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/cuaderna-via">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cuaderna vía</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/cuarteta">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cuarteta</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/cuarteto-lira">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cuarteto lira</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/decima-antigua">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Décima antigua</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/endecha-real">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Endecha real o endecasílaba</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/espinela">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Decima</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Espinela</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/haiku">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Haiku</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/heterometric-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Heterometric stanza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/isometric-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Isometric stanza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/lira">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Lira</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/novena">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Novena</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/octava-aguda">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Octava aguda o italiana</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/octava-real">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Octava real</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/octave">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Octava</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/ovillejo">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ovillejo</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/pushkin_sonnet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Pushkin sonnet</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/quatrain">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Quatrain</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Cuarteto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/quintain">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Quintain</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Quinteto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/quintilla">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Quintilla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/redondilla">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Redondilla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/romance">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Romance</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/scottish-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Scottish stanza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/seguidilla">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Seguidilla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/septet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Septet</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Septeto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/serventesio">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Serventesio</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sestet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sestet</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sestine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sestine</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sextina</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sexta-rima">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sexta rima</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sexteto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sestain</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sexteto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sexteto-lira">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sexteto lira</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sextilla">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Sextilla</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/silva">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Silva</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/soneto">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Soneto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/spenserian-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Spenserian stanza</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/tercet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Tercet</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Terceto</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/terza-rima">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Terza rima</prefLabel>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+	<topConceptOf xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://postdata.linhd.uned.es/kos/metrical-type/sapphic-stanza">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Sapphic stanza</prefLabel>
+	<prefLabel xmlns="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Estrofa sáfica</prefLabel>
+	<notation xmlns="http://www.w3.org/2004/02/skos/core#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sapphic-stanza</notation>
+	<inScheme xmlns="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://postdata.linhd.uned.es/kos/metrical-type"/>
+</rdf:Description>
+
+</rdf:RDF>
