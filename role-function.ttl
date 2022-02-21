@@ -4,6 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://postdata.linhd.uned.es/kos/role-function/creator> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> ;
+    skos:notation "creator" ;
+    skos:prefLabel "Creator"@en,
+        "Creador"@es .
+
 <http://postdata.linhd.uned.es/kos/role-function/actor> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/role-function> ;
     skos:notation "actor" ;
