@@ -67,6 +67,6 @@
         "Tesauro sobre tipo de estrofas pero no por su métrica"@es ;
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-type/refrain>,
         <http://postdata.linhd.uned.es/kos/stanza-type/tornada> ;
-    skos:prefLabel "Stanza Type Scheme"@en ;
+    skos:prefLabel "typeOfStanza"@en ;
     prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 
