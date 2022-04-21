@@ -4,41 +4,41 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://posdata.linhd.uned.es/kos/type-of-acrostic/mesotico > a skos:Concept;
-skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/mesotico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-acrostic>;
 skos:prefLabel “mesótico”@es;
 “mesotic”@en;
-skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/type-of-acrostic>.
 
 
 
 <http://posdata.linhd.uned.es/kos/type-of-acrostic/inicial> a skos:Concept;
-skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-acrostic>;
 skos:prefLabel inicial”@es;
 “initial”@en;
-skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/type-of-acrostic>.
 
 
 
 <http://posdata.linhd.uned.es/kos/type-of-acrostic/tipico> a skos:Concept;
-skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-acrostic>;
 skos:prefLabel “típico”@es;
 “typical”@en;
-skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/type-of-acrostic>.
 
 <http://posdata.linhd.uned.es/kos/type-of-acrostic/telesticos>> a skos:Concept;
-skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-acrostic>;
 skos:prefLabel “telésticos”@es;
 “telestics”@en;
-skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/type-of-acrostic>.
 
 
 
 <http://posdata.linhd.uned.es/kos/type-of-acrostic/acrosticos_dobles>> a skos:Concept;
-skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-acrostic>;
 skos:prefLabel “acróstico dobles”@es;
 “double acrostics”@en;
-skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/type-of-acrostic>.
 
 
 
@@ -48,5 +48,5 @@ skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
     dct:date "2022-4-27"^^xsd:date ;
     dct:title "Thesaurus about acrostic types"@en,
         "Tesauro sobre tipos de acróstico"@es ;
-    skos:prefLabel "typeOfacrostic"@en .
+    skos:prefLabel "typeOfAcrostic"@en .
 
