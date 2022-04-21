@@ -246,6 +246,131 @@
     skos:prefLabel "Sapphic stanza"@en,
         "Estrofa sáfica"@es .
 
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_alcaica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa alcaica”@es;
+  “alcaic stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_arquiloca>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa arquíloca”@es;
+  “arquiloc stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_articulada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa articulada”@es;
+  “articulate stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_asclepiadea> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa asclepiadea”@es;
+  “asclepiadea stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_laverdica > skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa laverdica”@es;
+  “laverdica stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofagliconica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa glicónica”@es;
+  “glyconic stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_monorritmica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa monorrítmica”@es;
+  “monorhythmic stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/estrofa_polyritmica >a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “estrofa polirrítmica”@es;
+  “polyrhythmic stanza”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/tercerilla> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “tercerilla”@es;
+  “third party”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/esparza> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “esparza”@es;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/endecha> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “endecha”@es;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/romance_con_quebrados> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “romance con quebrados”@es;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/romancereal> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “romance real”@es;
+  “royal romance”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/silva_polimétrica_suelta> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “silva polimétrica suelta”@es;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/silva_arromanzada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “silva arromanzada”@es;
+  “silva aromanzed”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/copla_capcaudada>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “copla capcaudada”@es;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/copla_capdenal > skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “copla capdenal”@es;
+  “capdenal couplet”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/copla_caudada >a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “copla caudada”@es;
+  “caudada couplet”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+<http://posdata.linhd.uned.es/kos/metrical-type/copla_caudata> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “copla caudata”@es;
+  “caudata couplet”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-type/copla_mixta>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-type>;
+skos:prefLabel “copla mixta”@es;
+  “mixed couplet”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-type>.
+
+
+
+
 <http://postdata.linhd.uned.es/kos/metrical-type> a skos:ConceptScheme,
         prov:Entity ;
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
