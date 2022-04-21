@@ -354,4 +354,5 @@ Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about rhyme type"@en,
         "Tesauro sobre tipo de rima"@es ;
+    skos:prefLabel "typeOfRhymeMatching"@en 
   
