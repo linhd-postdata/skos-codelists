@@ -16,11 +16,143 @@
         "Verse with 8 or less syllables"@en ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-complexity> .
 
+<http://posdata.linhd.uned.es/kos/metrical-complexity/bisilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “bisílabo”@es;
+  “bisyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/trisilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “trisílabo”@es;
+  “trisyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/tetrasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “tetrasílabo”@es;
+  “tretasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/pentasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “pentasílabo”@es;
+  “pentasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/hexasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “hexasílabo”@es;
+  “hexasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/heptasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “heptasílabo”@es;
+  “heptasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/octosilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “octosílabo”@es;
+  “octosyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/eneasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “eneasílabo”@es;
+  “eneasilabo”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/decasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “decasílabo”@es;
+  “decasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/endecasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “endecasílabo”@es;
+  hendecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/dodecaasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “dodecasílabo”@es;
+  dodecasyllabe”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/tridecasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “tridecasílbo”@es;
+  “triple syllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/alejandrino> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “alejandrino”@es;
+  “alexandrine”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/pentadecasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “alejandrino”@es;
+  “pentadecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/hexadecasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “hexadecasílabo”@es;
+  “hexadecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/heptadecasilabo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “heptadecasílabo”@es;
+  “heptadecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/octodecasilabo >> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “octodecasílabo”@es;
+  “octodecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-complexity/eneadecasilabo >> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-complexity>;
+skos:prefLabel “eneadecasílabo”@es;
+  “eneadecasyllable”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-complexity>.
+
+
+
+
 <http://postdata.linhd.uned.es/kos/metrical-complexity> a skos:ConceptScheme,
         prov:Entity ;
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about categories by number of syllables (more or less than eight)"@en,
-        "Tesauro sobre categorías según número de sílabas (más o menos de ocho)"@es ;
+        "Tesauro sobre categorías según número de sílabas)"@es ;
     skos:prefLabel "Mertrical Complexity Scheme"@en .
 
