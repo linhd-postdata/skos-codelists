@@ -15,6 +15,66 @@
     skos:prefLabel "Strophic"@en,
         "Combinación estrófica"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/metrical-category> .
+    
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_monoestrofico_articulado> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema monoestrófico articulado”@es;
+  “monostrophic articulated poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_monoestrofico_simple> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema monoestrófico simple”@es;
+  “simple monostrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_no_estrofico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema no estrófico”@es;
+  “non- strophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_poliestrofico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema poliestrófico”@es;
+  “polystrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_poliestrofico_disimetrico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema poliestrófico disimétrico”@es;
+  “dissymetrical polystrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_poliestrofico_encadenado> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema poliestrófico encadenado”@es;
+  “chained polystrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_poliestrofico_encadenado_paralelistico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema poliestrófico encadenado paralelístico”@es;
+  “parallelistic chained polystrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+
+<http://posdata.linhd.uned.es/kos/metrical-category/poema_poliestrofico_sucesivo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/metrical-category>;
+skos:prefLabel “poema poliestrófico sucesivo”@es;
+  “successive polystrophic poem”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/metrical-category>.
+  
+    
+    
+    
 
 <http://postdata.linhd.uned.es/kos/metrical-category> a skos:ConceptScheme,
         prov:Entity ;
