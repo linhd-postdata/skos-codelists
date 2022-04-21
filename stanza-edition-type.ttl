@@ -44,6 +44,6 @@
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/stanza-edition-type/critical-edition>,
         <http://postdata.linhd.uned.es/kos/stanza-edition-type/diplomatic-edition>,
         <http://postdata.linhd.uned.es/kos/stanza-edition-type/translation> ;
-    skos:prefLabel "Stanza Edition Type Scheme"@en ;
+    skos:prefLabel "typeOfStanzaEdition"@en ;
     prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 
