@@ -8,7 +8,7 @@
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
 skos:prefLabel “mesótico”@es;
 “mesotic”@en;
-Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 
 
 
@@ -16,7 +16,7 @@ Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
 skos:prefLabel inicial”@es;
 “initial”@en;
-Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 
 
 
@@ -24,13 +24,13 @@ Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
 skos:prefLabel “típico”@es;
 “typical”@en;
-Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 
 <http://posdata.linhd.uned.es/kos/type-of-acrostic/telesticos>> a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
 skos:prefLabel “telésticos”@es;
 “telestics”@en;
-Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 
 
 
@@ -38,7 +38,7 @@ Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
 skos:prefLabel “acróstico dobles”@es;
 “double acrostics”@en;
-Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
 
 
 
