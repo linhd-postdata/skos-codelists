@@ -1,0 +1,228 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/silepsis>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “silepsis”@es;
+“syllepsis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/reticencia>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “reticencia”@es;
+“reluctance”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/paralipsis> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “paralipsis”@es;
+“paralysis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/zeugma>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “zeugma”@es;
+“zeugma”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/elipsis>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “elipsis”@es;
+“ellipse”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/asindeton>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “asíndeton”@es;
+“asyndeton”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/anadiplosis> a skos:Concept;
+skos:prefLabel “anadiplosis”@es;
+“anadiplosis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/aliteracion> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “aliteración”@es;
+“aliteracion”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/anafora> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “anáfora”@es;
+“anaphora”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/pleonasmo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “pleonasmo”@es ;
+“pleonasm”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/paralelismo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “paralelismo”@es;
+“parallelism”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/epifora> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “epífora”@es;
+“epiphora”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/paranomasia>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “paranomasia”@es;
+“paranomasia”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/polisindeton> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “polìsíndeton”@es;
+“polysyndeton”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/reduplicacion> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “reduplicación”@es;
+“reduplication”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/retruecano> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “retruécano”@es;
+“pun”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/quiasmo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “quiasmo”@es;
+“chiasmus”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/anastrofe> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “anástrofe”@es;
+“anastrophe”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/hiperbaton> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “hipérbaton”@es;
+“hyperbaton”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/enumeracion> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “enumeración”@es;
+“enumeration”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/distributio> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “distributio”@es;
+“distributed”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/epifrasis>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “epífrasis”@es;
+“epiphrasis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/antitesis>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “antítesis”@es;
+“antithesis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/calambur> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “calambur”@es;
+“cramp”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/comparacion> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “comparación”@es;
+“comparison”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/etopeya>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “etopeya”@es;
+“etopeia”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/eufemismo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “eufemismo”@es;
+“euphemism”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/gradacion> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “gradación”@es;
+“gradation”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/paradoja> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “paradoja”@es;
+“paradox”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/prosopografia> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “prosopografía”@es;
+“prosopography”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/oximoron> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “oxímoron”@es;
+“oxymoron”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+<http://posdata.linhd.uned.es/kos/rhetorical-operation/aposiopesis> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ rhetorical-operation>;
+skos:prefLabel “aposiopesis”@es;
+“aposiopesis”en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
+
+
+<http://postdata.linhd.uned.es/kos/ rhetorical-operation> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about types of rhetorical operations"@en,
+        "Tesauro sobre los tipos fr operaciones retóricas"@es ;
+    
+
