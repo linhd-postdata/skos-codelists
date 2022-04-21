@@ -8,7 +8,7 @@
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento interno”@es;
 “internal enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 
@@ -17,21 +17,21 @@ Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento abrupto”@es;
 “abrupt enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 <http://posdata.linhd.uned.es/kos/type-of-enjambment/encabalgamiento dilatado>  > a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento dilatado”@es;
 “expanded enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 <http://posdata.linhd.uned.es/kos/type-of-enjambment/encabalgamiento encadenado> a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento encadenado”@es;
 “enchained enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 
@@ -39,27 +39,27 @@ Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento medial”@es;
 “medial enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 <http://posdata.linhd.uned.es/kos/type-of-enjambment/encabalgamiento oracional>  > a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento oracional”@es;
 “sentence enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 <http://posdata.linhd.uned.es/kos/type-of-enjambment/encabalgamiento suave> a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento suave”@es;
 “gentle enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 <http://posdata.linhd.uned.es/kos/type-of-enjambment/encabalgamiento versalsirremático> a skos:Concept;
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento versalsirremático”@es;
 “versalsirremático enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 
@@ -67,7 +67,7 @@ Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-enjambment>;
 skos:prefLabel “encabalgamiento léxico”@es;
 “lexicon enjambment”@en;
-Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-enjambment>.
 
 
 
