@@ -30,8 +30,8 @@ mdesisto</ns3:contributor>
 https://orcid.org/0000-0002-9416-3147</ns3:contributor>
         <ns3:contributor>Omar Khalil Gómez (LINHD_POSTDATA-UNED) 
 http://www.linkedin.com/in/omar-k-0959a8129</ns3:contributor>
-        <ns3:contributor>Salvador Ros Muñoz (UNED)
-srosmu</ns3:contributor>
+        <ns3:contributor>Salvador Ros Muñoz (UNED)</ns3:contributor>
+        <ns3:contributor>Elena González-Blanco(UNED)</ns3:contributor>
         <ns3:creator xml:lang="en">POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”</ns3:creator>
         <ns3:description xml:lang="en">This ontology gathers the schemes in scope of POSTDATA Network of Ontologies. Each SKOS is a concept scheme that controls the possible values of several properties defined across the network to describe different aspects of poetic works.
 
