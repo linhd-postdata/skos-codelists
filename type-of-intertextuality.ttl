@@ -1,0 +1,65 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/cita>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “cita”@es;
+“appointment”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/alusion> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “alusión”@es;
+“allusion”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/obligatorio> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “obligatorio”@es;
+“Mandatory”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/opcional> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “opcional”@es;
+“optional”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/accidental> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “accidental”@es;
+“accidental”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/relacionar_conceptos> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-intertextuality>;
+skos:prefLabel “relacionar conceptos”@es;
+  “related concepts”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-intertextuality>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-intertextuality/plagio> skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-intertextuality>;
+skos:prefLabel “plagio”@es;
+  “plagiarism”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
+
+
+<http://postdata.linhd.uned.es/kos/type-of-intertextuality> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about intertextuality types. ”"@en,
+        "Tesauro sobre tipos intertextualidad"@es ;
+
+
