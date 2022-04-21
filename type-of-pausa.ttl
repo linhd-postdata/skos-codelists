@@ -1,0 +1,151 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausabreve> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa breve”@es;
+  “shorth pause”@en ;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausacompensación>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa compensación”@es;
+  “compensation pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausaestrófica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa estrófica”@es;
+  “strophic pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausafinal> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa final”@es;
+  “final pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausaintermedia> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa intermedia”@es;
+  “intermediate pause”@en ;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausainterna> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa interna”@es;
+  “internal pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausainterna> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa interna”@es
+  “internal pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausasimétrica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa simétrica”@es;
+  “symmetric pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausalarga> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa larga”@es;
+  “long pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausamayor> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa mayor”@es;
+  “major pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausamedia> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa media”@es;
+  “middle pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausamelódica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa melódica”@es;
+  “melodic pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausamenor> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa menor”@es;
+  “minor pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausamétrica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa métrica”@es;
+  “metric pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausanecesaria> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa necesaria”@es;
+  “neccesary pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausarítmica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa rítmica”@es;
+  “rhythmic pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausasemilarga>a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa semilarga”@es;
+  “semi-long pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausasubjetiva> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa subjetiva”@es;
+  “subjective pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pause/pausaversal> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-pause>;
+skos:prefLabel “pausa versal”@es;
+  “verse pause”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-pause>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-pausa> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2022-4-27"^^xsd:date ;
+    dct:title "Thesaurus about type of pausa"@en,
+        "Tesauro sobre tipos de pausa"@es ;
+    skos:prefLabel "typeOfPausa"@en .
+

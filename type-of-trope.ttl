@@ -1,0 +1,102 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/metafora>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “metáfora”@es;
+“metaphor”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/sinecdoque>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “sinécdoque”@es;
+“synecdoche”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/metonimia> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “metonimia”@es;
+“metonymy”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/alegoria>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “alegoría”@es;
+“allegory”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/prosopopeya>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “prosopopeya”@es;
+“prosopopoeia”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/ironia>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “ironía”@es;
+“irony”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/sarcasmo>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “sarcasmo”@es;
+“sarcasm”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/autonomasia>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “autonomasia”@es ;
+“autonomasia”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/hiperbole> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “hipérbole”@es;
+“hyperbole”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/litole>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “litole”@es;
+“litole”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/enfasis>  > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “énfasis”@es;
+“emphasis”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope/simbolo> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-trope>;
+skos:prefLabel “símbolo”@es;
+“symbol”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/ type-of-trope>.
+
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-trope> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2022-4-27"^^xsd:date ;
+    dct:title "Thesaurus about Trope types"@en,
+        "Tesauro sobre tipos de Tropos"@es ;
+    skos:prefLabel "typeOfTrope"@en .
+

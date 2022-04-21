@@ -1,0 +1,54 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura/cesura_epica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-caesura>;
+skos:prefLabel “cesura épica”@es;
+  “epic caesura”@en ;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-caesura>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura/cesura_femenina> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-caesura>;
+skos:prefLabel “cesura femenina”@en;
+  “female caesura”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-caesura>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura/cesura_intensa> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-caesura>;
+skos:prefLabel “cesura intensa”@es;
+  “intense caesura”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-caesura>.
+
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura/cesura_lírica> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-caesura>;
+skos:prefLabel “cesura lírica”@es;
+  “lyrical caesura”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-caesura>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura/cesura_masculina> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-caesura>;
+skos:prefLabel “cesura masculina”@es;
+  “male caesura”@en;
+skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-caesura>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-caesura> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2022-4-27"^^xsd:date ;
+    dct:title "Thesaurus about type of caesura"@en,
+        "Tesauro sobre tipos de Cesura"@es ;
+    skos:prefLabel "typeOfCesura"@en .
+

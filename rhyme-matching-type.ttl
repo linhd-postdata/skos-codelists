@@ -74,6 +74,6 @@
         <http://postdata.linhd.uned.es/kos/rhyme-matching-type/perfect_thyme>,
         <http://postdata.linhd.uned.es/kos/rhyme-matching-type/semirhyme>,
         <http://postdata.linhd.uned.es/kos/rhyme-matching-type/slant_rhyme> ;
-    skos:prefLabel "Thyme Matching Type Scheme"@en ;
+    skos:prefLabel "typeOfRhymeMatching"@en ;
     prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 
