@@ -1,0 +1,357 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/allitteration> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "allitteration"@en,
+        "aliteración"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/assonant> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:notation "assonant" ;
+    skos:prefLabel "assonant"@en,
+        "asonante"@es .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/consonant> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:notation "consonant" ;
+    skos:prefLabel "consonant"@en,
+        "consonante"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/dactylic> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "dactylic"@en,
+        "esdrújula"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/eye_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "eye rhyme"@en,
+        "rima falsa"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/internal_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "internal"@en,
+        "interna"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/perfect_thyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "perfect rhyme"@en,
+        "consonante"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/semirhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "semirhyme"@en,
+        "ipermetra"@it ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching/slant_rhyme> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> ;
+    skos:prefLabel "slant rhyme"@en,
+        "rima imperfecta"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> .
+    
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_isofonica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima isofónica”@es;
+  “isophonic rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_himonima> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>;
+skos:prefLabel “rima himónima”@es;
+  “hymn rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_interpolada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima interpolada”@es;
+  “interpolated rhyme”@en;	
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_paronima> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima parónima”@es;
+  “paranymous rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_simulada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima simulada”@es;
+  “dummy rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_contigua> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima contigua”@es;
+  “adjoining rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_continua> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima continua”@es;
+  “continuous rhyme”@en;	
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_desplazada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima desplazada”@es;
+  “displaced  rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_eslabonada > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima eslabonada”@es;
+  “linked rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_enlazada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima enlazada”@es;
+  “linked rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_equisonante> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima equisonante”@es;
+  “equisonant rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_equivalente> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima equivalente”@es;
+  “equivalent rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_espaciada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima espaciada”@es;
+  “spaced rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_externa> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima externa”@es;
+  “external rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_identica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima idéntica”@es;
+  “identical rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_interpolada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima interpolada”@es;
+  “interpolated rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_suelta> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima suelta”@es;
+  “loose rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_unisonante> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima unisonante”@es;
+  “unison rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_redoblada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima redoblada”@es;
+  “redouble rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_reflejada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima reflejada”@es;
+  “reflected rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_mixta> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima mixta”@es;
+  “mixed rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_modulada> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima modulada”@es;
+  “modulated rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_cruzada> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima cruzada”@es;
+  “cross rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_convencional> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima convencional”@es;
+  “conventional rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_encadenada> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima encadenada”@es;
+  “chained rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_equivalente> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima equivalente”@es;
+  “equivalent rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_disonante> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima disonante”@es;
+  dissonant rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_espaciada> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima espaciada”@es;
+  “spaced rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_falsa> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima falsa”@es;
+  “false rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_intensa> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima intensa”@es;
+  “intense rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_media> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima media”@es;
+  “middle rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_interna> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima interna”@es;
+  “internal rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_leonina> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima leonina”@es;
+  “leonine rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_intensa> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima intensa”@es;
+  “intense rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_monosilábica> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima monosilábica”@es;
+  “monosyllabic rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_parcial> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima parcial”@es;
+  “partial rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_pareada> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima pareadal”@es;
+  “couplet rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_partida> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima partida”@es;
+  “split rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_peonica> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima peónica”@es;
+  “peonic rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_periodica> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima periódica”@es;
+  “periodic rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_potencial> a  skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima potencial”@es;
+  “potential rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_provenzal> a  nzalskos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima provenzal”@les;
+  “provencal rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_semivocalica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima semivocálica”@es;
+  “semivocalic rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_vocalica> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima vocálica”@es;
+  “vowel  rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching/rima_vocalica_relajada> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos//type-of-rhyme-matching>;
+skos:prefLabel “rima vocálica relajada”@es;
+  “relaxed vocal  rhyme”@en;
+Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-rhyme-matching>.
+
+
+<http://postdata.linhd.uned.es/kos/type-of-rhyme-matching> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about rhyme type"@en,
+        "Tesauro sobre tipo de rima"@es ;
+  
