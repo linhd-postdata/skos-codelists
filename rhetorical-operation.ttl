@@ -224,5 +224,5 @@ skos:topConceptOf<http://posdata.linhd.uned.es/kos/ rhetorical-operation>.
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about types of rhetorical operations"@en,
         "Tesauro sobre los tipos fr operaciones retóricas"@es ;
-    
+      skos:prefLabel "rhetoricalOperation"@en .
 
