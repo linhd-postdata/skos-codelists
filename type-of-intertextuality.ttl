@@ -61,5 +61,4 @@ Skos:topConceptOf<http://posdata.linhd.uned.es/kos/type-of-intertextuality>.
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about intertextuality types. ”"@en,
         "Tesauro sobre tipos intertextualidad"@es ;
-
-
+  skos:prefLabel "typeOfIntertextuality"@en .
