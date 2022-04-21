@@ -1,0 +1,52 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/mesotico > a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:prefLabel “mesótico”@es;
+“mesotic”@en;
+Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/inicial> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:prefLabel inicial”@es;
+“initial”@en;
+Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/tipico> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:prefLabel “típico”@es;
+“typical”@en;
+Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/telesticos>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:prefLabel “telésticos”@es;
+“telestics”@en;
+Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic/acrosticos_dobles>> a skos:Concept;
+skos:inScheme <http://posdata.linhd.uned.es/kos/ type-of-acrostic>;
+skos:prefLabel “acróstico dobles”@es;
+“double acrostics”@en;
+Skos:topConceptOf  <http://posdata.linhd.uned.es/kos/ type-of-acrostic>.
+
+
+
+<http://posdata.linhd.uned.es/kos/type-of-acrostic> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2022-4-27"^^xsd:date ;
+    dct:title "Thesaurus about acrostic types"@en,
+        "Tesauro sobre tipos de acróstico"@es ;
+    skos:prefLabel "typeOfacrostic"@en .
+

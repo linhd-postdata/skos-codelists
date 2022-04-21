@@ -60,7 +60,8 @@
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about types of versification"@en,
         "Tesauro sobre los tipos de versificación"@es ;
-    skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse>,
+    
+skos:hasTopConcept <http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse>,
         <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse>,
         <http://postdata.linhd.uned.es/kos/versification-type/alliterative-verse>,
         <http://postdata.linhd.uned.es/kos/versification-type/blank-verse>,
