@@ -8,7 +8,6 @@
 
 <http://postdata.linhd.uned.es/kos/rhyme-disposition> a skos:ConceptScheme, prov:Entity ;
     skos:hasTopConcept <http://postdata.linhd.uned.es/kos/rhyme-disposition/pair> ;
-    dc:creator "María Luisa Díez Platas (UNED)" ;
     dc:date "2019-10-27"^^xsd:date ;
     dc:title "Tesauro sobre categorías de estrofas según la disposición de su rima"@es ;
     dc:title "Thesaurus about stanza categories according to their rhyme arrangement"@en ;
