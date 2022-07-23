@@ -7,17 +7,16 @@
 
 http://vocabularies.unesco.org/thesaurus/concept12301 a skos:Concept ;
     skos:broader <http://vocabularies.unesco.org/thesaurus/concept12301>
-    skos:inScheme <http://postdata.linhd.uned.es/kos/nationality/spanish> ; 
+    skos:inScheme <http://postdata.linhd.uned.es/kos/language/spanish> ; 
     skos:prefLabel "Español"@es, "لغة اسبانية"@ar, "Spanish"@en, "Espagnol"@fr, "Испанский язык"@ru ;
-    skos:topConceptOf <http://postdata.linhd.uned.es/kos/nationality> .
-
-    
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/language> .
+  
       
 
-<http://postdata.linhd.uned.es/kos/nationality> a skos:ConceptScheme,
+<http://postdata.linhd.uned.es/kos/language> a skos:ConceptScheme,
         prov:Entity ;
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
-    dct:date "2019-10-27"^^xsd:date ;
-    dct:title "Thesaurus about nationality"@en,
-        "Tesauro sobre tipo de nacionalidad"@es ;
-    skos:prefLabel "nationality"@en .
+    dct:date "2022-7-7"^^xsd:date ;
+    dct:title "Thesaurus about language"@en,
+        "Tesauro sobre idiomas"@es ;
+    skos:prefLabel "language"@en .
