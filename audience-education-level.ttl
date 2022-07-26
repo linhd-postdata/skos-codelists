@@ -1,0 +1,55 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://vocabularies.unesco.org/thesaurus/concept1485> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept36> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/audience-education-level> ;
+    skos:prefLabel "تعليم عالي"@ar,
+        "Higher education"@en,
+        "Enseñanza superior"@es,
+        "Enseignement supérieur"@fr,
+        "Высшее образование"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/audience-education-level> .
+
+<http://vocabularies.unesco.org/thesaurus/concept5081> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept36> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/audience-education-level> ;
+    skos:prefLabel "تعليم في مرحلة الطفولة المبكرة"@ar,
+        "Early childhood education"@en,
+        "Educación de la primera infancia"@es,
+        "Éducation de la prime enfance"@fr,
+        "Раннее детское образование"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/audience-education-level> .
+
+<http://vocabularies.unesco.org/thesaurus/concept9290> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept36> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/audience-education-level> ;
+    skos:prefLabel "تعليم ابتدائي"@ar,
+        "Primary education"@en,
+        "Enseñanza primaria"@es,
+        "Enseignement primaire"@fr,
+        "Начальное образование"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/audience-education-level> .
+
+<http://vocabularies.unesco.org/thesaurus/concept9291> a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept36> ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/audience-education-level> ;
+    skos:prefLabel "تعليم ثانوي"@ar,
+        "Secondary education"@en,
+        "Enseñanza secundaria"@es,
+        "Enseignement secondaire"@fr,
+        "Среднее образование"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/audience-education-level> .
+
+<http://postdata.linhd.uned.es/kos/audience-education-level> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about audience education level"@en,
+        "Tesauro sobre nivel educativo"@es ;
+    skos:prefLabel "Audience Education Level Scheme"@en ;
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
+

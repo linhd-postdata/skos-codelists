@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+http://vocabularies.unesco.org/thesaurus/concept12301 a skos:Concept ;
+    skos:broader <http://vocabularies.unesco.org/thesaurus/concept12301>
+    skos:inScheme <http://postdata.linhd.uned.es/kos/nationality/spanish> ; 
+    skos:prefLabel "Español"@es, "لغة اسبانية"@ar, "Spanish"@en, "Espagnol"@fr, "Испанский язык"@ru ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/nationality> .
+
+    
+      
+
+<http://postdata.linhd.uned.es/kos/nationality> a skos:ConceptScheme,
+        prov:Entity ;
+    dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
+    dct:date "2019-10-27"^^xsd:date ;
+    dct:title "Thesaurus about nationality"@en,
+        "Tesauro sobre tipo de nacionalidad"@es ;
+    skos:prefLabel "nationality"@en .
