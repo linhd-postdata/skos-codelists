@@ -17,9 +17,10 @@
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/audience> .
 
 <http://postdata.linhd.uned.es/kos/audience> a skos:ConceptScheme,
-        prov:Entity ;
+    prov:Entity ;
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about audience type"@en,
         "Tesauro sobre tipo de audiencia"@es ;
-    skos:prefLabel "audience"@en .
+    skos:prefLabel "audience"@en;
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .

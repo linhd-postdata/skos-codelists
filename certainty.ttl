@@ -44,6 +44,6 @@
         <http://postdata.linhd.uned.es/kos/certainty/possibily>,
         <http://postdata.linhd.uned.es/kos/certainty/probably>,
         <http://postdata.linhd.uned.es/kos/certainty/probably-not> ;
-    skos:prefLabel "Certainty Scheme"@en ;
+    skos:prefLabel "Certainty"@en ;
     prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

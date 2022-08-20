@@ -18,4 +18,5 @@
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "We are not going to use it except it will be of interes for the poetry domain"@en,
         "No lo usaremos excepto si fuera de interés para el ámbito póetico"@es ;
-    skos:prefLabel "ethnicity"@en .
+    skos:prefLabel "ethnicity"@en;
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/>  .

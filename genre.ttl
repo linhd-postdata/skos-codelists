@@ -4,6 +4,81 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://postdata.linhd.uned.es/kos/genre/renaissance> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Renaissance"@en,
+        "Renacimiento"@es ;    
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .    
+    
+<http://postdata.linhd.uned.es/kos/genre/MedievalCultLyric > a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Medieval Cult Lyric e"@en,
+        "Lírica Religiosa Medieval"@es ;    
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+    
+<http://postdata.linhd.uned.es/kos/genre/elegy> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Elegy"@en,
+        "Elegía"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/prerenaissance> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Prerenaissance"@en,
+        "Prerenacimiento"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/baroque> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Baroque"@en,
+        "Barroco"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/classical-antiquity> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Classical Antiquity"@en,
+        "Antigüedad Clásica"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/enlightenment> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Enlightenment"@en,
+        "Ilustración"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/middle-ages> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Middle Ages"@en,
+        "Edad Media"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/modernism> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Modernism"@en,
+        "Modernismo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/realism> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Realism"@en,
+        "Realismo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/romanticism> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Romanticism"@en,
+        "Romanticismo"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+<http://postdata.linhd.uned.es/kos/genre/vanguardism> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
+    skos:prefLabel "Vanguardism"@en,
+        "Vanguardias"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
+
+
+
+
 <http://postdata.linhd.uned.es/kos/genre> a skos:ConceptScheme,
         prov:Entity ;
     dc:creator "POSTDATA Project “This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement Nº [679528])”"@en ;

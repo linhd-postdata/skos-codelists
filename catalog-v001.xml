@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1603800672198" name="http://postdata.linhd.uned.es/kos/" uri="postdata-kos.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1603800672198" name="shadowed:http://postdata.linhd.uned.es/kos/" uri="Documentation/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1660643142808" name="http://postdata.linhd.uned.es/kos/" uri="postdata-kos.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1660643142808" name="shadowed:http://postdata.linhd.uned.es/kos/" uri="Documentation/ontology.xml"/>
     </group>
 </catalog>

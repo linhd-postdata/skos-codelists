@@ -4,10 +4,16 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://postdata.linhd.uned.es/kos/literary-period-renaissance> a skos:Concept ;
+<http://postdata.linhd.uned.es/kos/literary-period/renaissance> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/literary-period> ;
     skos:prefLabel "Renaissance"@en,
         "Renacimiento"@es ;
+    skos:topConceptOf <http://postdata.linhd.uned.es/kos/literary-period> .
+
+<http://postdata.linhd.uned.es/kos/literary-period/prerenaissance> a skos:Concept ;
+    skos:inScheme <http://postdata.linhd.uned.es/kos/literary-period> ;
+    skos:prefLabel "Prerenaissance"@en,
+        "Prerenacimiento"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/literary-period> .
 
 <http://postdata.linhd.uned.es/kos/literary-period/baroque> a skos:Concept ;

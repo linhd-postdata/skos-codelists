@@ -7,7 +7,7 @@
 <http://postdata.linhd.uned.es/kos/character-type/donor> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/character-type> ;
     skos:prefLabel "Donor"@en,
-        "Donante del objeto mágico"@es ;
+        "Donante"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/character-type> .
 
 <http://postdata.linhd.uned.es/kos/character-type/falsehero> a skos:Concept ;
@@ -36,8 +36,8 @@
 
 <http://postdata.linhd.uned.es/kos/character-type/princessfather> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/character-type> ;
-    skos:prefLabel "Princess' Father"@en,
-        "Rey o mandatario"@es ;
+    skos:prefLabel "king"@en,
+        "Rey"@es ;
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/character-type> .
 
 <http://postdata.linhd.uned.es/kos/character-type/villain> a skos:Concept ;
@@ -52,5 +52,6 @@
     dct:date "2019-10-27"^^xsd:date ;
     dct:title "Thesaurus about character types"@en,
         "Tesauro sobre tipos de rol"@es ;
-    skos:prefLabel "Character type scheme"@en .
+    skos:prefLabel "Character type scheme"@en ;
+    prov:wasAttributedTo <https://postdata.linhd.uned.es/> .
 

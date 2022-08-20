@@ -44,6 +44,6 @@
         <http://postdata.linhd.uned.es/kos/clausula/dactylic_rhyme>,
         <http://postdata.linhd.uned.es/kos/clausula/feminine_rhyme>,
         <http://postdata.linhd.uned.es/kos/clausula/masculine_rhyme> ;
-    skos:prefLabel "Clausula Type Scheme"@en ;
+    skos:prefLabel "Clausula Scheme  Type"@en ;
     prov:wasAttributedTo <https://postdata.linhd.uned.es> .
 
