@@ -10,9 +10,9 @@
         "Renacimiento"@es ;    
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .    
     
-<http://postdata.linhd.uned.es/kos/genre/MedievalCultLyric > a skos:Concept ;
+<http://postdata.linhd.uned.es/kos/genre/MedievalCultLyric> a skos:Concept ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/genre> ;
-    skos:prefLabel "Medieval Cult Lyric e"@en,
+    skos:prefLabel "Medieval Cult Lyric"@en,
         "Lírica Religiosa Medieval"@es ;    
     skos:topConceptOf <http://postdata.linhd.uned.es/kos/genre> .
     
