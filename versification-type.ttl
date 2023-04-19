@@ -10,7 +10,7 @@
     skos:prefLabel "Qualitative verse"@en,
         "Verso cualitativo"@es .
 
-<http://postdata.linhd.uned.es/kos/versification-type/versification-type/accentual-syllabic-verse> a skos:Concept ;
+<http://postdata.linhd.uned.es/kos/versification-type/accentual-syllabic-verse> a skos:Concept ;
     skos:broader <http://postdata.linhd.uned.es/kos/versification-type/accentual-verse> ;
     skos:inScheme <http://postdata.linhd.uned.es/kos/versification-type> ;
     skos:notation "accentual-syllabic-verse" ;
